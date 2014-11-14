@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+		<script src="{{ STATIC_URL }}js/jquery.js" type="text/javascript"></script>
+	</head>
+	<body>
+<div id="layout">
+
+<div class="pure-menu pure-menu-open pure-menu-horizontal">
+    <a href="/" class="pure-menu-heading">Phage Name Registry</a>
+    <ul>
+        <li><a href="/">List</a></li>
+        <li class="pure-menu-selected"><a href="/search">Search</a></li>
+        <li><a href="/admin/">Login</a></li>
+    </ul>
+</div>
+<div class="pure-form">
+    <fieldset>
+        <legend>Query on Phage Name</legend>
+        <input id="search-field" type="name" placeholder="Lambda">
+        <div id="search" class="pure-button pure-button-primary">Search</button>
+    </fieldset>
+</div>
+
+		<table class="pure-table">
+			<thead><tr><th>Phage Name</th><th>Distance</th></tr></thead>
+			<tbody>
+			</tbody>
+		</ul>
+
+</div>
+
+<script type="text/javascript">
+$("#search").click(function(){
+	var formval = $("#search-field").val();
+	$.get( "/similar/?name=" + formval, function( data ) {
+		$(".pure-table tbody").children().remove();
+		for(var x in data){
+			$(".pure-table tbody").append("<tr><td>" + data[x]['name'] + "</td><td>" + data[x]['d'] + "</td></tr>");
+		}
+	})
+});
+</script>
+	</body>
+</html>
