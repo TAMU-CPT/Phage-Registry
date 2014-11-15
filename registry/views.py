@@ -1,6 +1,7 @@
-from django.shortcuts import render
-from .models import RegistryEntry
-from django.http import HttpResponse, HttpResponseBadRequest
+from django.shortcuts import render, redirect
+from .models import RegistryEntry, RegistryEntryForm
+from django.http import HttpResponse, HttpResponseBadRequest, HttpResponseForbidden
+from django.contrib.auth import authenticate, login
 import json
 import Levenshtein
 
@@ -28,3 +29,40 @@ def similar_names(request):
         return HttpResponse(json.dumps(sorted(objects, key=lambda x: x['d'])), content_type='application/json')
     else:
         return HttpResponseBadRequest()
+
+def add_phage(request):
+    if request.user.is_authenticated():
+        if request.method == 'POST':
+            re = RegistryEntry()
+            form = RegistryEntryForm(request.POST or None, instance=re)
+            print form.is_valid()
+            if form.is_valid():
+                print "Saving!!"
+                form.save()
+            return redirect('/phage-registry/create/')
+        else:
+            return render(request, 'registry/add_phage.html')
+    else:
+        return redirect('login')
+
+def login_view(request):
+    if request.method == 'GET':
+        return render(request, 'registry/login.html')
+    elif request.method == 'POST':
+        username = request.POST['username']
+        password = request.POST['password']
+        user = authenticate(username=username, password=password)
+        if user is not None:
+            if user.is_active:
+                login(request, user)
+                return redirect('/phage-registry/')
+            else:
+                return redirect('/phage-registry/login')
+        else:
+            return redirect('/phage-registry/login')
+    else:
+        return redirect('/phage-registry/login')
+
+def logout_view(request):
+    logout(request)
+    return redirect('/phage-registry/')

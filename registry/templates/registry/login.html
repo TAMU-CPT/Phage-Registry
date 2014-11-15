@@ -1,0 +1,13 @@
+{% extends 'registry/base.html' %}
+
+{% block content %}
+	<form class="pure-form" action="/phage-registry/login/" method="post">
+        {% csrf_token %}
+		<fieldset>
+			<legend>Register New Phage Name</legend>
+			<input id="username" type="text" name="username">
+			<input id="password" type="password" name="password">
+			<input type="submit" class="pure-button pure-button-primary">Login</input>
+		</fieldset>
+	</form>
+{% endblock content %}

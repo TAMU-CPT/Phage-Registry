@@ -11,6 +11,12 @@
 				<li><a href="/phage-registry/">List</a></li>
 				<li><a href="/phage-registry/search">Search</a></li>
 				<li><a href="/phage-registry/admin/">Login</a></li>
+                {% if user.is_authenticated %}
+                    <li><a href="/phage-registry/create/">Add Entry</a></li>
+                    <li>{{ user.get_username }}</li>
+                {% else %}
+				    <li><a href="/phage-registry/login/">Login</a></li>
+                {% endif %}
 			    </ul>
 			</div>
 			<div style="margin-left:30px; margin-right:30px">

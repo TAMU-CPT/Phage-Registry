@@ -1,0 +1,13 @@
+{% extends 'registry/base.html' %}
+
+{% block content %}
+	<form class="pure-form" action="/phage-registry/create/" method="post">
+        {% csrf_token %}
+		<fieldset>
+			<legend>Register New Phage Name</legend>
+			<input id="name" type="text" placeholder="Lambda">
+			<input id="url" type="url" placeholder="http://genbank.com/lambda">
+			<input type="submit" id="search" class="pure-button pure-button-primary">Register</input>
+		</fieldset>
+	</form>
+{% endblock content %}
