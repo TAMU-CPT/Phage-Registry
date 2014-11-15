@@ -7,7 +7,7 @@ import Levenshtein
 # Create your views here.
 
 def registry_list(request):
-    registries = RegistryEntry.objects.all()
+    registries = RegistryEntry.objects.all().order_by('phagename')
     return render(request, 'registry/post_list.html', {'entries': registries})
 
 def search_page(request):
@@ -20,12 +20,11 @@ def similar_names(request):
         objects = []
         for e in entries:
             d = Levenshtein.distance(e.phagename, request.GET['name'])
-            if d < 3:
+            if d < 4:
                 objects.append({
                     'name': e.phagename,
                     'd': d
                 })
-
-        return HttpResponse(json.dumps(objects), content_type='application/json')
+        return HttpResponse(json.dumps(sorted(objects, key=lambda x: x['d'])), content_type='application/json')
     else:
         return HttpResponseBadRequest()
