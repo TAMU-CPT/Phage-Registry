@@ -16,6 +16,7 @@ class RegistryEntry(models.Model):
 
         if len(value) < 4:
             raise ValidationError("Too short")
+        return True
 
 class RegistryEntryForm(ModelForm):
     class Meta:

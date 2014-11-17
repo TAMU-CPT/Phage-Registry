@@ -33,15 +33,18 @@ def similar_names(request):
 def add_phage(request):
     if request.user.is_authenticated():
         if request.method == 'POST':
-            re = RegistryEntry()
-            form = RegistryEntryForm(request.POST or None, instance=re)
-            print form.is_valid()
+            # Pre-populate user id
+            re = RegistryEntry(owner_id=request.user.id)
+            # Use this as a base for the form data submitted by user
+            form = RegistryEntryForm(request.POST, instance=re)
             if form.is_valid():
-                print "Saving!!"
                 form.save()
-            return redirect('/phage-registry/create/')
+                return render(request, 'registry/add_phage.html', {'form': form, 'message': "Entry Saved!"})
+            else:
+                return render(request, 'registry/add_phage.html', {'form': form})
         else:
-            return render(request, 'registry/add_phage.html')
+            form = RegistryEntryForm()
+            return render(request, 'registry/add_phage.html', {'form': form})
     else:
         return redirect('login')
 
