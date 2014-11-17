@@ -11,11 +11,21 @@ class RegistryEntry(models.Model):
     def __str__(self):
         return self.phagename
 
-    def validate(self, value):
-        super(RegistryEntry, self).validate(value)
+    def clean(self):
+        super(RegistryEntry, self).clean()
 
-        if len(value) < 4:
-            raise ValidationError("Too short")
+        if len(self.phagename) < 4:
+            raise ValidationError("Phage name is too short")
+
+        if self.phagename[0] is not self.phagename[0].upper():
+            raise ValidationError("Must start with capital letter")
+
+        if len(self.phagename) > 14:
+            raise ValidationError("Phage name is too long")
+
+        if not self.phagename.is_alnum():
+            raise ValidationError("Phage name may only use alphanumeric characters")
+
         return True
 
 class RegistryEntryForm(ModelForm):
