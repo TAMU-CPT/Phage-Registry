@@ -1,6 +1,6 @@
 from django.db import models
 from django.core.exceptions import ValidationError
-from django.forms import ModelForm
+from django.forms import ModelForm, Form, CharField, PasswordInput
 
 class RegistryEntry(models.Model):
     owner = models.ForeignKey('auth.User')
@@ -22,3 +22,7 @@ class RegistryEntryForm(ModelForm):
     class Meta:
         model = RegistryEntry
         fields = ['phagename', 'exturl']
+
+class LoginForm(Form):
+    username = CharField(label='Username', max_length=100)
+    password = CharField(label='Password', max_length=100, widget=PasswordInput)

@@ -1,7 +1,10 @@
 from django.shortcuts import render, redirect
-from .models import RegistryEntry, RegistryEntryForm
+from .models import RegistryEntry, RegistryEntryForm, LoginForm
 from django.http import HttpResponse, HttpResponseBadRequest, HttpResponseForbidden
-from django.contrib.auth import authenticate, login
+from django.contrib.auth import authenticate, login, logout
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+from django.contrib import messages
+
 import json
 import Levenshtein
 
@@ -9,7 +12,19 @@ import Levenshtein
 
 def registry_list(request):
     registries = RegistryEntry.objects.all().order_by('phagename')
-    return render(request, 'registry/post_list.html', {'entries': registries})
+    paginator = Paginator(registries, 20)
+
+    page = request.GET.get('page')
+    try:
+        e = paginator.page(page)
+    except PageNotAnInteger:
+        # If page is not an integer, deliver first page.
+        e = paginator.page(1)
+    except EmptyPage:
+        # If page is out of range (e.g. 9999), deliver last page of results.
+        e = paginator.page(paginator.num_pages)
+
+    return render(request, 'registry/post_list.html', {'entries': e})
 
 def search_page(request):
     return render(request, 'registry/search.html')
@@ -38,8 +53,9 @@ def add_phage(request):
             # Use this as a base for the form data submitted by user
             form = RegistryEntryForm(request.POST, instance=re)
             if form.is_valid():
+                messages.add_message(request, messages.SUCCESS, 'Entry Saved.')
                 form.save()
-                return render(request, 'registry/add_phage.html', {'form': form, 'message': "Entry Saved!"})
+                return render(request, 'registry/add_phage.html', {'form': form})
             else:
                 return render(request, 'registry/add_phage.html', {'form': form})
         else:
@@ -50,7 +66,7 @@ def add_phage(request):
 
 def login_view(request):
     if request.method == 'GET':
-        return render(request, 'registry/login.html')
+        return render(request, 'registry/login.html', {'form': LoginForm()})
     elif request.method == 'POST':
         username = request.POST['username']
         password = request.POST['password']

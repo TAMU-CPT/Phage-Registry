@@ -1,25 +1,30 @@
 {% extends 'registry/base.html' %}
+{% load bootstrap3 %}
 
 {% block content %}
 	<div class="pure-form">
 		<fieldset>
 			<legend>Query on Phage Name</legend>
 			<input id="search-field" type="name" placeholder="Lambda">
-			<div id="search" class="pure-button pure-button-primary">Search</button>
+            {% buttons %}
+                <button id="search" class="btn btn-primary">
+                {% bootstrap_icon "search" %} Search
+                </button>
+            {% endbuttons %}
 		</fieldset>
 	</div>
-	<table class="pure-table">
+	<table class="table">
 		<thead><tr><th>Phage Name</th><th>Distance</th></tr></thead>
 		<tbody>
 		</tbody>
-	</ul>
+	</table>
 	<script type="text/javascript">
 	$("#search").click(function(){
 		var formval = $("#search-field").val();
 		$.get( "/phage-registry/similar/?name=" + formval, function( data ) {
-			$(".pure-table tbody").children().remove();
+			$(".table tbody").children().remove();
 			for(var x in data){
-				$(".pure-table tbody").append("<tr><td>" + data[x]['name'] + "</td><td>" + data[x]['d'] + "</td></tr>");
+				$(".table tbody").append("<tr><td>" + data[x]['name'] + "</td><td>" + data[x]['d'] + "</td></tr>");
 			}
 		})
 	});

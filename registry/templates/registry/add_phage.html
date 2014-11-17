@@ -1,12 +1,18 @@
 {% extends 'registry/base.html' %}
+{% load bootstrap3 %}
 
 {% block content %}
-	<form class="pure-form" action="/phage-registry/create/" method="post">
-        {% if message %}
-            {{ message }}
-        {% endif %}
-        {% csrf_token %}
-        {{ form.as_p }}
-		<input type="submit" id="submit" class="pure-button pure-button-primary"/>
-	</form>
+
+<form action="/phage-registry/create/" method="post" class="form">
+  {% csrf_token %}
+  {% bootstrap_form form %}
+  {% buttons %}
+    <button type="submit" class="btn btn-primary">
+      {% bootstrap_icon "star" %} Submit
+    </button>
+  {% endbuttons %}
+</form>
+
 {% endblock content %}
+
+

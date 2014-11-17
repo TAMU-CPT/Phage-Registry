@@ -1,12 +1,15 @@
 {% extends 'registry/base.html' %}
+{% load bootstrap3 %}
 
 {% block content %}
-	<table class="pure-table">
+
+	<table class="table">
 		<thead><tr><th>Phage Name</th></tr></thead>
 		<tbody>
 			{% for e in entries %}
 			<tr><td><a href="{{ e.exturl }}">{{ e.phagename }}</a></tr></td>
 			{% endfor %}
 		</tbody>
-	</ul>
+    </table>
+{% bootstrap_pagination entries %}
 {% endblock content %}
