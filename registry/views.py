@@ -50,7 +50,6 @@ def similar_names(request):
             if d < 4:
                 objects.append({
                     'name': e.phagename,
-                    'd': d
                 })
         return HttpResponse(json.dumps(sorted(objects, key=lambda x: x['d'])), content_type='application/json')
     else:
@@ -99,7 +98,17 @@ def logout_view(request):
 
 def autocomplete(request):
     sqs = SearchQuerySet().autocomplete(content_auto=request.GET.get('q', ''))
+    try:
+        limit = abs(int(request.GET.get('l', 0)))
+    except:
+        limit = 0
+
     results = [r.pk for r in sqs]
+
+    # If a limit was specified, use that.
+    if limit != 0:
+        results = results[0:limit]
+
     docs = RegistryEntry.objects.filter(pk__in=results)
     # Make sure you return a JSON object, not a bare list.
     # Otherwise, you could be vulnerable to an XSS attack.

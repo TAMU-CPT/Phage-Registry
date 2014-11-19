@@ -83,9 +83,102 @@
             </button>
           {% endbuttons %}
         </form>
+	<table class="table table-striped">
+		<thead><tr><th>Phage Name</th></tr></thead>
+		<tbody class="ac-results">
+		</tbody>
+	</table>
 
+        
     </div>
 </div>
+  <script type="text/javascript">
+    // In a perfect world, this would be its own library file that got included
+    // on the page and only the ``$(document).ready(...)`` below would be present.
+    // But this is an example.
+    var Autocomplete = function(options) {
+      this.form_selector = options.form_selector
+      this.url = options.url || '/phage-registry/search/find/'
+      this.delay = parseInt(options.delay || 300)
+      this.minimum_length = parseInt(options.minimum_length || 3)
+      this.form_elem = null
+      this.query_box = null
+    }
+
+    Autocomplete.prototype.setup = function() {
+      var self = this
+
+      this.query_box = $('input[name=phagename]')
+
+      // Watch the input box.
+      this.query_box.on('keyup', function() {
+        var query = self.query_box.val()
+
+        if(query.length < self.minimum_length) {
+          return false
+        }
+        self.fetch(query)
+      })
+    }
+
+    Autocomplete.prototype.fetch = function(query) {
+      var self = this
+
+      $.ajax({
+        url: this.url, 
+        data: {
+          'q': query
+        },
+        success: function(data) {
+          self.show_results(data)
+        }
+      })
+    }
+
+    Autocomplete.prototype.show_results = function(data) {
+      // Remove any existing results.
+      $('.ac-results').remove()
+
+      var results = data.results || []
+      var results_wrapper = $('<tbody class="ac-results"></tbody>')
+      var base_elem = $('<tr><td class="result-wrapper"><a href="#" class="ac-result"></a><span class="ac-alias"></span></td></tr>')
+
+      if(results.length > 0) {
+        for(var res_offset in results) {
+          var elem = base_elem.clone()
+          // Don't use .html(...) here, as you open yourself to XSS.
+          // Really, you should use some form of templating.
+          elem.find('.ac-result').text(results[res_offset]['name'])
+          elem.find('.ac-result').attr('href', results[res_offset]['url'])
+          if(results[res_offset]['alias'] != null){
+              elem.find('.ac-alias').text(" [" + results[res_offset]['alias'] + "]")
+          }
+          results_wrapper.append(elem)
+        }
+      }
+      else {
+        var elem = base_elem.clone()
+        elem.text("No results found.")
+        results_wrapper.append(elem)
+      }
+
+      $("table tbody").remove();
+      $("table").append(results_wrapper);
+    }
+
+    $(document).ready(function() {
+      window.autocomplete = new Autocomplete({
+        form_selector: '.autocomplete-me'
+      })
+      window.autocomplete.setup()
+
+    })
+  </script>
+  <style type="text/css">
+    .ac-alias {
+        color: #aaa;
+    }
+  </style>
 
 {% endblock content %}
 
