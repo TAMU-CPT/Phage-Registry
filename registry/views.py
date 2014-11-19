@@ -32,7 +32,6 @@ def search_page(request):
     return render(request, 'registry/search.html')
 
 def similar_names(request):
-
     if 'name' in request.GET:
         entries = RegistryEntry.objects.all()
         objects = []
@@ -95,6 +94,6 @@ def autocomplete(request):
     # Make sure you return a JSON object, not a bare list.
     # Otherwise, you could be vulnerable to an XSS attack.
     the_data = json.dumps({
-        'results': [{'name': doc.phagename, 'url': doc.exturl} for doc in docs]
+        'results': [{'name': doc.phagename, 'url': doc.exturl, 'alias': doc.alias_list} for doc in docs]
     })
     return HttpResponse(the_data, content_type='application/json')

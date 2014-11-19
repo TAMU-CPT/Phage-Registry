@@ -3,7 +3,7 @@
 
 {% block content %}
 
-  <form method="post" action="/phage-registry/haystack/find/" class="autocomplete-me form">
+  <form method="post" action="/phage-registry/search/find/" class="autocomplete-me form">
 		<fieldset>
 			<legend>Query on Phage Name</legend>
             <input type="text" id="id_q" name="q" class="" placeholder="Search..." autocomplete="off">
@@ -17,7 +17,7 @@
     // But this is an example.
     var Autocomplete = function(options) {
       this.form_selector = options.form_selector
-      this.url = options.url || '/phage-registry/haystack/find/'
+      this.url = options.url || '/phage-registry/search/find/'
       this.delay = parseInt(options.delay || 300)
       this.minimum_length = parseInt(options.minimum_length || 3)
       this.form_elem = null
@@ -62,7 +62,7 @@
 
       var results = data.results || []
       var results_wrapper = $('<tbody class="ac-results"></tbody>')
-      var base_elem = $('<tr><td class="result-wrapper"><a href="#" class="ac-result"></a></td></tr>')
+      var base_elem = $('<tr><td class="result-wrapper"><a href="#" class="ac-result"></a><span class="ac-alias"></span></td></tr>')
 
       if(results.length > 0) {
         for(var res_offset in results) {
@@ -71,6 +71,9 @@
           // Really, you should use some form of templating.
           elem.find('.ac-result').text(results[res_offset]['name'])
           elem.find('.ac-result').attr('href', results[res_offset]['url'])
+          if(results[res_offset]['alias'] != null){
+              elem.find('.ac-alias').text(" [" + results[res_offset]['alias'] + "]")
+          }
           results_wrapper.append(elem)
         }
       }
@@ -92,6 +95,11 @@
     })
   </script>
 
+  <style type="text/css">
+    .ac-alias {
+        color: #aaa;
+    }
+  </style>
 	<table class="table table-striped">
 		<thead><tr><th>Phage Name</th></tr></thead>
 		<tbody class="ac-results">
