@@ -1,3 +1,5 @@
 django
 python-Levenshtein
 django-bootstrap3
+Whoosh
+django-haystack

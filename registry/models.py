@@ -1,6 +1,8 @@
 from django.db import models
 from django.core.exceptions import ValidationError
 from django.forms import ModelForm, Form, CharField, PasswordInput
+from django.utils.translation import ugettext_lazy as _
+
 
 class RegistryEntry(models.Model):
     owner = models.ForeignKey('auth.User')
@@ -31,7 +33,15 @@ class RegistryEntry(models.Model):
 class RegistryEntryForm(ModelForm):
     class Meta:
         model = RegistryEntry
-        fields = ['phagename', 'exturl']
+        fields = ('phagename', 'exturl')
+        labels = {
+            'phagename': _('Phage Name'),
+            'exturl': _('External URL')
+        }
+
+        help_texts = {
+            'exturl': _('Much like how a DOI points permanently at a document, this URL should be a permanent record of that phage that people can access in years to come. This may be a GenBank/RefSeq record, or it may be another public database.')
+        }
 
 class LoginForm(Form):
     username = CharField(label='Username', max_length=100)

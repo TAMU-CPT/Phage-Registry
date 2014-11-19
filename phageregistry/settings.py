@@ -37,6 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'bootstrap3',
+    'haystack',
     'registry',
 )
 
@@ -54,6 +55,14 @@ ROOT_URLCONF = 'phageregistry.urls'
 
 WSGI_APPLICATION = 'phageregistry.wsgi.application'
 
+
+import os
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        'ENGINE': 'haystack.backends.whoosh_backend.WhooshEngine',
+        'PATH': os.path.join(os.path.dirname(__file__), 'whoosh_index'),
+    },
+}
 
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases

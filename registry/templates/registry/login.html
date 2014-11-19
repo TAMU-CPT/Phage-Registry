@@ -1,8 +1,8 @@
-{% extends 'registry/base.html' %}
+{% extends 'base.html' %}
 {% load bootstrap3 %}
 
 {% block content %}
-	<form class="pure-form" action="/phage-registry/login/" method="post">
+	<form class="form" action="/phage-registry/login/" method="post">
         {% csrf_token %}
         {% bootstrap_form form %}
         {% buttons %}

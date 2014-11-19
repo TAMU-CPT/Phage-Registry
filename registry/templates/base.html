@@ -8,7 +8,9 @@
         {% bootstrap_javascript %}
 	</head>
 	<body>
-<nav class="navbar navbar-default" role="navigation">
+<header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
+    <div class="container">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -18,7 +20,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/phage-registry/">Phage Name Registry</a>
+      <a class="navbar-brand" href="/phage-registry/">
+          <!--<img src="https://cpt.tamu.edu/wordpress/wp-content/uploads/2011/11/cpt-logomark-1-300x119.png" height=48 style="margin:-15px;margin-right:10px"/>-->
+          CPT Phage Name Registry
+      </a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -46,9 +51,36 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+    </div>
+</header>
 
+<div class="container">
 {# Display django.contrib.messages as Bootstrap alerts #}
 {% bootstrap_messages %}
 
 {% block content %}
 {% endblock %}
+</div>
+
+
+<footer class="footer">
+      <div class="container" style="border-top:1px solid #aaa;padding:30px">
+        <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <img src="https://cpt.tamu.edu/wordpress/wp-content/uploads/2011/11/cpt-logomark-1-300x119.png">
+            </div>
+            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                <p class="text-muted">
+                    The Phage Name Registry was built by the Center for Phage Technology at Texas A&amp;M University to aid researchers in giving unique and intelligible names to their phages
+                    <br/>
+                    <br/>
+                    Site code is <a href="https://github.tamu.edu/CPT/phage-registry">available</a> under GPLv3.
+                    <br/>
+                    Copyright 2014, Center for Phage Technology
+                </p>
+            </div>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
