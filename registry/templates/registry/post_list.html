@@ -2,11 +2,20 @@
 {% load bootstrap3 %}
 
 {% block content %}
+  <style type="text/css">
+    .ac-alias {
+        color: #aaa;
+    }
+  </style>
 	<table class="table">
 		<thead><tr><th>Phage Name</th></tr></thead>
 		<tbody>
 			{% for e in entries %}
-			<tr><td><a href="{{ e.exturl }}">{{ e.phagename }}</a></tr></td>
+			<tr><td><a href="/phage-registry/u/{{ e.phagename }}">{{ e.phagename }}
+                        {% if e.alias_list %}
+                        <span class="ac-alias"> [{{e.alias_list}}]</span>
+                        {% endif %}
+            </a></tr></td>
 			{% endfor %}
 		</tbody>
     </table>

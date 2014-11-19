@@ -4,6 +4,7 @@ from django.http import HttpResponse, HttpResponseBadRequest
 from django.contrib.auth import authenticate, login, logout
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.contrib import messages
+from django.utils.html import escape
 from haystack.query import SearchQuerySet
 
 
@@ -30,6 +31,15 @@ def registry_list(request):
 
 def search_page(request):
     return render(request, 'registry/search.html')
+
+def reference(request, query):
+    query = escape(query)
+    try:
+        found = RegistryEntry.objects.get(phagename=query)
+        if found is not None:
+            return redirect(found.exturl)
+    except:
+        return render(request, 'registry/no-redir.html', {'query': query})
 
 def similar_names(request):
     if 'name' in request.GET:
@@ -94,6 +104,6 @@ def autocomplete(request):
     # Make sure you return a JSON object, not a bare list.
     # Otherwise, you could be vulnerable to an XSS attack.
     the_data = json.dumps({
-        'results': [{'name': doc.phagename, 'url': doc.exturl, 'alias': doc.alias_list} for doc in docs]
+        'results': [{'name': doc.phagename, 'url': '/phage-registry/u/' + doc.phagename, 'alias': doc.alias_list} for doc in docs]
     })
     return HttpResponse(the_data, content_type='application/json')
