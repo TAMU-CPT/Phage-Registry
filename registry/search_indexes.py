@@ -5,6 +5,7 @@ from .models import RegistryEntry
 
 class RegistryentryIndex(indexes.SearchIndex, indexes.Indexable):
     text = indexes.CharField(document=True, model_attr='phagename')
+    content_auto = indexes.NgramField(model_attr='phagename')
 
     def get_model(self):
         return RegistryEntry

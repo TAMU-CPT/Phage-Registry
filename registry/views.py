@@ -1,9 +1,11 @@
 from django.shortcuts import render, redirect
 from .models import RegistryEntry, RegistryEntryForm, LoginForm
-from django.http import HttpResponse, HttpResponseBadRequest, HttpResponseForbidden
+from django.http import HttpResponse, HttpResponseBadRequest
 from django.contrib.auth import authenticate, login, logout
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.contrib import messages
+from haystack.query import SearchQuerySet
+
 
 import json
 import Levenshtein
@@ -85,3 +87,14 @@ def login_view(request):
 def logout_view(request):
     logout(request)
     return redirect('/phage-registry/')
+
+def autocomplete(request):
+    sqs = SearchQuerySet().autocomplete(content_auto=request.GET.get('q', ''))
+    results = [r.pk for r in sqs]
+    docs = RegistryEntry.objects.filter(pk__in=results)
+    # Make sure you return a JSON object, not a bare list.
+    # Otherwise, you could be vulnerable to an XSS attack.
+    the_data = json.dumps({
+        'results': [{'name': doc.phagename, 'url': doc.exturl} for doc in docs]
+    })
+    return HttpResponse(the_data, content_type='application/json')
