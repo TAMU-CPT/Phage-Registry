@@ -107,3 +107,6 @@ def autocomplete(request):
         'results': [{'name': doc.phagename, 'url': '/phage-registry/u/' + doc.phagename, 'alias': doc.alias_list} for doc in docs]
     })
     return HttpResponse(the_data, content_type='application/json')
+
+def about(request):
+    return render(request, 'registry/about.html')

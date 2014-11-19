@@ -10,6 +10,7 @@ urlpatterns = patterns('',
     url(r'^logout/$', views.logout_view),
     url(r'^search/', include('haystack.urls')),
     url(r'^search/find/', views.autocomplete),
+    url(r'^about/', views.about),
 
 )
 

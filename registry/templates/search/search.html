@@ -39,6 +39,7 @@
         }
 
         self.fetch(query)
+        window.location.hash = query;
       })
     }
 
@@ -92,6 +93,13 @@
         form_selector: '.autocomplete-me'
       })
       window.autocomplete.setup()
+      var hash = window.location.hash;
+      if(hash.length > 1){
+        hash = hash.substring(1);
+        $("#id_q").val(hash);
+      }
+      window.autocomplete.fetch(hash);
+
     })
   </script>
 
