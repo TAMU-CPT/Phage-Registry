@@ -12,4 +12,5 @@ urlpatterns = patterns('',
     url(r'^about/', TemplateView.as_view(template_name="registry/about.html")),
     url(r'^rules/', TemplateView.as_view(template_name="registry/rules.html")),
     url(r'^list-data/$', views.OrderListJson.as_view(), name='order_list_json'),
+    url(r'^search/find/', views.autocomplete),
 )

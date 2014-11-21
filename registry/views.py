@@ -1,11 +1,12 @@
 from django.shortcuts import render, redirect
 from .models import RegistryEntry, RegistryEntryForm
 from django.contrib import messages
+from django.http import HttpResponse
 from django.utils.html import escape
 from haystack.query import SearchQuerySet
 from django_datatables_view.base_datatable_view import BaseDatatableView
 from django.contrib.auth.decorators import login_required
-
+import json
 
 def reference(request, query):
     query = escape(query)
@@ -15,6 +16,27 @@ def reference(request, query):
             return redirect(found.exturl)
     except:
         return render(request, 'registry/no-redir.html', {'query': query})
+
+def autocomplete(request):
+    sqs = SearchQuerySet().autocomplete(content_auto=request.GET.get('q', ''))
+    try:
+        limit = abs(int(request.GET.get('l', 0)))
+    except:
+        limit = 0
+
+    results = [r.pk for r in sqs]
+
+    # If a limit was specified, use that.
+    if limit != 0:
+        results = results[0:limit]
+
+    docs = RegistryEntry.objects.filter(pk__in=results)
+    # Make sure you return a JSON object, not a bare list.
+    # Otherwise, you could be vulnerable to an XSS attack.
+    the_data = json.dumps({
+        'results': [{'name': doc.phagename, 'url': '/phage-registry/u/' + doc.phagename, 'alias': doc.alias_list} for doc in docs]
+    })
+    return HttpResponse(the_data, content_type='application/json')
 
 @login_required()
 def add_phage(request):

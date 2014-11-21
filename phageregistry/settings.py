@@ -91,10 +91,15 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
+# The URL to make ./static/ accessible at
 STATIC_URL = '/phage-registry/static/'
 
+# Things compile to
+# static/
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
+# Folders to include (app/static/ seems to be included automatically)
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "static"),
+    #os.path.join(BASE_DIR, "datatables"),
 )
 
 LOGIN_REDIRECT_URL = '/phage-registry/'

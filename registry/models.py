@@ -1,7 +1,15 @@
 from django.db import models
 from django.core.exceptions import ValidationError
-from django.forms import ModelForm, Form, CharField, PasswordInput
+from django.forms import ModelForm
 from django.utils.translation import ugettext_lazy as _
+
+
+class DatabaseSource(models.Model):
+    name = models.CharField(max_length=50)
+    template_url = models.CharField(max_length=50)
+
+    def __str__(self):
+        return self.name
 
 
 class RegistryEntry(models.Model):
@@ -10,6 +18,8 @@ class RegistryEntry(models.Model):
     exturl = models.CharField(max_length=1000, unique=True)
     verbose_name_plural = "Registry Entries"
     alias_list = models.CharField(max_length=2000, null=True, blank=True)
+    database = models.ForeignKey(DatabaseSource, null=True, blank=True)
+
 
     def __str__(self):
         return self.phagename

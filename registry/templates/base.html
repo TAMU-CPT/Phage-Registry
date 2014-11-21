@@ -5,10 +5,12 @@
         {# Load CSS and JavaScript #}
 		<script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
         {% bootstrap_css %}
+        
         {% bootstrap_javascript %}
-<script type="text/javascript" charset="utf8" src="{{ STATIC_URL }}/jquery.dataTables.js"></script>
-<link href="{{STATIC_URL}/dataTables.bootstrap.css">
-<script src="//cdn.datatables.net/plug-ins/be7019ee387/integration/bootstrap/3/dataTables.bootstrap.js"></script> 
+        <link href="{{ STATIC_URL }}stick-footer-navbar.css"/>
+        <script type="text/javascript" charset="utf8" src="{{ STATIC_URL }}jquery.dataTables.js"></script>
+        <link href="{{ STATIC_URL }}dataTables.bootstrap.css" />
+        <script src="//cdn.datatables.net/plug-ins/be7019ee387/integration/bootstrap/3/dataTables.bootstrap.js"></script> 
 
 	</head>
 	<body>
