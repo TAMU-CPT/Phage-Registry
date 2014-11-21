@@ -1,33 +1,15 @@
 from django.shortcuts import render, redirect
 from .models import RegistryEntry, RegistryEntryForm, LoginForm
-from django.http import HttpResponse, HttpResponseBadRequest
 from django.contrib.auth import authenticate, login, logout
-from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.contrib import messages
 from django.utils.html import escape
 from haystack.query import SearchQuerySet
+from django_datatables_view.base_datatable_view import BaseDatatableView
 
 
-import json
-import Levenshtein
-
-# Create your views here.
 
 def registry_list(request):
-    registries = RegistryEntry.objects.all().order_by('phagename')
-    paginator = Paginator(registries, 20)
-
-    page = request.GET.get('page')
-    try:
-        e = paginator.page(page)
-    except PageNotAnInteger:
-        # If page is not an integer, deliver first page.
-        e = paginator.page(1)
-    except EmptyPage:
-        # If page is out of range (e.g. 9999), deliver last page of results.
-        e = paginator.page(paginator.num_pages)
-
-    return render(request, 'registry/post_list.html', {'entries': e})
+    return render(request, 'registry/post_list.html')
 
 def search_page(request):
     return render(request, 'registry/search.html')
@@ -40,20 +22,6 @@ def reference(request, query):
             return redirect(found.exturl)
     except:
         return render(request, 'registry/no-redir.html', {'query': query})
-
-def similar_names(request):
-    if 'name' in request.GET:
-        entries = RegistryEntry.objects.all()
-        objects = []
-        for e in entries:
-            d = Levenshtein.distance(e.phagename, request.GET['name'])
-            if d < 4:
-                objects.append({
-                    'name': e.phagename,
-                })
-        return HttpResponse(json.dumps(sorted(objects, key=lambda x: x['d'])), content_type='application/json')
-    else:
-        return HttpResponseBadRequest()
 
 def add_phage(request):
     if request.user.is_authenticated():
@@ -96,26 +64,34 @@ def logout_view(request):
     logout(request)
     return redirect('/phage-registry/')
 
-def autocomplete(request):
-    sqs = SearchQuerySet().autocomplete(content_auto=request.GET.get('q', ''))
-    try:
-        limit = abs(int(request.GET.get('l', 0)))
-    except:
-        limit = 0
-
-    results = [r.pk for r in sqs]
-
-    # If a limit was specified, use that.
-    if limit != 0:
-        results = results[0:limit]
-
-    docs = RegistryEntry.objects.filter(pk__in=results)
-    # Make sure you return a JSON object, not a bare list.
-    # Otherwise, you could be vulnerable to an XSS attack.
-    the_data = json.dumps({
-        'results': [{'name': doc.phagename, 'url': '/phage-registry/u/' + doc.phagename, 'alias': doc.alias_list} for doc in docs]
-    })
-    return HttpResponse(the_data, content_type='application/json')
-
 def about(request):
     return render(request, 'registry/about.html')
+
+class OrderListJson(BaseDatatableView):
+    # The model we're going to show
+    model = RegistryEntry
+
+    # define the columns that will be returned
+    columns = ['phagename', 'alias_list']
+    order_columns = ['phagename', 'alias_list']
+
+    # set max limit of records returned, this is used to protect our site if someone tries to attack our site
+    # and make it return huge amount of data
+    max_display_length = 250
+
+    def render_column(self, row, column):
+        # We want to render user as a custom column
+        if column == 'phagename':
+            if self.request.user.is_authenticated():
+                return '<a href="https://cpt.tamu.edu/phage-registry/u/%s">%s</a> [<a href="https://cpt.tamu.edu/phage-registry/admin/registry/registryentry/%s/">Edit</a>]' % (row.phagename, row.phagename, row.pk)
+            else:
+                return '<a href="https://cpt.tamu.edu/phage-registry/u/%s">%s</a>' % (row.phagename, row.phagename)
+        else:
+            return super(OrderListJson, self).render_column(row, column)
+
+    def filter_queryset(self, qs):
+        q = self.request.GET.get('search[value]', "")
+        if len(q) > 0:
+            sqs = SearchQuerySet().autocomplete(content_auto=q)
+            qs = qs.filter(pk__in=[r.pk for r in sqs])
+        return qs

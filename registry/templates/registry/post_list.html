@@ -3,21 +3,27 @@
 
 {% block content %}
   <style type="text/css">
-    .ac-alias {
+    .ac{
         color: #aaa;
     }
   </style>
-	<table class="table">
-		<thead><tr><th>Phage Name</th></tr></thead>
-		<tbody>
-			{% for e in entries %}
-			<tr><td><a href="/phage-registry/u/{{ e.phagename }}">{{ e.phagename }}
-                        {% if e.alias_list %}
-                        <span class="ac-alias"> [{{e.alias_list}}]</span>
-                        {% endif %}
-            </a></tr></td>
-			{% endfor %}
-		</tbody>
+<table id="example" class="datatable table table-striped table-bordered" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Phage Name</th>
+                <th>Aliases</th>
+            </tr>
+        </thead>
     </table>
-{% bootstrap_pagination entries %}
+
+<script type="text/javascript">
+$(document).ready(function() {
+    var oTable = $('.datatable').dataTable({
+        "processing": true,
+        "serverSide": true,
+        "ajax": "{% url 'order_list_json' %}"
+    });
+});
+
+</script>
 {% endblock content %}
