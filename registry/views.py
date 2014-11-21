@@ -1,11 +1,11 @@
 from django.shortcuts import render, redirect
 from .models import RegistryEntry, RegistryEntryForm, LoginForm
-from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth import logout
 from django.contrib import messages
 from django.utils.html import escape
 from haystack.query import SearchQuerySet
 from django_datatables_view.base_datatable_view import BaseDatatableView
-
+from django.contrib.auth.decorators import login_required
 
 
 def registry_list(request):
@@ -23,42 +23,20 @@ def reference(request, query):
     except:
         return render(request, 'registry/no-redir.html', {'query': query})
 
+@login_required()
 def add_phage(request):
-    if request.user.is_authenticated():
-        if request.method == 'POST':
-            # Pre-populate user id
-            re = RegistryEntry(owner_id=request.user.id)
-            # Use this as a base for the form data submitted by user
-            form = RegistryEntryForm(request.POST, instance=re)
-            if form.is_valid():
-                messages.add_message(request, messages.SUCCESS, 'Entry Saved.')
-                form.save()
-                return render(request, 'registry/add_phage.html', {'form': form})
-            else:
-                return render(request, 'registry/add_phage.html', {'form': form})
-        else:
-            form = RegistryEntryForm()
-            return render(request, 'registry/add_phage.html', {'form': form})
+    if request.method == 'POST':
+        # Pre-populate user id
+        re = RegistryEntry(owner_id=request.user.id)
+        # Use this as a base for the form data submitted by user
+        form = RegistryEntryForm(request.POST, instance=re)
+        if form.is_valid():
+            messages.add_message(request, messages.SUCCESS, 'Entry Saved.')
+            form.save()
     else:
-        return redirect('login')
+        form = RegistryEntryForm()
 
-def login_view(request):
-    if request.method == 'GET':
-        return render(request, 'registry/login.html', {'form': LoginForm()})
-    elif request.method == 'POST':
-        username = request.POST['username']
-        password = request.POST['password']
-        user = authenticate(username=username, password=password)
-        if user is not None:
-            if user.is_active:
-                login(request, user)
-                return redirect('/phage-registry/')
-            else:
-                return redirect('/phage-registry/login')
-        else:
-            return redirect('/phage-registry/login')
-    else:
-        return redirect('/phage-registry/login')
+    return render(request, 'registry/add_phage.html', {'form': form})
 
 def logout_view(request):
     logout(request)

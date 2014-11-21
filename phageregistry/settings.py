@@ -97,6 +97,7 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
 )
 
-
+LOGIN_REDIRECT_URL = '/phage-registry/'
+LOGIN_URL = '/phage-registry/login/'
 USE_X_FORWARDED_HOST = True
 
