@@ -15,7 +15,7 @@ class DatabaseSource(models.Model):
 class RegistryEntry(models.Model):
     owner = models.ForeignKey('auth.User')
     phagename = models.CharField(max_length=50, unique=True)
-    exturl = models.CharField(max_length=1000, unique=True)
+    extid = models.CharField(max_length=1000, unique=True)
     verbose_name_plural = "Registry Entries"
     alias_list = models.CharField(max_length=2000, null=True, blank=True)
     database = models.ForeignKey(DatabaseSource, null=True, blank=True)
@@ -47,15 +47,15 @@ class RegistryEntry(models.Model):
 class RegistryEntryForm(ModelForm):
     class Meta:
         model = RegistryEntry
-        fields = ('phagename', 'exturl', 'alias_list')
+        fields = ('phagename', 'extid', 'alias_list', 'database')
         labels = {
             'phagename': _('Phage Name'),
-            'exturl': _('External URL'),
+            'extid': _('External ID'),
             'alias_list': _('Aliases'),
         }
 
         help_texts = {
-            'exturl': _('Much like how a DOI points permanently at a document, this URL should be a permanent record of that phage that people can access in years to come. This may be a GenBank/RefSeq record, or it may be another public database.'),
+            'extid': _('External ID appropriate to the database. For NCBI references this is one of the ID numbers, for PBI phages this is the phage name'),
             'alias_list': _('Sometimes phages have "official" names which are complex and hard to remember (e.g. vB_CcrM-Colossus). You can specify those here as a comma separated list.'),
         }
 

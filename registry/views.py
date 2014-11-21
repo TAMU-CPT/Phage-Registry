@@ -13,7 +13,7 @@ def reference(request, query):
     try:
         found = RegistryEntry.objects.get(phagename=query)
         if found is not None:
-            return redirect(found.exturl)
+            return redirect(found.database.template_url % found.extid)
     except:
         return render(request, 'registry/no-redir.html', {'query': query})
 
