@@ -1,18 +1,11 @@
 from django.shortcuts import render, redirect
-from .models import RegistryEntry, RegistryEntryForm, LoginForm
-from django.contrib.auth import logout
+from .models import RegistryEntry, RegistryEntryForm
 from django.contrib import messages
 from django.utils.html import escape
 from haystack.query import SearchQuerySet
 from django_datatables_view.base_datatable_view import BaseDatatableView
 from django.contrib.auth.decorators import login_required
 
-
-def registry_list(request):
-    return render(request, 'registry/post_list.html')
-
-def search_page(request):
-    return render(request, 'registry/search.html')
 
 def reference(request, query):
     query = escape(query)
@@ -37,13 +30,6 @@ def add_phage(request):
         form = RegistryEntryForm()
 
     return render(request, 'registry/add_phage.html', {'form': form})
-
-def logout_view(request):
-    logout(request)
-    return redirect('/phage-registry/')
-
-def about(request):
-    return render(request, 'registry/about.html')
 
 class OrderListJson(BaseDatatableView):
     # The model we're going to show

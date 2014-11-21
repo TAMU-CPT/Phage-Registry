@@ -49,6 +49,3 @@ class RegistryEntryForm(ModelForm):
             'alias_list': _('Sometimes phages have "official" names which are complex and hard to remember (e.g. vB_CcrM-Colossus). You can specify those here as a comma separated list.'),
         }
 
-class LoginForm(Form):
-    username = CharField(label='Username', max_length=100)
-    password = CharField(label='Password', max_length=100, widget=PasswordInput)
