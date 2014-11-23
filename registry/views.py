@@ -7,6 +7,9 @@ from haystack.query import SearchQuerySet
 from django_datatables_view.base_datatable_view import BaseDatatableView
 from django.contrib.auth.decorators import login_required
 import json
+import logging
+logger = logging.getLogger(__name__)
+
 
 def reference(request, query):
     query = escape(query)
@@ -15,6 +18,7 @@ def reference(request, query):
         if found is not None:
             return redirect(found.database.template_url % found.extid)
     except:
+        logger.error("Couldn't find %s" % query)
         return render(request, 'registry/no-redir.html', {'query': query})
 
 def autocomplete(request):

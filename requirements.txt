@@ -3,3 +3,4 @@ django-bootstrap3
 Whoosh
 django-haystack
 django-datatables-view
+raven
