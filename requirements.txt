@@ -4,3 +4,4 @@ Whoosh
 django-haystack
 django-datatables-view
 raven
+psycopg2
