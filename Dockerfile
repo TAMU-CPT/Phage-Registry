@@ -6,15 +6,19 @@ ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get -qq update && apt-get install --no-install-recommends -y \
         python python-dev python-distribute python-pip gunicorn libpq-dev \
-        build-essential make gcc \
+        build-essential make gcc nginx \
     && apt-get autoremove -y \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+ADD requirements.txt /tmp/requirements.txt
+RUN pip install -r /tmp/requirements.txt
+
 ADD . /registry/
 WORKDIR /registry/
-RUN pip install -r requirements.txt
 
-EXPOSE 8000
-VOLUMES ["/registry/phageregistry/whoosh_index/"]
+ADD proxy.conf /etc/nginx/sites-enabled/default
+
+EXPOSE 80
+VOLUME ["/registry/phageregistry/whoosh_index/"]
 CMD /registry/startup.sh
