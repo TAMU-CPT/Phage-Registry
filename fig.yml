@@ -3,11 +3,10 @@ phagereg:
     ports:
         - "8200:80"
     links:
-        - phageregdb
+        - db:phageregdb
     volumes:
         - ./whoosh/:/registry/phageregistry/whoosh_index/
-
-phageregdb:
+db:
     image: postgres:9.4
     volumes:
         - ./pgdata/:/var/lib/postgresql/data/
