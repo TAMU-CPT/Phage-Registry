@@ -14,7 +14,7 @@ RUN apt-get -qq update && apt-get install --no-install-recommends -y \
 ADD requirements.txt /tmp/requirements.txt
 RUN pip install -r /tmp/requirements.txt
 
-ADD . /registry/
+ADD phageregistry registry env.sh manage.py startup.sh /registry/
 WORKDIR /registry/
 
 ADD proxy.conf /etc/nginx/sites-enabled/default
