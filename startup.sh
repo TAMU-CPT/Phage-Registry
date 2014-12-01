@@ -1,8 +1,5 @@
 #!/bin/bash
-export DOCKER_DB_NAME=postgres
-export DOCKER_DB_USER=postgres
-export DOCKER_DB_HOST=$PHAGEREGDB_PORT_5432_TCP_ADDR
-export DJANGO_SETTINGS_MODULE=phageregistry.dockersettings
+. env.sh
 
 # https://github.com/nathanleclaire/laraveldocker/commit/fb0f579f1482ba3396255b36c52506d71ef7fbcc#diff-76a1947cdef4e9ab08d8746a400e3681
 echo "Stalling for DB"
