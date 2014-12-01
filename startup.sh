@@ -16,8 +16,15 @@ python manage.py collectstatic --noinput -v 0
 python manage.py syncdb --noinput
 
 PASS=$(date +%s | sha256sum | base64 | head -c 32)
-# This is kinda bad :(
-echo "from django.contrib.auth.models import User;user = User.objects.get(username='admin'); user.set_password('$PASS'); user.save()" | ./manage.py shell
+echo "
+from django.contrib.auth.models import User
+try:
+    user = User.objects.get(username='admin')
+    user.set_password('$PASS');
+    user.save()
+except:
+    User.objects.create_superuser('admin', 'admin@example.com', '$PASS')
+" | ./manage.py shell
 echo "Password is $PASS"
 
 # Reindex data (this needs to be a cronjob somehow, or data needs to be exposed in a volume)
