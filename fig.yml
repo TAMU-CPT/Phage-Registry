@@ -5,7 +5,7 @@ phagereg:
     links:
         - db:phageregdb
     volumes:
-        - ./whoosh/:/registry/phageregistry/whoosh_index/
+        - ./phageregistry/whoosh_index/:/registry/phageregistry/whoosh_index/
 db:
     image: postgres:9.4
     volumes:
