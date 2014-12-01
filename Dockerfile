@@ -6,7 +6,7 @@ ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get -qq update && apt-get install --no-install-recommends -y \
         python python-dev python-distribute python-pip gunicorn libpq-dev \
-        build-essential make gcc nginx \
+        build-essential make gcc nginx netcat postgresql-client-common postgresql-client-9.1\
     && apt-get autoremove -y \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
