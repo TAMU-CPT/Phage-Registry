@@ -6,12 +6,6 @@ phagereg:
         - db:phageregdb
     volumes:
         - ./phageregistry/whoosh_index/:/registry/phageregistry/whoosh_index/
-backup:
-    build: backup/
-    links:
-        - db:phageregdb
-    volumes:
-        - ./pgbackup/:/export/
 db:
     image: postgres:9.4
     volumes:
