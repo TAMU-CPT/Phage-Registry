@@ -77,3 +77,5 @@ static
 data
 db.sqlite3
 phageregistry/whoosh_index/
+exec.sql
+pgdata
