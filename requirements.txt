@@ -1,7 +1,7 @@
-django
-django-bootstrap3
-Whoosh
-django-haystack
-django-datatables-view
-raven
-psycopg2
+django==1.9.2
+django-bootstrap3==6.2.2
+Whoosh==2.7.2
+django-haystack==2.4.1
+django-datatables-view==1.13.0
+raven==5.10.2
+psycopg2==2.6.1
