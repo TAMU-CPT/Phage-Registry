@@ -75,6 +75,7 @@ DATABASES = {
         'NAME': os.environ['DOCKER_DB_NAME'],
         'USER': os.environ['DOCKER_DB_USER'],
         'HOST': os.environ['DOCKER_DB_HOST'],
+        'PASSWORD': os.environ['DOCKER_DB_PASS']
     }
 }
 
