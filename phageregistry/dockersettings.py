@@ -2,7 +2,7 @@
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SECRET_KEY = os.environ['DJANGO_SECRET_KEY']
-DEBUG = False
+DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 TEMPLATE_DEBUG = True
 ALLOWED_HOSTS = []
 INSTALLED_APPS = (
