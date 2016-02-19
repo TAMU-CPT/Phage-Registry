@@ -2,7 +2,7 @@
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SECRET_KEY = os.environ['DJANGO_SECRET_KEY']
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = True
 ALLOWED_HOSTS = []
 INSTALLED_APPS = (
@@ -15,6 +15,7 @@ INSTALLED_APPS = (
     'bootstrap3',
     'haystack',
     'raven.contrib.django.raven_compat',
+    'fontawesome',
     'registry',
 )
 
