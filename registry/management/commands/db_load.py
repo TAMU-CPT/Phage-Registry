@@ -60,6 +60,9 @@ class Command(BaseCommand):
             if phage_name is None:
                 continue
 
+            if len(phage_name) > 50:
+                continue
+
             try:
                 x = RegistryEntry.objects.get(
                     phagename=phage_name,
