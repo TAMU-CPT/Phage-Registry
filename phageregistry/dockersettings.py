@@ -24,7 +24,7 @@ DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
 TEMPLATE_DEBUG = True
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['localhost', 'cpt.tamu.edu']
 
 
 # Application definition
