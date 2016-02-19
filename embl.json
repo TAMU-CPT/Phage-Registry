@@ -1,0 +1,9074 @@
+[
+  [
+    "KF024722", 
+    "Mycobacterium phage TA17A"
+  ], 
+  [
+    "L13696", 
+    "Acholeplasma phage L2"
+  ], 
+  [
+    "X58839", 
+    "Acholeplasma phage MV-L1"
+  ], 
+  [
+    "KP202970", 
+    "Achromobacter phage 83-24"
+  ], 
+  [
+    "KF787095", 
+    "Achromobacter phage JWAlpha"
+  ], 
+  [
+    "KF787094", 
+    "Achromobacter phage JWDelta"
+  ], 
+  [
+    "KP202971", 
+    "Achromobacter phage JWF"
+  ], 
+  [
+    "KP202969", 
+    "Achromobacter phage JWX"
+  ], 
+  [
+    "JX507079", 
+    "Acidithiobacillus phage AcaML1"
+  ], 
+  [
+    "HE806280", 
+    "Acinetobacter bacteriophage AP22"
+  ], 
+  [
+    "HM114315", 
+    "Acinetobacter phage 133"
+  ], 
+  [
+    "HM368260", 
+    "Acinetobacter phage AB1"
+  ], 
+  [
+    "KC311669", 
+    "Acinetobacter phage AB3"
+  ], 
+  [
+    "JX658790", 
+    "Acinetobacter phage Abp1"
+  ], 
+  [
+    "HM032710", 
+    "Acinetobacter phage Ac42"
+  ], 
+  [
+    "HM004124", 
+    "Acinetobacter phage Acj9"
+  ], 
+  [
+    "GU911519", 
+    "Acinetobacter phage Acj61"
+  ], 
+  [
+    "JX403940", 
+    "Acinetobacter phage Bphi-B1251"
+  ], 
+  [
+    "JX976549", 
+    "Acinetobacter phage IME-AB2"
+  ], 
+  [
+    "KF811200", 
+    "Acinetobacter phage IME_AB3"
+  ], 
+  [
+    "KF669656", 
+    "Acinetobacter phage Petty"
+  ], 
+  [
+    "HQ186308", 
+    "Acinetobacter phage phiAB1"
+  ], 
+  [
+    "JX560521", 
+    "Acinetobacter phage phiAC-1"
+  ], 
+  [
+    "KF669658", 
+    "Acinetobacter phage Presley"
+  ], 
+  [
+    "KJ473422", 
+    "Acinetobacter phage vB_AbaM_Acibel004"
+  ], 
+  [
+    "KJ473423", 
+    "Acinetobacter phage vB_AbaP_Acibel007"
+  ], 
+  [
+    "KM672662", 
+    "Acinetobacter phage YMC13/03/R2096"
+  ], 
+  [
+    "KJ817802", 
+    "Acinetobacter phage YMC-13-01-C62"
+  ], 
+  [
+    "AY576796", 
+    "Actinoplanes phage phiAsp2"
+  ], 
+  [
+    "DQ529280", 
+    "Aeromonas phage 25"
+  ], 
+  [
+    "AY962392", 
+    "Aeromonas phage 31"
+  ], 
+  [
+    "GU459069", 
+    "Aeromonas phage 65"
+  ], 
+  [
+    "JN377895", 
+    "Aeromonas phage Aes012"
+  ], 
+  [
+    "JN377894", 
+    "Aeromonas phage Aes508"
+  ], 
+  [
+    "JX123262", 
+    "Aeromonas phage CC2"
+  ], 
+  [
+    "KJ858521", 
+    "Aeromonas phage pAh6-C"
+  ], 
+  [
+    "HM452125", 
+    "Aeromonas phage phiAS4"
+  ], 
+  [
+    "HM452126", 
+    "Aeromonas phage phiAS5"
+  ], 
+  [
+    "JN651747", 
+    "Aeromonas phage phiAS7"
+  ], 
+  [
+    "DQ674738", 
+    "Aeromonas phage phiO18P"
+  ], 
+  [
+    "GU396103", 
+    "Aeromonas phage PX29"
+  ], 
+  [
+    "JQ177063", 
+    "Aeromonas phage vB_AsaM-56"
+  ], 
+  [
+    "JQ312117", 
+    "Agrobacterium phage 7-7-1"
+  ], 
+  [
+    "KF005320", 
+    "Alteromonas phage vB_AmaP_AD45-P2"
+  ], 
+  [
+    "KF005318", 
+    "Alteromonas phage vB_AmaP_AD45-P3"
+  ], 
+  [
+    "KF005319", 
+    "Alteromonas phage vB_AmaP_AD45-P4"
+  ], 
+  [
+    "KF356198", 
+    "Anabaena phage A-4L"
+  ], 
+  [
+    "KF692088", 
+    "Arthrobacter phage vB_ArS-ArV2"
+  ], 
+  [
+    "KM879463", 
+    "Arthrobacter phage vB_ArtM-ArV1"
+  ], 
+  [
+    "KJ645900", 
+    "Aureococcus anophagefferens virus isolate BtV-01"
+  ], 
+  [
+    "CU468217", 
+    "Azospirillum phage Cd"
+  ], 
+  [
+    "GU229986", 
+    "Bacillus phage 250"
+  ], 
+  [
+    "EF583821", 
+    "Bacillus phage 0305phi8-36"
+  ], 
+  [
+    "KC330684", 
+    "Bacillus phage Andromeda"
+  ], 
+  [
+    "KC330681", 
+    "Bacillus phage Gemini"
+  ], 
+  [
+    "EU408779", 
+    "Bacillus phage AP50"
+  ], 
+  [
+    "JN790865", 
+    "Bacillus phage B4"
+  ], 
+  [
+    "JN797796", 
+    "Bacillus phage B5S"
+  ], 
+  [
+    "X99260", 
+    "Bacillus phage B103"
+  ], 
+  [
+    "EU622808", 
+    "Bacillus phage Nf"
+  ], 
+  [
+    "KC595511", 
+    "Bacillus phage Basilisk"
+  ], 
+  [
+    "JF966203", 
+    "Bacillus phage Bastille"
+  ], 
+  [
+    "JN712910", 
+    "Bacillus phage BCD7"
+  ], 
+  [
+    "HE614282", 
+    "Bacillus phage BceA1"
+  ], 
+  [
+    "AY616446", 
+    "Bacillus phage BCJA1c"
+  ], 
+  [
+    "KJ451625", 
+    "Bacillus phage Bcp1"
+  ], 
+  [
+    "KJ081346", 
+    "Bacillus phage BCP8-2"
+  ], 
+  [
+    "JN797797", 
+    "Bacillus phage BCP78"
+  ], 
+  [
+    "JN797798", 
+    "Bacillus phage BCU4"
+  ], 
+  [
+    "KF669647", 
+    "Bacillus phage BigBertha"
+  ], 
+  [
+    "KF669648", 
+    "Bacillus phage Blastoid"
+  ], 
+  [
+    "JX887877", 
+    "Bacillus phage BMBtp2"
+  ], 
+  [
+    "KJ024807", 
+    "Bacillus phage BMBtpLA"
+  ], 
+  [
+    "KM051843", 
+    "Bacillus phage Bobb"
+  ], 
+  [
+    "KJ010547", 
+    "Bacillus phage Bp8p-C"
+  ], 
+  [
+    "KJ010548", 
+    "Bacillus phage Bp8p-T"
+  ], 
+  [
+    "KC430106", 
+    "Bacillus phage BPS10C"
+  ], 
+  [
+    "JN654439", 
+    "Bacillus phage BPS13"
+  ], 
+  [
+    "JN191664", 
+    "Bacillus phage BtCS33"
+  ], 
+  [
+    "KJ489397", 
+    "Bacillus phage CAM003"
+  ], 
+  [
+    "KF669649", 
+    "Bacillus phage CampHawk"
+  ], 
+  [
+    "DQ222851", 
+    "Bacillus phage Cherry"
+  ], 
+  [
+    "KF554508", 
+    "Bacillus phage CP-51"
+  ], 
+  [
+    "KC330679", 
+    "Bacillus phage Curly"
+  ], 
+  [
+    "KC330680", 
+    "Bacillus phage Eoghan"
+  ], 
+  [
+    "KJ489398", 
+    "Bacillus phage Evoli"
+  ], 
+  [
+    "DQ150593", 
+    "Bacillus phage Fah"
+  ], 
+  [
+    "KC330683", 
+    "Bacillus phage Finn"
+  ], 
+  [
+    "JN638751", 
+    "Bacillus phage G"
+  ], 
+  [
+    "X96987", 
+    "Bacillus phage GA-1"
+  ], 
+  [
+    "DQ222853", 
+    "Bacillus phage Gamma isolate 51"
+  ], 
+  [
+    "DQ222855", 
+    "Bacillus phage Gamma isolate 53"
+  ], 
+  [
+    "DQ289556", 
+    "Bacillus phage Gamma isolate d'Herelle"
+  ], 
+  [
+    "AY701338", 
+    "Bacillus phage GIL16c"
+  ], 
+  [
+    "KF669651", 
+    "Bacillus phage Glittering"
+  ], 
+  [
+    "KF669652", 
+    "Bacillus phage Grass"
+  ], 
+  [
+    "KJ489399", 
+    "Bacillus phage Hakuna"
+  ], 
+  [
+    "KJ489400", 
+    "Bacillus phage Hoody T"
+  ], 
+  [
+    "EU874396", 
+    "Bacillus phage IEBH"
+  ], 
+  [
+    "KJ676859", 
+    "Bacillus phage JBP901"
+  ], 
+  [
+    "KC595512", 
+    "Bacillus phage JL"
+  ], 
+  [
+    "KM236245", 
+    "Bacillus phage Mater"
+  ], 
+  [
+    "KJ489401", 
+    "Bacillus phage Megatron"
+  ], 
+  [
+    "KC685370", 
+    "Bacillus phage MG-B1"
+  ], 
+  [
+    "KM236246", 
+    "Bacillus phage Moonbeam"
+  ], 
+  [
+    "KF669655", 
+    "Bacillus phage Page"
+  ], 
+  [
+    "KF669657", 
+    "Bacillus phage poppyseed"
+  ], 
+  [
+    "KP411017", 
+    "Bacillus phage Palmer"
+  ], 
+  [
+    "KM236247", 
+    "Bacillus phage Pascal"
+  ], 
+  [
+    "JQ619704", 
+    "Bacillus phage PBC1"
+  ], 
+  [
+    "EU771092", 
+    "Bacillus phage phi29"
+  ], 
+  [
+    "M11813", 
+    "Bacillus phage PZA"
+  ], 
+  [
+    "AB016282", 
+    "Bacillus phage phi105"
+  ], 
+  [
+    "HM072038", 
+    "Bacillus phage phi105"
+  ], 
+  [
+    "JX238501", 
+    "Bacillus phage phiAGATE"
+  ], 
+  [
+    "AP013029", 
+    "Bacillus phage phiNIT1"
+  ], 
+  [
+    "JQ062992", 
+    "Bacillus phage phIS3501"
+  ], 
+  [
+    "AB711120", 
+    "Bacillus phage PM1"
+  ], 
+  [
+    "KF669660", 
+    "Bacillus phage Pony"
+  ], 
+  [
+    "KM236248", 
+    "Bacillus phage Pookie"
+  ], 
+  [
+    "KF669659", 
+    "Bacillus phage Riggi"
+  ], 
+  [
+    "KJ489402", 
+    "Bacillus phage Riley"
+  ], 
+  [
+    "KC595513", 
+    "Bacillus phage Shanette"
+  ], 
+  [
+    "KF669661", 
+    "Bacillus phage Slash"
+  ], 
+  [
+    "AF020713", 
+    "Bacillus phage SPbeta"
+  ], 
+  [
+    "FJ230960", 
+    "Bacillus phage SPO1"
+  ], 
+  [
+    "KF669662", 
+    "Bacillus phage Spock"
+  ], 
+  [
+    "X97918", 
+    "Bacillus phage SPP1"
+  ], 
+  [
+    "KP696447", 
+    "Bacillus phage Stahl"
+  ], 
+  [
+    "KF669663", 
+    "Bacillus phage Staley"
+  ], 
+  [
+    "KP696448", 
+    "Bacillus phage Stills"
+  ], 
+  [
+    "KC330682", 
+    "Bacillus phage Taylor"
+  ], 
+  [
+    "KF208639", 
+    "Bacillus phage Troll"
+  ], 
+  [
+    "KC481682", 
+    "Bacillus phage vB_BanS-Tsamsa"
+  ], 
+  [
+    "JX094431", 
+    "Bacillus phage vB_BceM-Bc431v3"
+  ], 
+  [
+    "HM144387", 
+    "Bacillus phage W.Ph."
+  ], 
+  [
+    "KJ920400", 
+    "Bacillus phage Waukesha92"
+  ], 
+  [
+    "DQ289555", 
+    "Bacillus phage WBeta"
+  ], 
+  [
+    "KF188458", 
+    "Bacillus phage Wip1"
+  ], 
+  [
+    "EU794049", 
+    "Bacteriophage APSE-2"
+  ], 
+  [
+    "KP296791", 
+    "Bacteriophage Diva"
+  ], 
+  [
+    "KP296792", 
+    "Bacteriophage Lily"
+  ], 
+  [
+    "KP296793", 
+    "Bacteriophage Rani"
+  ], 
+  [
+    "KP296794", 
+    "Bacteriophage Redbud"
+  ], 
+  [
+    "KP296795", 
+    "Bacteriophage Shelly"
+  ], 
+  [
+    "KP296796", 
+    "Bacteriophage Sitara"
+  ], 
+  [
+    "FJ008913", 
+    "Bacteroides phage B40-8"
+  ], 
+  [
+    "HE608841", 
+    "Bacteroides phage B124-14"
+  ], 
+  [
+    "JQ177062", 
+    "Bdellovibrio phage phi1422"
+  ], 
+  [
+    "JN900499", 
+    "Boiling Springs Lake RNA-DNA hybrid virus clone BSL_RDHV"
+  ], 
+  [
+    "AY526909", 
+    "Bordetella phage BIP-1"
+  ], 
+  [
+    "AY526908", 
+    "Bordetella phage BMP-1"
+  ], 
+  [
+    "HM242243", 
+    "Brochothrix phage A9"
+  ], 
+  [
+    "HM144386", 
+    "Brochothrix phage BL3"
+  ], 
+  [
+    "HM144385", 
+    "Brochothrix phage NF5"
+  ], 
+  [
+    "KC556893", 
+    "Brucella phage Bk"
+  ], 
+  [
+    "KC556894", 
+    "Brucella phage Fz"
+  ], 
+  [
+    "JN939332", 
+    "Brucella phage Pr"
+  ], 
+  [
+    "KC556895", 
+    "Brucella phage R/C"
+  ], 
+  [
+    "KC556896", 
+    "Brucella phage S708"
+  ], 
+  [
+    "HG428758", 
+    "Brucella phage F1"
+  ], 
+  [
+    "JN939331", 
+    "Brucella phage Tb"
+  ], 
+  [
+    "KC556897", 
+    "Brucella phage Tb"
+  ], 
+  [
+    "KC556898", 
+    "Brucella phage Wb"
+  ], 
+  [
+    "JN564907", 
+    "Burkholderia phage AH2"
+  ], 
+  [
+    "AY368235", 
+    "Burkholderia phage Bcep43"
+  ], 
+  [
+    "DQ203855", 
+    "Burkholderia phage Bcep176"
+  ], 
+  [
+    "AY616033", 
+    "Burkholderia phage BcepB1A"
+  ], 
+  [
+    "AY605181", 
+    "Burkholderia phage BcepC6B"
+  ], 
+  [
+    "EF153632", 
+    "Burkholderia phage BcepF1"
+  ], 
+  [
+    "EF523948", 
+    "Burkholderia phage BcepGomr"
+  ], 
+  [
+    "FJ937737", 
+    "Burkholderia phage BcepIL02"
+  ], 
+  [
+    "JX104231", 
+    "Burkholderia phage BcepMigl"
+  ], 
+  [
+    "AY539836", 
+    "Burkholderia phage BcepMu"
+  ], 
+  [
+    "EF602154", 
+    "Burkholderia phage BcepNY3"
+  ], 
+  [
+    "HG793132", 
+    "Burkholderia phage Bp-AMP1"
+  ], 
+  [
+    "HG796220", 
+    "Burkholderia phage Bp-AMP1"
+  ], 
+  [
+    "HG796219", 
+    "Burkholderia phage Bp-AMP2"
+  ], 
+  [
+    "HG796221", 
+    "Burkholderia phage Bp-AMP4"
+  ], 
+  [
+    "JN662425", 
+    "Burkholderia phage DC1"
+  ], 
+  [
+    "KC853746", 
+    "Burkholderia phage JG068"
+  ], 
+  [
+    "JF939047", 
+    "Burkholderia phage KL1"
+  ], 
+  [
+    "GU911304", 
+    "Burkholderia phage KL3"
+  ], 
+  [
+    "GU911303", 
+    "Burkholderia phage KS5"
+  ], 
+  [
+    "FJ982340", 
+    "Burkholderia phage KS9"
+  ], 
+  [
+    "EU822883", 
+    "Burkholderia phage KS10"
+  ], 
+  [
+    "HM461982", 
+    "Burkholderia phage KS14"
+  ], 
+  [
+    "CP000625", 
+    "Burkholderia phage phi6442"
+  ], 
+  [
+    "CP008753", 
+    "Burkholderia phage BEK"
+  ], 
+  [
+    "JX681814", 
+    "Burkholderia phage phiX216"
+  ], 
+  [
+    "CP000624", 
+    "Burkholderia phage phiE12-2"
+  ], 
+  [
+    "AF447491", 
+    "Burkholderia phage phiE125"
+  ], 
+  [
+    "CP000623", 
+    "Burkholderia phage phiE202"
+  ], 
+  [
+    "CP000622", 
+    "Burkholderia phage phiE255"
+  ], 
+  [
+    "KC462197", 
+    "Burkholderia phage ST79"
+  ], 
+  [
+    "KF751793", 
+    "Campylobacter phage CJIE4-1"
+  ], 
+  [
+    "KF751794", 
+    "Campylobacter phage CJIE4-2"
+  ], 
+  [
+    "KF751795", 
+    "Campylobacter phage CJIE4-3"
+  ], 
+  [
+    "KF751796", 
+    "Campylobacter phage CJIE4-4"
+  ], 
+  [
+    "KF751797", 
+    "Campylobacter phage CJIE4-5"
+  ], 
+  [
+    "JX569801", 
+    "Campylobacter phage CP30A"
+  ], 
+  [
+    "KF148616", 
+    "Campylobacter phage CP8"
+  ], 
+  [
+    "FR823450", 
+    "Campylobacter phage CP81"
+  ], 
+  [
+    "JN132397", 
+    "Campylobacter phage CPX"
+  ], 
+  [
+    "FN667788", 
+    "Campylobacter phage CP220"
+  ], 
+  [
+    "FN667789", 
+    "Campylobacter phage CPt10"
+  ], 
+  [
+    "HM246720", 
+    "Campylobacter phage IBB35 clone Contig1"
+  ], 
+  [
+    "GU296433", 
+    "Campylobacter phage NCTC12673"
+  ], 
+  [
+    "JX100810", 
+    "Caulobacter phage CcrColossus"
+  ], 
+  [
+    "KF301602", 
+    "Caulobacter phage Cr30"
+  ], 
+  [
+    "JX100811", 
+    "Caulobacter phage karma"
+  ], 
+  [
+    "JX100812", 
+    "Caulobacter phage magneto"
+  ], 
+  [
+    "HM066936", 
+    "Caulobacter phage phiCb5"
+  ], 
+  [
+    "JX163858", 
+    "Caulobacter phage phiCbK"
+  ], 
+  [
+    "JX100813", 
+    "Caulobacter phage phiCbK"
+  ], 
+  [
+    "JX100814", 
+    "Caulobacter phage rogue"
+  ], 
+  [
+    "JX100809", 
+    "Caulobacter phage swift"
+  ], 
+  [
+    "JQ809650", 
+    "Celeribacter phage P12053L"
+  ], 
+  [
+    "KC821632", 
+    "Cellulophaga phage phi4:1"
+  ], 
+  [
+    "KC821618", 
+    "Cellulophaga phage phi10:1"
+  ], 
+  [
+    "KC821613", 
+    "Cellulophaga phage phi12:1"
+  ], 
+  [
+    "KC821615", 
+    "Cellulophaga phage phi12:3"
+  ], 
+  [
+    "KC821606", 
+    "Cellulophaga phage phi12:2"
+  ], 
+  [
+    "KC821623", 
+    "Cellulophaga phage phi12a:1"
+  ], 
+  [
+    "KC821628", 
+    "Cellulophaga phage phi18:4"
+  ], 
+  [
+    "KC821631", 
+    "Cellulophaga phage phi48:1"
+  ], 
+  [
+    "KC821633", 
+    "Cellulophaga phage phi13:2"
+  ], 
+  [
+    "KC821624", 
+    "Cellulophaga phage phi14:2"
+  ], 
+  [
+    "KC821617", 
+    "Cellulophaga phage phi17:1"
+  ], 
+  [
+    "KC821609", 
+    "Cellulophaga phage phi17:2"
+  ], 
+  [
+    "KC821619", 
+    "Cellulophaga phage phi18:1"
+  ], 
+  [
+    "KC821627", 
+    "Cellulophaga phage phi18:2"
+  ], 
+  [
+    "KC821620", 
+    "Cellulophaga phage phi18:3"
+  ], 
+  [
+    "KC821607", 
+    "Cellulophaga phage phi19:1"
+  ], 
+  [
+    "KC821608", 
+    "Cellulophaga phage phi19:3"
+  ], 
+  [
+    "KC821614", 
+    "Cellulophaga phage phi38:1"
+  ], 
+  [
+    "KC821612", 
+    "Cellulophaga phage phi40:1"
+  ], 
+  [
+    "KC821626", 
+    "Cellulophaga phage phi39:1"
+  ], 
+  [
+    "KC821611", 
+    "Cellulophaga phage phi46:1"
+  ], 
+  [
+    "KC821622", 
+    "Cellulophaga phage phi46:3"
+  ], 
+  [
+    "KC821605", 
+    "Cellulophaga phage phi48:2"
+  ], 
+  [
+    "KC821630", 
+    "Cellulophaga phage phi3:1"
+  ], 
+  [
+    "KC821610", 
+    "Cellulophaga phage phi3ST:2"
+  ], 
+  [
+    "KC821629", 
+    "Cellulophaga phage phi38:2"
+  ], 
+  [
+    "KC821634", 
+    "Cellulophaga phage phi47:1"
+  ], 
+  [
+    "KC821616", 
+    "Cellulophaga phage phiSM"
+  ], 
+  [
+    "KC821625", 
+    "Cellulophaga phage phi13:1"
+  ], 
+  [
+    "KC821621", 
+    "Cellulophaga phage phi19:2"
+  ], 
+  [
+    "KC821604", 
+    "Cellulophaga phage phiST"
+  ], 
+  [
+    "D00624", 
+    "Chlamydia phage 1"
+  ], 
+  [
+    "AJ270057", 
+    "Chlamydia phage 2"
+  ], 
+  [
+    "AJ550635", 
+    "Chlamydia phage 3"
+  ], 
+  [
+    "AY769964", 
+    "Chlamydia phage 4"
+  ], 
+  [
+    "AE002163", 
+    "Chlamydia pneumoniae phage CPAR39"
+  ], 
+  [
+    "HG818824", 
+    "Citrobacter phage CR8"
+  ], 
+  [
+    "HG818823", 
+    "Citrobacter phage CR44b"
+  ], 
+  [
+    "KM236239", 
+    "Citrobacter phage Moogle"
+  ], 
+  [
+    "KM236240", 
+    "Citrobacter phage Moon"
+  ], 
+  [
+    "KP313531", 
+    "Citrobacter phage phiCFP-1"
+  ], 
+  [
+    "KM236241", 
+    "Citrobacter phage Stevie"
+  ], 
+  [
+    "GQ241246", 
+    "Clavibacter phage CMP1"
+  ], 
+  [
+    "KF669650", 
+    "Clavibacter phage CN1A"
+  ], 
+  [
+    "AP008983", 
+    "Clostridium phage c-st"
+  ], 
+  [
+    "HG531805", 
+    "Clostridium phage CDMH1"
+  ], 
+  [
+    "JN800508", 
+    "Clostridium phage phi24R"
+  ], 
+  [
+    "AY082070", 
+    "Clostridium phage phi3626"
+  ], 
+  [
+    "JQ246028", 
+    "Clostridium phage phi8074-B1"
+  ], 
+  [
+    "DQ466086", 
+    "Clostridium phage phiC2"
+  ], 
+  [
+    "LN681534", 
+    "Clostridium phage phiCD24-1"
+  ], 
+  [
+    "EU719189", 
+    "Clostridium phage phiCD27"
+  ], 
+  [
+    "HM568888", 
+    "Clostridium phage phiCD38-2"
+  ], 
+  [
+    "LN681535", 
+    "Clostridium phage phiCD111"
+  ], 
+  [
+    "AY855346", 
+    "Clostridium phage phiCD119"
+  ], 
+  [
+    "LN681536", 
+    "Clostridium phage phiCD146"
+  ], 
+  [
+    "LN681537", 
+    "Clostridium phage phiCD211"
+  ], 
+  [
+    "LN681538", 
+    "Clostridium phage phiCD481-1"
+  ], 
+  [
+    "LN681539", 
+    "Clostridium phage phiCD505"
+  ], 
+  [
+    "LN681540", 
+    "Clostridium phage phiCD506"
+  ], 
+  [
+    "GU949551", 
+    "Clostridium phage phiCD6356"
+  ], 
+  [
+    "HG796225", 
+    "Clostridium phage phiCDHM13"
+  ], 
+  [
+    "LK985321", 
+    "Clostridium phage phiCDHM14"
+  ], 
+  [
+    "LK985322", 
+    "Clostridium phage phiCDHM19"
+  ], 
+  [
+    "JQ729990", 
+    "Clostridium phage phiCP7R"
+  ], 
+  [
+    "JF767208", 
+    "Clostridium phage phiCP13O"
+  ], 
+  [
+    "JF767210", 
+    "Clostridium phage phiCP9O"
+  ], 
+  [
+    "GQ443085", 
+    "Clostridium phage phiCP26F"
+  ], 
+  [
+    "JF767209", 
+    "Clostridium phage phiCP34O"
+  ], 
+  [
+    "EU588980", 
+    "Clostridium phage phiCP39-O"
+  ], 
+  [
+    "JQ729991", 
+    "Clostridium phage phiCPV4"
+  ], 
+  [
+    "KM983327", 
+    "Clostridium phage phiCT453A"
+  ], 
+  [
+    "KM983328", 
+    "Clostridium phage phiCT453B"
+  ], 
+  [
+    "KM983329", 
+    "Clostridium phage phiCT9441A"
+  ], 
+  [
+    "KM983330", 
+    "Clostridium phage phiCT19406A"
+  ], 
+  [
+    "KM983331", 
+    "Clostridium phage phiCT19406B"
+  ], 
+  [
+    "KM983332", 
+    "Clostridium phage phiCT19406C"
+  ], 
+  [
+    "KM983333", 
+    "Clostridium phage phiCTC2A"
+  ], 
+  [
+    "KM983334", 
+    "Clostridium phage phiCTC2B"
+  ], 
+  [
+    "LN681541", 
+    "Clostridium phage phiMMP01"
+  ], 
+  [
+    "JX145341", 
+    "Clostridium phage phiMMP02"
+  ], 
+  [
+    "LN681542", 
+    "Clostridium phage phiMMP03"
+  ], 
+  [
+    "JX145342", 
+    "Clostridium phage phiMMP04"
+  ], 
+  [
+    "JQ660954", 
+    "Clostridium phage PhiS63"
+  ], 
+  [
+    "CP000315", 
+    "Clostridium phage phiSM101"
+  ], 
+  [
+    "JQ729992", 
+    "Clostridium phage phiZP2"
+  ], 
+  [
+    "KC237729", 
+    "Clostridium phage vB_CpeS-CP51"
+  ], 
+  [
+    "HQ317390", 
+    "Colwellia phage 9A"
+  ], 
+  [
+    "AJ278322", 
+    "Corynebacterium phage BFK20"
+  ], 
+  [
+    "DQ499600", 
+    "Corynebacterium phage P1201"
+  ], 
+  [
+    "JQ867099", 
+    "Croceibacter phage P2559S"
+  ], 
+  [
+    "JQ691612", 
+    "Cronobacter phage CR3"
+  ], 
+  [
+    "KC954774", 
+    "Cronobacter phage CR8"
+  ], 
+  [
+    "JQ691611", 
+    "Cronobacter phage CR9"
+  ], 
+  [
+    "HG813241", 
+    "Cronobacter phage Dev2"
+  ], 
+  [
+    "JF314845", 
+    "Cronobacter phage ES2"
+  ], 
+  [
+    "JF912400", 
+    "Cronobacter phage ESP2949-1"
+  ], 
+  [
+    "HQ110083", 
+    "Cronobacter phage ESSI-2"
+  ], 
+  [
+    "KC954775", 
+    "UNVERIFIED: Cronobacter phage S13"
+  ], 
+  [
+    "JN882284", 
+    "Cronobacter phage vB_CsaM_GAP31"
+  ], 
+  [
+    "JN882285", 
+    "Cronobacter phage vB_CsaM_GAP32"
+  ], 
+  [
+    "JN882287", 
+    "Cronobacter phage vB_CsaM_GAP161"
+  ], 
+  [
+    "JN882286", 
+    "Cronobacter phage vB_CsaP_GAP52"
+  ], 
+  [
+    "KM058087", 
+    "Cronobacter phage vB_CsaP_Ss1"
+  ], 
+  [
+    "KC107834", 
+    "Cronobacter phage vB_CskP_GAP227"
+  ], 
+  [
+    "GU071100", 
+    "Cyanophage 9515-10a"
+  ], 
+  [
+    "HQ634152", 
+    "Prochlorococcus phage P-SSP6"
+  ], 
+  [
+    "GU071102", 
+    "Cyanophage NATL1A-7"
+  ], 
+  [
+    "GU071104", 
+    "Cyanophage NATL2A-133"
+  ], 
+  [
+    "GU071107", 
+    "Cyanophage P-SSP2"
+  ], 
+  [
+    "KF598865", 
+    "Cyanophage PP"
+  ], 
+  [
+    "GQ334450", 
+    "Cyanophage PSS2"
+  ], 
+  [
+    "JQ245707", 
+    "Cyanophage S-TIM5"
+  ], 
+  [
+    "KP211958", 
+    "Cyanophage TIM40"
+  ], 
+  [
+    "GU568037", 
+    "Deep-sea thermophilic phage D6E"
+  ], 
+  [
+    "GQ357915", 
+    "Deftia phage phiW-14"
+  ], 
+  [
+    "KM879221", 
+    "Delftia phage RG-2014"
+  ], 
+  [
+    "HE600015", 
+    "Dickeya phage Limestone"
+  ], 
+  [
+    "KJ716335", 
+    "Dickeya phage RC-2014"
+  ], 
+  [
+    "KJ621082", 
+    "Dinoroseobacter phage DFL12phi1"
+  ], 
+  [
+    "KJ803031", 
+    "Dinoroseobacter phage vBDshPR2C"
+  ], 
+  [
+    "JX185431", 
+    "Dragonfly-associated microphage 1 isolate FL1-NZ54-2010"
+  ], 
+  [
+    "KF772233", 
+    "Edwardsiella phage eiAU"
+  ], 
+  [
+    "KF772234", 
+    "Edwardsiella phage eiAU-183"
+  ], 
+  [
+    "AB757801", 
+    "Edwardsiella phage IW-1"
+  ], 
+  [
+    "AB757800", 
+    "Edwardsiella phage KF-1"
+  ], 
+  [
+    "AB767244", 
+    "Edwardsiella phage MSW-3"
+  ], 
+  [
+    "AP013057", 
+    "Edwardsiella phage PEi21"
+  ], 
+  [
+    "AF157835", 
+    "Endosymbiont phage APSE-1"
+  ], 
+  [
+    "KP791805", 
+    "Enterobacter phage E-2"
+  ], 
+  [
+    "KP791806", 
+    "Enterobacter phage E-3"
+  ], 
+  [
+    "KP791807", 
+    "Enterobacter phage E-4"
+  ], 
+  [
+    "HQ641380", 
+    "Enterobacter phage EcP1"
+  ], 
+  [
+    "JQ340774", 
+    "Enterobacter phage Enc34"
+  ], 
+  [
+    "JX880034", 
+    "Enterobacter phage IME11"
+  ], 
+  [
+    "KJ101592", 
+    "Enterobacter phage PG7"
+  ], 
+  [
+    "JQ267518", 
+    "Enterobacter phage phiKDA1"
+  ], 
+  [
+    "KF550303", 
+    "Enterobacteria phage 4MG"
+  ], 
+  [
+    "KJ419279", 
+    "Enterobacteria phage 9g"
+  ], 
+  [
+    "EU734174", 
+    "Enterobacteria phage 13a"
+  ], 
+  [
+    "U32222", 
+    "Enterobacteria phage 186"
+  ], 
+  [
+    "GQ468526", 
+    "Enterobacteria phage 285P"
+  ], 
+  [
+    "AF125520", 
+    "Enterobacteria phage 933W"
+  ], 
+  [
+    "FM180578", 
+    "Enterobacteria phage 2851"
+  ], 
+  [
+    "AP000363", 
+    "Enterobacteria phage VT2-Sakai"
+  ], 
+  [
+    "AP004402", 
+    "Stx2 converting phage I"
+  ], 
+  [
+    "DQ085810", 
+    "Enterobacteria phage alpha3"
+  ], 
+  [
+    "X60322", 
+    "Enterobacteria phage alpha3, isolate wildtype"
+  ], 
+  [
+    "AP011113", 
+    "Enterobacteria phage AR1"
+  ], 
+  [
+    "EU734171", 
+    "Enterobacteria phage BA14"
+  ], 
+  [
+    "KJ135004", 
+    "Enterobacteria phage Bp4"
+  ], 
+  [
+    "HQ829472", 
+    "Enterobacteria phage Bp7"
+  ], 
+  [
+    "AJ556162", 
+    "Enterobacteria phage BP-4795"
+  ], 
+  [
+    "FJ483837", 
+    "Enterobacteria phage BZ13 strain DL10"
+  ], 
+  [
+    "FJ483839", 
+    "Enterobacteria phage BZ13 strain DL20"
+  ], 
+  [
+    "FJ483838", 
+    "Enterobacteria phage BZ13 strain T72"
+  ], 
+  [
+    "X03869", 
+    "Enterobacteria phage GA"
+  ], 
+  [
+    "AF227250", 
+    "Enterobacteria phage KU1"
+  ], 
+  [
+    "GU323318", 
+    "Enterobacteria phage CC31"
+  ], 
+  [
+    "AB285204", 
+    "Enterobacteria phage cdtI"
+  ], 
+  [
+    "JX094499", 
+    "Enterobacteria phage Chi"
+  ], 
+  [
+    "CP000711", 
+    "Enterobacteria phage CUS-3 provirus"
+  ], 
+  [
+    "KM979354", 
+    "Enterobacteria phage DT57C"
+  ], 
+  [
+    "KM979355", 
+    "Enterobacteria phage DT571/2"
+  ], 
+  [
+    "EU734172", 
+    "Enterobacteria phage EcoDS1"
+  ], 
+  [
+    "AY736146", 
+    "Enterobacteria phage ES18"
+  ], 
+  [
+    "GQ153919", 
+    "Enterobacteria phage f1 isolate F1_ancestral"
+  ], 
+  [
+    "J02448", 
+    "Enterobacteria phage f1"
+  ], 
+  [
+    "JF719732", 
+    "Enterobacteria phage f1 isolate f1_1_FR"
+  ], 
+  [
+    "JF719733", 
+    "Enterobacteria phage f1 isolate f1_2_FR"
+  ], 
+  [
+    "JF719734", 
+    "Enterobacteria phage f1 isolate f1_3_FR"
+  ], 
+  [
+    "J02451", 
+    "Enterobacteria phage fd"
+  ], 
+  [
+    "EF068134", 
+    "Enterobacteria phage FI 4184 b"
+  ], 
+  [
+    "FJ539134", 
+    "Enterobacteria phage FI strain BR1"
+  ], 
+  [
+    "FJ539135", 
+    "Enterobacteria phage FI strain BR8"
+  ], 
+  [
+    "FJ539132", 
+    "Enterobacteria phage FI strain HB-P22"
+  ], 
+  [
+    "FJ539133", 
+    "Enterobacteria phage FI strain HB-P24"
+  ], 
+  [
+    "AF059243", 
+    "Enterobacteria phage NL95"
+  ], 
+  [
+    "X07489", 
+    "Enterobacteria phage SP"
+  ], 
+  [
+    "KF322032", 
+    "Enterobacteria phage fiAA91-ss"
+  ], 
+  [
+    "JF719729", 
+    "Enterobacteria phage G4 isolate G4_1_FR"
+  ], 
+  [
+    "JF719730", 
+    "Enterobacteria phage G4 isolate G4_2_FR"
+  ], 
+  [
+    "JF719731", 
+    "Enterobacteria phage G4 isolate G4_3_FR"
+  ], 
+  [
+    "GQ153923", 
+    "Enterobacteria phage G4 isolate G4_ancestral"
+  ], 
+  [
+    "V00657", 
+    "Enterobacteria phage G4"
+  ], 
+  [
+    "DQ079898", 
+    "Enterobacteria phage ID8"
+  ], 
+  [
+    "AY751298", 
+    "Enterobacteria phage ID11"
+  ], 
+  [
+    "DQ079905", 
+    "Enterobacteria phage ID12"
+  ], 
+  [
+    "DQ079903", 
+    "Enterobacteria phage ID41"
+  ], 
+  [
+    "DQ079877", 
+    "Enterobacteria phage ID52"
+  ], 
+  [
+    "DQ079900", 
+    "Enterobacteria phage NC2"
+  ], 
+  [
+    "DQ079907", 
+    "Enterobacteria phage NC6"
+  ], 
+  [
+    "DQ079906", 
+    "Enterobacteria phage NC10"
+  ], 
+  [
+    "DQ079901", 
+    "Enterobacteria phage NC13"
+  ], 
+  [
+    "DQ079902", 
+    "Enterobacteria phage NC19"
+  ], 
+  [
+    "DQ079896", 
+    "Enterobacteria phage WA2"
+  ], 
+  [
+    "DQ079897", 
+    "Enterobacteria phage WA3"
+  ], 
+  [
+    "DQ079899", 
+    "Enterobacteria phage WA5"
+  ], 
+  [
+    "DQ079904", 
+    "Enterobacteria phage WA6"
+  ], 
+  [
+    "AF069308", 
+    "Enterobacteria phage HK022"
+  ], 
+  [
+    "AF069529", 
+    "Enterobacteria phage HK97"
+  ], 
+  [
+    "JQ086369", 
+    "Enterobacteria phage HK106"
+  ], 
+  [
+    "JQ086370", 
+    "Enterobacteria phage HK140"
+  ], 
+  [
+    "JQ086371", 
+    "Enterobacteria phage HK225"
+  ], 
+  [
+    "JQ086372", 
+    "Enterobacteria phage HK446"
+  ], 
+  [
+    "JQ086373", 
+    "Enterobacteria phage HK542"
+  ], 
+  [
+    "JQ086374", 
+    "Enterobacteria phage HK544"
+  ], 
+  [
+    "JQ086376", 
+    "Enterobacteria phage HK630"
+  ], 
+  [
+    "JQ086377", 
+    "Enterobacteria phage HK633"
+  ], 
+  [
+    "JX536493", 
+    "Enterobacteria phage HX01"
+  ], 
+  [
+    "X14336", 
+    "Enterobacteria phage I2-2"
+  ], 
+  [
+    "KF044309", 
+    "Enterobacteria phage FL68 Tallahassee/FL/2012"
+  ], 
+  [
+    "KF044310", 
+    "Enterobacteria phage FL76 Tallahassee/FL/2012"
+  ], 
+  [
+    "DQ079869", 
+    "Enterobacteria phage ID2 Moscow/ID/2001"
+  ], 
+  [
+    "DQ079908", 
+    "Enterobacteria phage ID18"
+  ], 
+  [
+    "DQ079909", 
+    "Enterobacteria phage WA14"
+  ], 
+  [
+    "KC237308", 
+    "Enterobacteria phage ID204 Moscow/ID"
+  ], 
+  [
+    "U02303", 
+    "Enterobacteria phage If1"
+  ], 
+  [
+    "X02139", 
+    "Enterobacteria phage Ike"
+  ], 
+  [
+    "JN202312", 
+    "Enterobacteria phage ime09"
+  ], 
+  [
+    "JF974339", 
+    "Enterobacteria phage IME10"
+  ], 
+  [
+    "JN600960", 
+    "Enterobacteria phage IME10, isolation source sewage"
+  ], 
+  [
+    "KF591601", 
+    "Enterobacteria phage IME_EC2"
+  ], 
+  [
+    "KM247287", 
+    "Enterobacteria phage J8-65"
+  ], 
+  [
+    "KP719134", 
+    "Enterobacteria phage JenK1"
+  ], 
+  [
+    "KP719132", 
+    "Enterobacteria phage JenP1"
+  ], 
+  [
+    "KP719133", 
+    "Enterobacteria phage JenP2"
+  ], 
+  [
+    "JX865427", 
+    "Enterobacteria phage JL1"
+  ], 
+  [
+    "EF469154", 
+    "Enterobacteria phage JS98"
+  ], 
+  [
+    "EU863408", 
+    "Enterobacteria phage JSE"
+  ], 
+  [
+    "AY370674", 
+    "Enterobacteria phage K1-5"
+  ], 
+  [
+    "AM084415", 
+    "Enterobacteria phage K1E"
+  ], 
+  [
+    "AM084414", 
+    "Enterobacteria phage K1F"
+  ], 
+  [
+    "DQ111067", 
+    "Enterobacteria phage K1F"
+  ], 
+  [
+    "HM480846", 
+    "Enterobacteria phage K30"
+  ], 
+  [
+    "EU078592", 
+    "Enterobacteria phage DE3"
+  ], 
+  [
+    "J02459", 
+    "Enterobacteria phage lambda"
+  ], 
+  [
+    "JX412914", 
+    "Enterobacteria phage M13 isolate WT variety Rutgers"
+  ], 
+  [
+    "V00604", 
+    "Enterobacteria phage M13"
+  ], 
+  [
+    "JX625144", 
+    "Enterobacteria phage M"
+  ], 
+  [
+    "JQ182734", 
+    "Enterobacteria phage mEp043 c-1"
+  ], 
+  [
+    "JQ182731", 
+    "Enterobacteria phage mEp235"
+  ], 
+  [
+    "JQ182730", 
+    "Enterobacteria phage mEp237"
+  ], 
+  [
+    "JQ182728", 
+    "Enterobacteria phage mEp460"
+  ], 
+  [
+    "JQ182727", 
+    "Enterobacteria phage mEpX1"
+  ], 
+  [
+    "JQ182726", 
+    "Enterobacteria phage mEpX2"
+  ], 
+  [
+    "EU311208", 
+    "Enterobacteria phage Min27"
+  ], 
+  [
+    "X15031", 
+    "Enterobacteria phage fr"
+  ], 
+  [
+    "EF108464", 
+    "Enterobacteria phage MS2 isolate DL16"
+  ], 
+  [
+    "EF204939", 
+    "Enterobacteria phage MS2 isolate J20"
+  ], 
+  [
+    "EF108465", 
+    "Enterobacteria phage MS2 isolate R17"
+  ], 
+  [
+    "EF204940", 
+    "Enterobacteria phage MS2 isolate ST4"
+  ], 
+  [
+    "JQ966307", 
+    "Enterobacterio phage MS2 isolate DL52"
+  ], 
+  [
+    "V00642", 
+    "Enterobacterio phage MS2"
+  ], 
+  [
+    "AF083977", 
+    "Enterobacteria phage Mu"
+  ], 
+  [
+    "AF064539", 
+    "Enterobacteria phage N15"
+  ], 
+  [
+    "AF503408", 
+    "Enterobacteria phage P7"
+  ], 
+  [
+    "AF063097", 
+    "Enterobacteria phage P2"
+  ], 
+  [
+    "KC618326", 
+    "Enterobacteria phage P2"
+  ], 
+  [
+    "X51522", 
+    "Enterobacteria phage P4"
+  ], 
+  [
+    "AB362338", 
+    "Enterobacteria phage P22 strain MSU"
+  ], 
+  [
+    "AB426868", 
+    "Enterobacteria phage P22 strain: ATCC 19585-B1"
+  ], 
+  [
+    "BK000583", 
+    "Enterobacteria phage P22 wild type"
+  ], 
+  [
+    "AF527608", 
+    "Salmonella phage P22-pbi"
+  ], 
+  [
+    "KP063541", 
+    "Enterobacteria phage P88"
+  ], 
+  [
+    "EF437941", 
+    "Enterobacteria phage Phi1"
+  ], 
+  [
+    "JX871397", 
+    "Enterobacteria phage phi80"
+  ], 
+  [
+    "FR775895", 
+    "Enterobacteria phage phi92"
+  ], 
+  [
+    "EU330206", 
+    "Enterobacteria phage phiEco32"
+  ], 
+  [
+    "EF460875", 
+    "Enterobacteria phage phiEcoM-GJ1"
+  ], 
+  [
+    "KC333879", 
+    "Enterobacteria phage phiJLA23"
+  ], 
+  [
+    "X60323", 
+    "Enterobacteria phage phiK"
+  ], 
+  [
+    "AJ298298", 
+    "Enterobacteria phage phiP27"
+  ], 
+  [
+    "DQ079880", 
+    "Enterobacteria phage ID1"
+  ], 
+  [
+    "DQ079881", 
+    "Enterobacteria phage ID22"
+  ], 
+  [
+    "DQ079882", 
+    "Enterobacteria phage ID34"
+  ], 
+  [
+    "DQ079883", 
+    "Enterobacteria phage ID45"
+  ], 
+  [
+    "KJ997912", 
+    "Enterobacteria phage MED1"
+  ], 
+  [
+    "DQ079884", 
+    "Enterobacteria phage NC1"
+  ], 
+  [
+    "DQ079885", 
+    "Enterobacteria phage NC5"
+  ], 
+  [
+    "DQ079886", 
+    "Enterobacteria phage NC7"
+  ], 
+  [
+    "DQ079887", 
+    "Enterobacteria phage NC11"
+  ], 
+  [
+    "DQ079888", 
+    "Enterobacteria phage NC16"
+  ], 
+  [
+    "DQ079889", 
+    "Enterobacteria phage NC37"
+  ], 
+  [
+    "DQ079890", 
+    "Enterobacteria phage NC41"
+  ], 
+  [
+    "DQ079891", 
+    "Enterobacteria phage NC51"
+  ], 
+  [
+    "DQ079892", 
+    "Enterobacteria phage NC56"
+  ], 
+  [
+    "FJ849058", 
+    "Enterobacteria phage phiX174"
+  ], 
+  [
+    "JF719726", 
+    "Enterobacteria phage phiX174 isolate phiX_1_FR"
+  ], 
+  [
+    "JF719727", 
+    "Enterobacteria phage phiX174 isolate phiX_2_FR"
+  ], 
+  [
+    "JF719728", 
+    "Enterobacteria phage phiX174 isolate phiX_3_FR"
+  ], 
+  [
+    "JQ764986", 
+    "Enterobacteria phage phiX174 isolate PhiX_10_1"
+  ], 
+  [
+    "JQ764987", 
+    "Enterobacteria phage phiX174 isolate PhiX_10_2"
+  ], 
+  [
+    "JQ764988", 
+    "Enterobacteria phage phiX174 isolate PhiX_10_3"
+  ], 
+  [
+    "JQ764989", 
+    "Enterobacteria phage phiX174 isolate PhiX_10_4"
+  ], 
+  [
+    "JQ764990", 
+    "Enterobacteria phage phiX174 isolate PhiX_10_5"
+  ], 
+  [
+    "GQ153915", 
+    "Enterobacteria phage phiX174 isolate PhiX_ancestral"
+  ], 
+  [
+    "HM753658", 
+    "Enterobacteria phage phiX174 isolate XC+Mad06ic3"
+  ], 
+  [
+    "HM753659", 
+    "Enterobacteria phage phiX174 isolate XC+Mad06ic5"
+  ], 
+  [
+    "HM753660", 
+    "Enterobacteria phage phiX174 isolate XC+Mad06im1"
+  ], 
+  [
+    "HM753661", 
+    "Enterobacteria phage phiX174 isolate XC+Mad06im3"
+  ], 
+  [
+    "HM753662", 
+    "Enterobacteria phage phiX174 isolate XC+Mad06im6"
+  ], 
+  [
+    "HM753663", 
+    "Enterobacteria phage phiX174 isolate XC+Mad06im7"
+  ], 
+  [
+    "HM753664", 
+    "Enterobacteria phage phiX174 isolate XC+Mad10ic2"
+  ], 
+  [
+    "HM753665", 
+    "Enterobacteria phage phiX174 isolate XC+Mad10ic4"
+  ], 
+  [
+    "HM753666", 
+    "Enterobacteria phage phiX174 isolate XC+Mad10ic6"
+  ], 
+  [
+    "HM753667", 
+    "Enterobacteria phage phiX174 isolate XC+Mad10ic7"
+  ], 
+  [
+    "HM753668", 
+    "Enterobacteria phage phiX174 isolate XC+Mad10ic8"
+  ], 
+  [
+    "HM753669", 
+    "Enterobacteria phage phiX174 isolate XC+Mad10im1"
+  ], 
+  [
+    "HM753670", 
+    "Enterobacteria phage phiX174 isolate XC+Mad10im2"
+  ], 
+  [
+    "HM753671", 
+    "Enterobacteria phage phiX174 isolate XC+Mad10im3"
+  ], 
+  [
+    "HM753672", 
+    "Enterobacteria phage phiX174 isolate XC+Mad10im4"
+  ], 
+  [
+    "HM753673", 
+    "Enterobacteria phage phiX174 isolate XC+Mad10im6"
+  ], 
+  [
+    "HM753674", 
+    "Enterobacteria phage phiX174 isolate XC+Mad10im7"
+  ], 
+  [
+    "HM753675", 
+    "Enterobacteria phage phiX174 isolate XC+Mad10im8"
+  ], 
+  [
+    "HM753676", 
+    "Enterobacteria phage phiX174 isolate XC+Mad14ic1"
+  ], 
+  [
+    "HM753677", 
+    "Enterobacteria phage phiX174 isolate XC+Mad14ic2"
+  ], 
+  [
+    "HM753678", 
+    "Enterobacteria phage phiX174 isolate XC+Mad14im1"
+  ], 
+  [
+    "HM753679", 
+    "Enterobacteria phage phiX174 isolate XC+Mad14im2"
+  ], 
+  [
+    "HM753680", 
+    "Enterobacteria phage phiX174 isolate XC+Mad20ic1"
+  ], 
+  [
+    "HM753681", 
+    "Enterobacteria phage phiX174 isolate XC+Mad20ic2"
+  ], 
+  [
+    "HM753682", 
+    "Enterobacteria phage phiX174 isolate XC+Mad20ic3"
+  ], 
+  [
+    "HM753683", 
+    "Enterobacteria phage phiX174 isolate XC+Mad20ic5"
+  ], 
+  [
+    "HM753684", 
+    "Enterobacteria phage phiX174 isolate XC+Mad20ic6"
+  ], 
+  [
+    "HM753685", 
+    "Enterobacteria phage phiX174 isolate XC+Mad20ic7"
+  ], 
+  [
+    "HM753686", 
+    "Enterobacteria phage phiX174 isolate XC+Mad20im1"
+  ], 
+  [
+    "HM753687", 
+    "Enterobacteria phage phiX174 isolate XC+Mad20im2"
+  ], 
+  [
+    "HM753688", 
+    "Enterobacteria phage phiX174 isolate XC+Mad20im6"
+  ], 
+  [
+    "HM753689", 
+    "Enterobacteria phage phiX174 isolate XC+Mad20im8"
+  ], 
+  [
+    "HM753690", 
+    "Enterobacteria phage phiX174 isolate XC+Mad22ic1"
+  ], 
+  [
+    "HM753691", 
+    "Enterobacteria phage phiX174 isolate XC+Mad22ic2"
+  ], 
+  [
+    "HM753692", 
+    "Enterobacteria phage phiX174 isolate XC+Mad22ic5"
+  ], 
+  [
+    "HM753693", 
+    "Enterobacteria phage phiX174 isolate XC+Mad22ic6"
+  ], 
+  [
+    "HM753694", 
+    "Enterobacteria phage phiX174 isolate XC+Mad22ic7"
+  ], 
+  [
+    "HM753695", 
+    "Enterobacteria phage phiX174 isolate XC+Mad22ic8"
+  ], 
+  [
+    "HM753696", 
+    "Enterobacteria phage phiX174 isolate XC+Mad22im1"
+  ], 
+  [
+    "HM753697", 
+    "Enterobacteria phage phiX174 isolate XC+Mad22im2"
+  ], 
+  [
+    "HM753698", 
+    "Enterobacteria phage phiX174 isolate XC+Mad22im3"
+  ], 
+  [
+    "HM753699", 
+    "Enterobacteria phage phiX174 isolate XC+Mad22im4"
+  ], 
+  [
+    "HM753700", 
+    "Enterobacteria phage phiX174 isolate XC+Mad22im5"
+  ], 
+  [
+    "HM753701", 
+    "Enterobacteria phage phiX174 isolate XC+Mad22im7"
+  ], 
+  [
+    "HM753702", 
+    "Enterobacteria phage phiX174 isolate XC+Mad22im8"
+  ], 
+  [
+    "HM753703", 
+    "Enterobacteria phage phiX174 isolate XC+Mbd10ic1"
+  ], 
+  [
+    "HM753704", 
+    "Enterobacteria phage phiX174 isolate XC+Mbd10ic2"
+  ], 
+  [
+    "HM753705", 
+    "Enterobacteria phage phiX174 isolate XC+Mbd10im1"
+  ], 
+  [
+    "HM753706", 
+    "Enterobacteria phage phiX174 isolate XC+mbD10im2"
+  ], 
+  [
+    "HM753707", 
+    "Enterobacteria phage phiX174 isolate XC+MbD22ic2"
+  ], 
+  [
+    "HM753708", 
+    "Enterobacteria phage phiX174 isolate XC+MbD22ic3"
+  ], 
+  [
+    "HM753709", 
+    "Enterobacteria phage phiX174 isolate XC+MbD22ic4"
+  ], 
+  [
+    "HM753710", 
+    "Enterobacteria phage phiX174 isolate XC+MbD22ic5"
+  ], 
+  [
+    "HM753711", 
+    "Enterobacteria phage phiX174 isolate XC+MbD22ic6"
+  ], 
+  [
+    "HM753712", 
+    "Enterobacteria phage phiX174 isolate XC+MbD22ic7"
+  ], 
+  [
+    "HM753718", 
+    "Enterobacteria phage phiX174 isolate XC+MbD22im2"
+  ], 
+  [
+    "HM753713", 
+    "Enterobacteria phage phiX174 isolate XC+MbD22im3"
+  ], 
+  [
+    "HM753714", 
+    "Enterobacteria phage phiX174 isolate XC+MbD22im4"
+  ], 
+  [
+    "HM753715", 
+    "Enterobacteria phage phiX174 isolate XC+MbD22im5"
+  ], 
+  [
+    "HM753716", 
+    "Enterobacteria phage phiX174 isolate XC+MbD22im6"
+  ], 
+  [
+    "HM753717", 
+    "Enterobacteria phage phiX174 isolate XC+MbD22im7"
+  ], 
+  [
+    "HM775307", 
+    "Enterobacteria phage phiX174 strain alpha"
+  ], 
+  [
+    "HM775308", 
+    "Enterobacteria phage phiX174 strain beta1"
+  ], 
+  [
+    "HM775309", 
+    "Enterobacteria phage phiX174 strain beta2"
+  ], 
+  [
+    "HM775310", 
+    "Enterobacteria phage phiX174 strain beta3"
+  ], 
+  [
+    "HM775311", 
+    "Enterobacteria phage phiX174 strain beta4"
+  ], 
+  [
+    "HM775306", 
+    "Enterobacteria phage phiX174 strain gamma"
+  ], 
+  [
+    "CP004084", 
+    "Enterobacteria phage phiX174"
+  ], 
+  [
+    "M14428", 
+    "Enterobacteria phage S13"
+  ], 
+  [
+    "DQ079893", 
+    "Enterobacteria phage WA4"
+  ], 
+  [
+    "DQ079894", 
+    "Enterobacteria phage WA10"
+  ], 
+  [
+    "DQ079895", 
+    "Enterobacteria phage WA11"
+  ], 
+  [
+    "AY848684", 
+    "Enterobacteria phage L17"
+  ], 
+  [
+    "AY848685", 
+    "Enterobacteria phage PR3"
+  ], 
+  [
+    "AY848686", 
+    "Enterobacteria phage PR4"
+  ], 
+  [
+    "AY848687", 
+    "Enterobacteria phage PR5"
+  ], 
+  [
+    "AY441783", 
+    "Enterobacteria phage PR772, country South Africa"
+  ], 
+  [
+    "AY848688", 
+    "Enterobacteria phage PR772"
+  ], 
+  [
+    "AY848689", 
+    "Enterobacteria phage PRD1"
+  ], 
+  [
+    "AY135486", 
+    "Enterobacteria phage PsP3"
+  ], 
+  [
+    "AB971354", 
+    "Enterobacteria phage Qbeta RNA isolate: Anc(P1)"
+  ], 
+  [
+    "FJ483842", 
+    "Enterobacteria phage Qbeta strain BR12"
+  ], 
+  [
+    "FJ483844", 
+    "Enterobacteria phage Qbeta strain BZ1"
+  ], 
+  [
+    "FJ483841", 
+    "Enterobacteria phage Qbeta strain HL4-9"
+  ], 
+  [
+    "FJ483840", 
+    "Enterobacteria phage Qbeta strain TW18"
+  ], 
+  [
+    "FJ483843", 
+    "Enterobacteria phage Qbeta strain VK"
+  ], 
+  [
+    "AF059242", 
+    "Enterobacteria phage MX1"
+  ], 
+  [
+    "KM606994", 
+    "Enterobacteria phage RB3"
+  ], 
+  [
+    "FJ839692", 
+    "Enterobacteria phage RB14"
+  ], 
+  [
+    "HM134276", 
+    "Enterobacteria phage RB16"
+  ], 
+  [
+    "KM607000", 
+    "Enterobacteria phage RB27"
+  ], 
+  [
+    "DQ904452", 
+    "Enterobacteria phage RB32"
+  ], 
+  [
+    "KM607001", 
+    "Enterobacteria phage RB33"
+  ], 
+  [
+    "AY967407", 
+    "Enterobacteria phage RB43"
+  ], 
+  [
+    "HE858210", 
+    "Enterobacteria phage RB43, isolate RB43-GVA"
+  ], 
+  [
+    "HE981739", 
+    "Enterobacteria phage RB43, isolate RB43-GVA orf057::gfp"
+  ], 
+  [
+    "FJ839693", 
+    "Enterobacteria phage RB51"
+  ], 
+  [
+    "KM607004", 
+    "Enterobacteria phage RB68"
+  ], 
+  [
+    "KJ832078", 
+    "Enterobacteria phage Sf101"
+  ], 
+  [
+    "JX509734", 
+    "Enterobacteria phage SfI"
+  ], 
+  [
+    "KP010268", 
+    "Enterobacteria phage SfMu"
+  ], 
+  [
+    "AY370673", 
+    "Enterobacteria phage SP6"
+  ], 
+  [
+    "FJ750948", 
+    "Enterobacteria phage SSL2009a"
+  ], 
+  [
+    "AB102868", 
+    "Enterobacteria phage ST104"
+  ], 
+  [
+    "GQ149088", 
+    "Enterobacteria phage St-1"
+  ], 
+  [
+    "AY216660", 
+    "Enterobacteria phage T1"
+  ], 
+  [
+    "AJ318471", 
+    "Enterobacteria phage T3, strain Luria"
+  ], 
+  [
+    "JX421753", 
+    "Enterobacteria phage T7M"
+  ], 
+  [
+    "KM607002", 
+    "Enterobacteria phage RB55"
+  ], 
+  [
+    "AF158101", 
+    "Enterobacteria phage T4"
+  ], 
+  [
+    "KJ477685", 
+    "Enterobacteria phage T4 strain 147"
+  ], 
+  [
+    "KJ477686", 
+    "Enterobacteria phage T4 strain GT7"
+  ], 
+  [
+    "KJ477684", 
+    "Enterobacteria phage T4 strain wild"
+  ], 
+  [
+    "HM137666", 
+    "Enterobacteria phage T4T"
+  ], 
+  [
+    "V01146", 
+    "Enterobacteria phage T7"
+  ], 
+  [
+    "GU071091", 
+    "Enterobacteria phage T7, strain T7"
+  ], 
+  [
+    "GU595417", 
+    "Enterobacteria phage UAB_Phi78"
+  ], 
+  [
+    "JQ031132", 
+    "Enterobacteria phage vB_EcoM-FV3"
+  ], 
+  [
+    "HM563683", 
+    "Enterobacteria phage vB_EcoM-VR7"
+  ], 
+  [
+    "JN986846", 
+    "Enterobacteria phage vB_EcoM_ACG-C40"
+  ], 
+  [
+    "KP007359", 
+    "Enterobacteria phage vB_EcoM_VR5"
+  ], 
+  [
+    "KP007360", 
+    "Enterobacteria phage vB_EcoM_VR20"
+  ], 
+  [
+    "KP007361", 
+    "Enterobacteria phage vB_EcoM_VR25"
+  ], 
+  [
+    "KP007362", 
+    "Enterobacteria phage vB_EcoM_VR26"
+  ], 
+  [
+    "JN986844", 
+    "Enterobacteria phage vB_EcoP_ACG-C91"
+  ], 
+  [
+    "JN986845", 
+    "Enterobacteria phage vB_EcoS_ACG-M12"
+  ], 
+  [
+    "JQ513383", 
+    "Enterobacteria phage vB_KleM-RaK2"
+  ], 
+  [
+    "DQ079870", 
+    "Enterobacteria phage ID21"
+  ], 
+  [
+    "DQ079871", 
+    "Enterobacteria phage ID32"
+  ], 
+  [
+    "DQ079876", 
+    "Enterobacteria phage ID62"
+  ], 
+  [
+    "DQ079878", 
+    "Enterobacteria phage NC3"
+  ], 
+  [
+    "DQ079875", 
+    "Enterobacteria phage NC28"
+  ], 
+  [
+    "DQ079879", 
+    "Enterobacteria phage NC29"
+  ], 
+  [
+    "DQ079872", 
+    "Enterobacteria phage NC35"
+  ], 
+  [
+    "DQ079873", 
+    "Enterobacteria phage WA13"
+  ], 
+  [
+    "DQ079874", 
+    "Enterobacteria phage WA45"
+  ], 
+  [
+    "FJ184280", 
+    "Enterobacteria phage YYZ-2008"
+  ], 
+  [
+    "JQ182733", 
+    "Enterobacterial phage mEp213"
+  ], 
+  [
+    "JQ182732", 
+    "Enterobacterial phage mEp234"
+  ], 
+  [
+    "JQ182729", 
+    "Enterobacterial phage mEp390"
+  ], 
+  [
+    "JN225449", 
+    "Enterobacteriaphage UAB_Phi87"
+  ], 
+  [
+    "KC579452", 
+    "Enterobacterio phage phiKP26"
+  ], 
+  [
+    "AB712291", 
+    "Enterococcus phage BC611"
+  ], 
+  [
+    "KJ801817", 
+    "Enterococcus phage ECP3"
+  ], 
+  [
+    "CP002495", 
+    "Enterococcus phage EF62phi"
+  ], 
+  [
+    "JX193904", 
+    "Enterococcus phage EfaCPT1"
+  ], 
+  [
+    "FJ792813", 
+    "Enterococcus phage EFAP-1"
+  ], 
+  [
+    "KJ608188", 
+    "Enterococcus phage EFC-1"
+  ], 
+  [
+    "KP339049", 
+    "Enterococcus phage EFDG1"
+  ], 
+  [
+    "KR049063", 
+    "Enterococcus phage EFLK1"
+  ], 
+  [
+    "GU815339", 
+    "Enterococcus phage EFRM31"
+  ], 
+  [
+    "KF733017", 
+    "Enterococcus phage IME-EF4"
+  ], 
+  [
+    "KJ010489", 
+    "Enterococcus phage IME-EFm1"
+  ], 
+  [
+    "KF192053", 
+    "Enterococcus phage IMEEF1"
+  ], 
+  [
+    "KF728385", 
+    "Enterococcus phage IME_EF3"
+  ], 
+  [
+    "GQ452243", 
+    "Enterococcus phage phiEf11"
+  ], 
+  [
+    "AP009390", 
+    "Enterococcus phage phiEF24C"
+  ], 
+  [
+    "AB609718", 
+    "Enterococcus phage phiEF24C-P2"
+  ], 
+  [
+    "GQ478081", 
+    "Enterococcus phage phiFL1A"
+  ], 
+  [
+    "GQ478082", 
+    "Enterococcus phage phiFL1B"
+  ], 
+  [
+    "GQ478083", 
+    "Enterococcus phage phiFL1C"
+  ], 
+  [
+    "GQ478084", 
+    "Enterococcus phage phiFL2A"
+  ], 
+  [
+    "GQ478085", 
+    "Enterococcus phage phiFL2B"
+  ], 
+  [
+    "GQ478086", 
+    "Enterococcus phage phiFL3A"
+  ], 
+  [
+    "GQ478087", 
+    "Enterococcus phage phiFL3B"
+  ], 
+  [
+    "GQ478088", 
+    "Enterococcus phage phiFL4A"
+  ], 
+  [
+    "JF731128", 
+    "Enterococcus phage SAP6"
+  ], 
+  [
+    "JQ309827", 
+    "Enterococcus phage vB_Efae230P-4"
+  ], 
+  [
+    "KJ094032", 
+    "Enterococcus phage VD13"
+  ], 
+  [
+    "KJ127303", 
+    "Enterococcus phage VD13"
+  ], 
+  [
+    "EF160123", 
+    "Erwinia amylovora phage Era103"
+  ], 
+  [
+    "KF806588", 
+    "Erwinia phage Ea9-2"
+  ], 
+  [
+    "KF806589", 
+    "Erwinia phage Ea35-70"
+  ], 
+  [
+    "HQ110084", 
+    "Erwinia phage ENT90"
+  ], 
+  [
+    "KF700371", 
+    "Erwinia phage FE44"
+  ], 
+  [
+    "JN585957", 
+    "Erwinia phage PEp14"
+  ], 
+  [
+    "EU710883", 
+    "Erwinia phage phiEa21-4"
+  ], 
+  [
+    "FQ482083", 
+    "Erwinia phage phiEa104"
+  ], 
+  [
+    "HQ728263", 
+    "Erwinia phage vB_EamM-M7"
+  ], 
+  [
+    "FQ482084", 
+    "Erwinia phage phiEa1H"
+  ], 
+  [
+    "FQ482086", 
+    "Erwinia phage phiEa100"
+  ], 
+  [
+    "KP037007", 
+    "Erwinia phage phiEa2809"
+  ], 
+  [
+    "JX316028", 
+    "Erwinia phage phiEaH2"
+  ], 
+  [
+    "FQ482085", 
+    "Erwinia phage phiEt88"
+  ], 
+  [
+    "HQ728264", 
+    "Erwinia phage vB_EamM-Y2"
+  ], 
+  [
+    "HQ728265", 
+    "Erwinia phage vB_EamP-L1"
+  ], 
+  [
+    "HQ728266", 
+    "Erwinia phage vB_EamP-S6"
+  ], 
+  [
+    "KP869100", 
+    "Escherichia coli O157 typing phage 1"
+  ], 
+  [
+    "KP869101", 
+    "Escherichia coli O157 typing phage 3"
+  ], 
+  [
+    "KP869103", 
+    "Escherichia coli O157 typing phage 5"
+  ], 
+  [
+    "KP869104", 
+    "Escherichia coli O157 typing phage 6"
+  ], 
+  [
+    "KP869108", 
+    "Escherichia coli O157 typing phage 10"
+  ], 
+  [
+    "KP869109", 
+    "Escherichia coli O157 typing phage 11"
+  ], 
+  [
+    "KP869110", 
+    "Escherichia coli O157 typing phage 12"
+  ], 
+  [
+    "KC690136", 
+    "Escherichia phage 2 JES-2013"
+  ], 
+  [
+    "KM507819", 
+    "Escherichia phage 121Q"
+  ], 
+  [
+    "KP308307", 
+    "Escherichia phage 172-1"
+  ], 
+  [
+    "KF030445", 
+    "Escherichia phage 1720a-02"
+  ], 
+  [
+    "JX912252", 
+    "Escherichia phage ADB-2"
+  ], 
+  [
+    "HQ665011", 
+    "Escherichia phage Akfv33"
+  ], 
+  [
+    "KM190144", 
+    "Escherichia phage Av-05"
+  ], 
+  [
+    "KF771237", 
+    "Escherichia phage bV_EcoS_AHP42"
+  ], 
+  [
+    "KF771236", 
+    "Escherichia phage bV_EcoS_AHP24"
+  ], 
+  [
+    "KF771238", 
+    "Escherichia phage bV_EcoS_AHS24"
+  ], 
+  [
+    "KF771239", 
+    "Escherichia phage bV_EcoS_AKS96"
+  ], 
+  [
+    "JN593240", 
+    "Escherichia phage Cba120"
+  ], 
+  [
+    "KM242061", 
+    "Escherichia phage CICC 80001"
+  ], 
+  [
+    "GQ357916", 
+    "Escherichia phage D108"
+  ], 
+  [
+    "KJ668713", 
+    "Escherichia phage e4/1c"
+  ], 
+  [
+    "KJ668714", 
+    "Escherichia phage e11/2"
+  ], 
+  [
+    "JF770475", 
+    "Escherichia phage EB49"
+  ], 
+  [
+    "KC206276", 
+    "Escherichia phage EC1-UPM"
+  ], 
+  [
+    "JX560968", 
+    "Escherichia phage EC6"
+  ], 
+  [
+    "JX415535", 
+    "Escherichia phage ECBP1"
+  ], 
+  [
+    "JX415536", 
+    "Escherichia phage ECBP2"
+  ], 
+  [
+    "KJ749827", 
+    "Escherichia phage ECBP5"
+  ], 
+  [
+    "JX128257", 
+    "Escherichia phage ECML-4"
+  ], 
+  [
+    "JX128258", 
+    "Escherichia phage ECML-117"
+  ], 
+  [
+    "JX128259", 
+    "Escherichia phage ECML-134"
+  ], 
+  [
+    "CP000917", 
+    "Escherichia phage Eps7"
+  ], 
+  [
+    "HM173637", 
+    "Escherichia phage HK75"
+  ], 
+  [
+    "JQ086375", 
+    "Escherichia phage HK578"
+  ], 
+  [
+    "HM208537", 
+    "Escherichia phage HK639"
+  ], 
+  [
+    "KF925357", 
+    "Escherichia phage HY01"
+  ], 
+  [
+    "KF055347", 
+    "Escherichia phage JH2"
+  ], 
+  [
+    "DQ121662", 
+    "Escherichia phage Jk06"
+  ], 
+  [
+    "GU196278", 
+    "Escherichia phage K1-dep(1)"
+  ], 
+  [
+    "GU196277", 
+    "Escherichia phage K1-dep(4)"
+  ], 
+  [
+    "GU196279", 
+    "Escherichia phage K1-ind(1)"
+  ], 
+  [
+    "GU196280", 
+    "Escherichia phage K1-ind(2)"
+  ], 
+  [
+    "GU196281", 
+    "Escherichia phage K1-ind(3)"
+  ], 
+  [
+    "KF981730", 
+    "Escherichia phage KBNP1711"
+  ], 
+  [
+    "KC801932", 
+    "Escherichia phage Lw1"
+  ], 
+  [
+    "EF056009", 
+    "Escherichia phage N4"
+  ], 
+  [
+    "KP090453", 
+    "Escherichia phage P483"
+  ], 
+  [
+    "KP090454", 
+    "Escherichia phage P694"
+  ], 
+  [
+    "KF971864", 
+    "Escherichia phage phi191"
+  ], 
+  [
+    "KC295538", 
+    "Escherichia phage PBECO 4"
+  ], 
+  [
+    "KJ748011", 
+    "Escherichia phage PE3-1"
+  ], 
+  [
+    "JX561091", 
+    "Escherichia phage phAPEC8"
+  ], 
+  [
+    "JN673056", 
+    "Escherichia phage PhaxI"
+  ], 
+  [
+    "JN882298", 
+    "Escherichia phage phiKT"
+  ], 
+  [
+    "DQ126339", 
+    "Escherichia phage phiV10"
+  ], 
+  [
+    "KM236242", 
+    "Escherichia phage Pollock"
+  ], 
+  [
+    "AM156909", 
+    "Escherichia phage Rtp"
+  ], 
+  [
+    "KM236243", 
+    "Escherichia phage Seurat"
+  ], 
+  [
+    "AY543070", 
+    "Escherichia phage T5"
+  ], 
+  [
+    "AY587007", 
+    "Escherichia phage T5 strain ATCC 11303-B5"
+  ], 
+  [
+    "JQ011317", 
+    "Escherichia phage TL-2011b"
+  ], 
+  [
+    "JQ011318", 
+    "Escherichia phage TL-2011c"
+  ], 
+  [
+    "AY308796", 
+    "Escherichia phage Tls"
+  ], 
+  [
+    "KM360178", 
+    "Escherichia phage vB_EcoM-ep3"
+  ], 
+  [
+    "KM657822", 
+    "Escherichia phage vB_EcoM-VpaE1"
+  ], 
+  [
+    "KR014248", 
+    "Escherichia phage vB_EcoM_AYO145A"
+  ], 
+  [
+    "GU903191", 
+    "Escherichia phage vB_EcoM_ECO1230-10"
+  ], 
+  [
+    "KJ190158", 
+    "Escherichia phage vB_EcoM_FFH2"
+  ], 
+  [
+    "KF582788", 
+    "Escherichia phage vB_EcoM_JS09"
+  ], 
+  [
+    "KF562341", 
+    "Escherichia phage vB_EcoM_PhAPEC2"
+  ], 
+  [
+    "HQ259105", 
+    "Escherichia phage vB_EcoP_G7C"
+  ], 
+  [
+    "KF192075", 
+    "Escherichia phage vB_EcoP_PhAPEC5"
+  ], 
+  [
+    "KF562340", 
+    "Escherichia phage vB_EcoP_PhAPEC7"
+  ], 
+  [
+    "KJ190157", 
+    "Escherichia phage vB_EcoS_FFH1"
+  ], 
+  [
+    "HM997020", 
+    "Escherichia phage wV7"
+  ], 
+  [
+    "AP005153", 
+    "Escherichia Stx1 converting phage"
+  ], 
+  [
+    "KJ909655", 
+    "Escherichia Stx1-converting recombinant phage HUN/2013"
+  ], 
+  [
+    "KC959568", 
+    "Flavobacterium phage 6H"
+  ], 
+  [
+    "AJ842011", 
+    "Flavobacterium phage 11b"
+  ], 
+  [
+    "KM873719", 
+    "Flavobacterium phage FCL-2"
+  ], 
+  [
+    "KJ018210", 
+    "Flavobacterium sp. phage 1/32"
+  ], 
+  [
+    "KR131710", 
+    "Fusobacterium phage Funu1"
+  ], 
+  [
+    "DQ340064", 
+    "Geobacillus phage GBSV1"
+  ], 
+  [
+    "KP790009", 
+    "Gordonia phage Gmala1"
+  ], 
+  [
+    "KP790010", 
+    "Gordonia phage GordDuk1"
+  ], 
+  [
+    "KP790008", 
+    "Gordonia phage GordTnk2"
+  ], 
+  [
+    "JF923797", 
+    "Gordonia phage GRU1"
+  ], 
+  [
+    "KP790011", 
+    "Gordonia phage Gsput1"
+  ], 
+  [
+    "JF923796", 
+    "Gordonia phage GTE5"
+  ], 
+  [
+    "JN035618", 
+    "Gordonia phage GTE7"
+  ], 
+  [
+    "U41758", 
+    "Guinea pig Chlamydia phage"
+  ], 
+  [
+    "U24159", 
+    "Haemophilus phage HP1"
+  ], 
+  [
+    "AY027935", 
+    "Haemophilus phage HP2"
+  ], 
+  [
+    "JQ340088", 
+    "Halocynthia phage JM-2012"
+  ], 
+  [
+    "EU399241", 
+    "Halomonas phage phiHAP-1"
+  ], 
+  [
+    "JQ617284", 
+    "Helicobacter phage 1961P"
+  ], 
+  [
+    "AB647160", 
+    "Helicobacter phage KHP30"
+  ], 
+  [
+    "AB731695", 
+    "Helicobacter phage KHP40"
+  ], 
+  [
+    "JF734911", 
+    "Helicobacter phage phiHP33"
+  ], 
+  [
+    "KJ847052", 
+    "Idiomarinaceae phage 1N2-2"
+  ], 
+  [
+    "KM226324", 
+    "Idiomarinaceae phage Phi1M2-2"
+  ], 
+  [
+    "EU876853", 
+    "Iodobacteriophage phiPLPE"
+  ], 
+  [
+    "AB797215", 
+    "Klebsiella phage 0507-KN2-1"
+  ], 
+  [
+    "KP658157", 
+    "Klebsiella phage 1513"
+  ], 
+  [
+    "KF765493", 
+    "Klebsiella phage F19"
+  ], 
+  [
+    "JX866719", 
+    "Klebsiella phage JD001"
+  ], 
+  [
+    "EU734173", 
+    "Klebsiella phage K11"
+  ], 
+  [
+    "GU295964", 
+    "Klebsiella phage KP15"
+  ], 
+  [
+    "HQ918180", 
+    "Klebsiella phage KP27"
+  ], 
+  [
+    "GQ413937", 
+    "Klebsiella phage KP32"
+  ], 
+  [
+    "GQ413938", 
+    "Klebsiella phage KP34"
+  ], 
+  [
+    "JF501022", 
+    "Klebsiella phage KP36"
+  ], 
+  [
+    "KJ021043", 
+    "UNVERIFIED: Klebsiella phage Kpn112"
+  ], 
+  [
+    "AB716666", 
+    "Klebsiella phage NTUH-K2044-K1-1"
+  ], 
+  [
+    "AY374448", 
+    "Klebsiella phage phiKO2"
+  ], 
+  [
+    "KP708985", 
+    "Klebsiella phage vB_KpnP_SU503"
+  ], 
+  [
+    "KP708986", 
+    "Klebsiella phage vB_KpnP_SU552A"
+  ], 
+  [
+    "JX486087", 
+    "Lactobacillus phage ATCC8014"
+  ], 
+  [
+    "JX486088", 
+    "Lactobacillus phage ATCC 8014-B2"
+  ], 
+  [
+    "EU340421", 
+    "Lactobacillus phage c5"
+  ], 
+  [
+    "KC171646", 
+    "Lactobacillus phage J-1"
+  ], 
+  [
+    "EU409559", 
+    "Lactobacillus phage JCL1032"
+  ], 
+  [
+    "DQ320509", 
+    "Lactobacillus phage KC5a"
+  ], 
+  [
+    "FJ822135", 
+    "Lactobacillus phage Lb338-1"
+  ], 
+  [
+    "GU967410", 
+    "Lactobacillus phage LBR48"
+  ], 
+  [
+    "AY131267", 
+    "Lactobacillus phage Lc-Nu"
+  ], 
+  [
+    "AY605066", 
+    "Lactobacillus phage phiAT3"
+  ], 
+  [
+    "KJ564038", 
+    "Lactobacillus phage Ld3"
+  ], 
+  [
+    "KJ564037", 
+    "Lactobacillus phage Ld17"
+  ], 
+  [
+    "KJ564036", 
+    "Lactobacillus phage Ld25A"
+  ], 
+  [
+    "KM514685", 
+    "Lactobacillus phage Ldl1"
+  ], 
+  [
+    "HQ141410", 
+    "Lactobacillus phage LF1"
+  ], 
+  [
+    "KP054477", 
+    "Lactobacillus phage LfeInf"
+  ], 
+  [
+    "KP027015", 
+    "Lactobacillus phage LfeSau"
+  ], 
+  [
+    "EF455602", 
+    "Lactobacillus phage LL-H"
+  ], 
+  [
+    "AY739900", 
+    "Lactobacillus phage LLKu"
+  ], 
+  [
+    "AY682195", 
+    "Lactobacillus phage LP65"
+  ], 
+  [
+    "KF767351", 
+    "Lactobacillus phage phi jlb1"
+  ], 
+  [
+    "AJ131519", 
+    "Lactobacillus phage phiadh"
+  ], 
+  [
+    "HE956704", 
+    "Lactobacillus phage phiAQ113"
+  ], 
+  [
+    "X98106", 
+    "Lactobacillus phage phig1e"
+  ], 
+  [
+    "KF188409", 
+    "Lactobacillus phage phiJB"
+  ], 
+  [
+    "AY236756", 
+    "Lactobacillus phage phijl1"
+  ], 
+  [
+    "KF188410", 
+    "Lactobacillus phage phiLdb"
+  ], 
+  [
+    "GU323708", 
+    "Lactobacillus phage phiPYB5"
+  ], 
+  [
+    "KC171647", 
+    "Lactobacillus phage PL-1"
+  ], 
+  [
+    "HQ141411", 
+    "Lactobacillus phage Sha1"
+  ], 
+  [
+    "KJ528544", 
+    "Lactoccocus phage WP-2"
+  ], 
+  [
+    "KC182542", 
+    "Lactococcus phage 340"
+  ], 
+  [
+    "DQ227763", 
+    "Lactococcus phage 712"
+  ], 
+  [
+    "KC182543", 
+    "Lactococcus lactis phage 645"
+  ], 
+  [
+    "KC182548", 
+    "Lactococcus lactis phage P113G"
+  ], 
+  [
+    "KC182549", 
+    "Lactococcus lactis phage p272"
+  ], 
+  [
+    "KC182550", 
+    "Lactococcus lactis phage P475"
+  ], 
+  [
+    "KC182544", 
+    "Lactococcus phage 936"
+  ], 
+  [
+    "JQ740790", 
+    "Lactococcus Phage ASCC284"
+  ], 
+  [
+    "JQ740791", 
+    "Lactococcus Phage ASCC287"
+  ], 
+  [
+    "JQ740792", 
+    "Lactococcus Phage ASCC310"
+  ], 
+  [
+    "JQ740793", 
+    "Lactococcus Phage ASCC324"
+  ], 
+  [
+    "JQ740794", 
+    "Lactococcus Phage ASCC337"
+  ], 
+  [
+    "JQ740795", 
+    "Lactococcus Phage ASCC356"
+  ], 
+  [
+    "JQ740796", 
+    "Lactococcus Phage ASCC358"
+  ], 
+  [
+    "JQ740797", 
+    "Lactococcus Phage ASCC365"
+  ], 
+  [
+    "JQ740798", 
+    "Lactococcus Phage ASCC368"
+  ], 
+  [
+    "JQ740799", 
+    "Lactococcus Phage ASCC395"
+  ], 
+  [
+    "JQ740800", 
+    "Lactococcus Phage ASCC397"
+  ], 
+  [
+    "JQ740801", 
+    "Lactococcus Phage ASCC406"
+  ], 
+  [
+    "JQ740802", 
+    "Lactococcus Phage ASCC454"
+  ], 
+  [
+    "JQ740803", 
+    "Lactococcus Phage ASCC460"
+  ], 
+  [
+    "JQ740805", 
+    "Lactococcus Phage ASCC473"
+  ], 
+  [
+    "JQ740806", 
+    "Lactococcus Phage ASCC476"
+  ], 
+  [
+    "JQ740807", 
+    "Lactococcus Phage ASCC489"
+  ], 
+  [
+    "JQ740808", 
+    "Lactococcus Phage ASCC497"
+  ], 
+  [
+    "JQ740809", 
+    "Lactococcus Phage ASCC502"
+  ], 
+  [
+    "JQ740810", 
+    "Lactococcus Phage ASCC506"
+  ], 
+  [
+    "JQ740811", 
+    "Lactococcus Phage ASCC527"
+  ], 
+  [
+    "JQ740812", 
+    "Lactococcus Phage ASCC531"
+  ], 
+  [
+    "JQ740814", 
+    "Lactococcus Phage ASCC544"
+  ], 
+  [
+    "KC522412", 
+    "Lactococcus phage CaseusJM1"
+  ], 
+  [
+    "KC182545", 
+    "Lactococcus phage fd13"
+  ], 
+  [
+    "KM091442", 
+    "Lactococcus phage phi15"
+  ], 
+  [
+    "KM091443", 
+    "Lactococcus phage phi93"
+  ], 
+  [
+    "KM091444", 
+    "Lactococcus phage phi145"
+  ], 
+  [
+    "DQ490056", 
+    "Lactococcus phage Q54"
+  ], 
+  [
+    "HM029250", 
+    "Lactococcus phage 949"
+  ], 
+  [
+    "EU081845", 
+    "Lactococcus phage 1706"
+  ], 
+  [
+    "JQ740787", 
+    "Lactococcus Phage ASCC191"
+  ], 
+  [
+    "JQ740788", 
+    "Lactococcus Phage ASCC273"
+  ], 
+  [
+    "JQ740789", 
+    "Lactococcus Phage ASCC281"
+  ], 
+  [
+    "JQ740804", 
+    "Lactococcus Phage ASCC465"
+  ], 
+  [
+    "JQ740813", 
+    "Lactococcus Phage ASCC532"
+  ], 
+  [
+    "EU438902", 
+    "Lactococcus phage asccphi28"
+  ], 
+  [
+    "EU221285", 
+    "Lactococcus phage bIBB29"
+  ], 
+  [
+    "L33769", 
+    "Lactococcus phage bIL67"
+  ], 
+  [
+    "AF009630", 
+    "Lactococcus phage bIL170"
+  ], 
+  [
+    "AF323668", 
+    "Lactococcus phage bIL285"
+  ], 
+  [
+    "AF323669", 
+    "Lactococcus phage bIL286"
+  ], 
+  [
+    "AF323670", 
+    "Lactococcus phage bIL309"
+  ], 
+  [
+    "AF323671", 
+    "Lactococcus phage bIL310"
+  ], 
+  [
+    "AF323672", 
+    "Lactococcus phage bIL311"
+  ], 
+  [
+    "AF323673", 
+    "Lactococcus phage bIL312"
+  ], 
+  [
+    "AF176025", 
+    "Lactococcus phage BK5-T"
+  ], 
+  [
+    "JX567312", 
+    "Lactococcus phage BM13"
+  ], 
+  [
+    "L48605", 
+    "Lactococcus phage c2"
+  ], 
+  [
+    "FJ848882", 
+    "Lactococcus phage CB13"
+  ], 
+  [
+    "FJ848883", 
+    "Lactococcus phage CB14"
+  ], 
+  [
+    "FJ848884", 
+    "Lactococcus phage CB19"
+  ], 
+  [
+    "FJ848885", 
+    "Lactococcus phage CB20"
+  ], 
+  [
+    "DQ227764", 
+    "Lactococcus phage jj50"
+  ], 
+  [
+    "KC182546", 
+    "Lactococcus phage jm2"
+  ], 
+  [
+    "KC182547", 
+    "Lactococcus phage jm3"
+  ], 
+  [
+    "DQ535032", 
+    "Lactococcus phage KSY1"
+  ], 
+  [
+    "DQ054536", 
+    "Lactococcus phage P008"
+  ], 
+  [
+    "KJ489010", 
+    "Lactococcus phage P078"
+  ], 
+  [
+    "FJ429185", 
+    "Lactococcus phage P087"
+  ], 
+  [
+    "KJ489011", 
+    "Lactococcus phage P092"
+  ], 
+  [
+    "KJ489012", 
+    "Lactococcus phage P118"
+  ], 
+  [
+    "KJ489013", 
+    "Lactococcus phage P162"
+  ], 
+  [
+    "DQ838728", 
+    "Lactococcus phage P335"
+  ], 
+  [
+    "JX564242", 
+    "Lactococcus phage Q33"
+  ], 
+  [
+    "KC182551", 
+    "Lactococcus phage P680"
+  ], 
+  [
+    "KC182552", 
+    "Lactococcus phage phi7"
+  ], 
+  [
+    "KF926093", 
+    "Lactococcus phage phiL47"
+  ], 
+  [
+    "AF242738", 
+    "Lactococcus phage phiLC3"
+  ], 
+  [
+    "U38906", 
+    "Lactococcus phage r1t"
+  ], 
+  [
+    "AF011378", 
+    "Lactococcus phage sk1"
+  ], 
+  [
+    "KF676640", 
+    "Lactococcus phage SK1833"
+  ], 
+  [
+    "FJ848881", 
+    "Lactococcus phage SL4"
+  ], 
+  [
+    "AF109874", 
+    "Lactococcus phage Tuc2009"
+  ], 
+  [
+    "DQ394810", 
+    "Lactococcus phage phismq86"
+  ], 
+  [
+    "DQ394806", 
+    "Lactococcus phage ul36.k1"
+  ], 
+  [
+    "DQ394807", 
+    "Lactococcus phage ul36.k1t1"
+  ], 
+  [
+    "DQ394808", 
+    "Lactococcus phage ul36.t1"
+  ], 
+  [
+    "DQ394809", 
+    "Lactococcus phage ul36.t1k1"
+  ], 
+  [
+    "KM677185", 
+    "Lactococcus phage WRP3"
+  ], 
+  [
+    "KM370384", 
+    "Lelliottia phage phD2B"
+  ], 
+  [
+    "KF114876", 
+    "Leptospira phage vB_LalZ_80412-LE1"
+  ], 
+  [
+    "KF114879", 
+    "Leptospira phage vB_LbrZ_5399-LE1"
+  ], 
+  [
+    "KF114880", 
+    "Leptospira phage vB_LinZ_10-LE1"
+  ], 
+  [
+    "KF114878", 
+    "Leptospira phage vb_LkmZ_Bejolso9-LE1"
+  ], 
+  [
+    "KF114877", 
+    "Leptospira phage vB_LnoZ_CZ214-LE1"
+  ], 
+  [
+    "GQ451696", 
+    "Leuconostoc phage 1-A4"
+  ], 
+  [
+    "L06183", 
+    "Leuconostoc phage L5"
+  ], 
+  [
+    "JQ659259", 
+    "Leuconostoc phage Lmd1"
+  ], 
+  [
+    "KC013021", 
+    "Leuconostoc phage P793"
+  ], 
+  [
+    "KC013023", 
+    "Leuconostoc phage phiLN04"
+  ], 
+  [
+    "HQ377372", 
+    "Liberibacter phage SC1"
+  ], 
+  [
+    "JF773396", 
+    "Liberibacter phage FP2"
+  ], 
+  [
+    "HQ377373", 
+    "Liberibacter phage SC2"
+  ], 
+  [
+    "AJ312240", 
+    "Listeria phage PSA"
+  ], 
+  [
+    "DQ003642", 
+    "Listeria phage A006"
+  ], 
+  [
+    "AJ242593", 
+    "Listeria phage A118"
+  ], 
+  [
+    "DQ003637", 
+    "Listeria phage A500"
+  ], 
+  [
+    "DQ003638", 
+    "Listeria phage A511"
+  ], 
+  [
+    "DQ003639", 
+    "Listeria phage B025"
+  ], 
+  [
+    "DQ003640", 
+    "Listeria phage B054"
+  ], 
+  [
+    "KJ535721", 
+    "Listeria phage List-36"
+  ], 
+  [
+    "KJ535722", 
+    "Listeria phage LMSP-25"
+  ], 
+  [
+    "KJ586794", 
+    "Listeria phage LMTA-34"
+  ], 
+  [
+    "KJ591605", 
+    "Listeria phage LMTA-57"
+  ], 
+  [
+    "KJ586795", 
+    "Listeria phage LMTA-94"
+  ], 
+  [
+    "KJ591604", 
+    "Listeria phage LMTA-148"
+  ], 
+  [
+    "KJ094020", 
+    "Listeria phage LP-026"
+  ], 
+  [
+    "KJ094022", 
+    "Listeria phage LP-030-3"
+  ], 
+  [
+    "JX126920", 
+    "Listeria phage LP-037"
+  ], 
+  [
+    "KJ094033", 
+    "Listeria phage LP-048"
+  ], 
+  [
+    "KJ094030", 
+    "Listeria phage LP-083-2"
+  ], 
+  [
+    "KJ094031", 
+    "Listeria phage LP-124"
+  ], 
+  [
+    "KJ094023", 
+    "Listeria phage LP-101"
+  ], 
+  [
+    "JX126919", 
+    "Listeria phage LP-110"
+  ], 
+  [
+    "KJ094021", 
+    "Listeria phage LP-114"
+  ], 
+  [
+    "KJ094029", 
+    "Listeria phage LP-064"
+  ], 
+  [
+    "JX126918", 
+    "Listeria phage LP-125"
+  ], 
+  [
+    "DQ003641", 
+    "Listeria phage P35"
+  ], 
+  [
+    "EU855793", 
+    "Listeria phage P40"
+  ], 
+  [
+    "JX442241", 
+    "Listeria phage P70"
+  ], 
+  [
+    "DQ004855", 
+    "Listeria phage P100"
+  ], 
+  [
+    "JQ797329", 
+    "Listeria phage vB_LmoM_AG20"
+  ], 
+  [
+    "KP399677", 
+    "Listeria phage vB_LmoS_188"
+  ], 
+  [
+    "KP399678", 
+    "Listeria phage vB_LmoS_293"
+  ], 
+  [
+    "KM373208", 
+    "Listeria phage WIL-1"
+  ], 
+  [
+    "AY772740", 
+    "Listonella phage phiHSIC"
+  ], 
+  [
+    "DQ426905", 
+    "Mannheimia phage phiMhaA1-BAA410"
+  ], 
+  [
+    "DQ426904", 
+    "Mannheimia phage phiMhaA1-PHL101"
+  ], 
+  [
+    "JN255163", 
+    "Mannheimia phage vB_MhM_1152AP"
+  ], 
+  [
+    "JQ867100", 
+    "Marinomonas phage P12026"
+  ], 
+  [
+    "AF065411", 
+    "Methanobacterium phage psiM2"
+  ], 
+  [
+    "EF579802", 
+    "Microbacterium phage Min1"
+  ], 
+  [
+    "KJ173786", 
+    "Microbacterium phage vB_MoxS-ISF9"
+  ], 
+  [
+    "AB231700", 
+    "Microcystis aeruginosa phage Ma-LMM01"
+  ], 
+  [
+    "KF356199", 
+    "Microcystis phage MaMV-DC"
+  ], 
+  [
+    "EU652770", 
+    "Morganella phage MmP1"
+  ], 
+  [
+    "JX042578", 
+    "Mycobacteriophage ElTiger69"
+  ], 
+  [
+    "DQ398041", 
+    "Mycobacterium phage 244"
+  ], 
+  [
+    "KF188414", 
+    "Mycobacterium phage ABCat"
+  ], 
+  [
+    "KM597531", 
+    "Mycobacterium phage Abrogate"
+  ], 
+  [
+    "JN699007", 
+    "Mycobacterium phage Acadian"
+  ], 
+  [
+    "KF279411", 
+    "Mycobacterium phage Adawi"
+  ], 
+  [
+    "EU676000", 
+    "Mycobacterium phage Adjutor"
+  ], 
+  [
+    "KC960489", 
+    "Mycobacterium phage Adler"
+  ], 
+  [
+    "KF981876", 
+    "UNVERIFIED: Mycobacterium phage ADLER F1725"
+  ], 
+  [
+    "KF416344", 
+    "Mycobacterium phage Adzzy"
+  ], 
+  [
+    "JQ809703", 
+    "Mycobacterium phage Aeneas"
+  ], 
+  [
+    "JN083853", 
+    "Mycobacterium phage Airmid"
+  ], 
+  [
+    "JN699006", 
+    "Mycobacterium phage Akoma"
+  ], 
+  [
+    "KJ194581", 
+    "Mycobacterium phage Audrey"
+  ], 
+  [
+    "KJ194584", 
+    "Mycobacterium phage Heathcliff"
+  ], 
+  [
+    "JX649100", 
+    "Mycobacterium phage Alex"
+  ], 
+  [
+    "JX649096", 
+    "Mycobacterium phage Serpentine"
+  ], 
+  [
+    "JN699005", 
+    "Mycobacterium phage Alma"
+  ], 
+  [
+    "KJ174156", 
+    "Mycobacterium phage Alsfro"
+  ], 
+  [
+    "KP027205", 
+    "Mycobacterium phage Alvin"
+  ], 
+  [
+    "FJ973624", 
+    "Mycobacterium phage Angel"
+  ], 
+  [
+    "GQ303261", 
+    "Mycobacterium phage Hope"
+  ], 
+  [
+    "HM152764", 
+    "Mycobacterium phage Angelica"
+  ], 
+  [
+    "KF024721", 
+    "Mycobacterium phage AnnaL29"
+  ], 
+  [
+    "KF279418", 
+    "UNVERIFIED: Mycobacterium phage Anubis"
+  ], 
+  [
+    "JN618996", 
+    "Mycobacterium phage Arbiter"
+  ], 
+  [
+    "GU060500", 
+    "Mycobacterium phage Ardmore"
+  ], 
+  [
+    "JN699004", 
+    "Mycobacterium phage Ares"
+  ], 
+  [
+    "KM400683", 
+    "Mycobacterium phage Ariel"
+  ], 
+  [
+    "KF560333", 
+    "Mycobacterium phage Artemis2UCLA"
+  ], 
+  [
+    "JX307702", 
+    "Mycobacterium phage Arturo"
+  ], 
+  [
+    "JX015524", 
+    "Mycobacterium phage Astro"
+  ], 
+  [
+    "JN699003", 
+    "Mycobacterium phage Athena"
+  ], 
+  [
+    "JQ911768", 
+    "Mycobacterium phage Ava3"
+  ], 
+  [
+    "JQ809702", 
+    "Mycobacterium phage Avani"
+  ], 
+  [
+    "JN699002", 
+    "Mycobacterium phage Avrafan"
+  ], 
+  [
+    "JN699001", 
+    "Mycobacterium phage Babsiella"
+  ], 
+  [
+    "KJ194580", 
+    "Mycobacterium phage Badfish"
+  ], 
+  [
+    "JF937090", 
+    "Mycobacterium phage Baka"
+  ], 
+  [
+    "KF279412", 
+    "Mycobacterium phage Bane1"
+  ], 
+  [
+    "KF279413", 
+    "Mycobacterium phage Bane2"
+  ], 
+  [
+    "AY129339", 
+    "Mycobacterium phage Barnyard"
+  ], 
+  [
+    "JN643714", 
+    "Mycobacterium phage BarrelRoll"
+  ], 
+  [
+    "JF937091", 
+    "Mycobacterium phage Bask21"
+  ], 
+  [
+    "JF957057", 
+    "Mycobacterium phage BBPiebs31"
+  ], 
+  [
+    "JN083852", 
+    "Mycobacterium phage Benedict"
+  ], 
+  [
+    "KJ510413", 
+    "Mycobacterium phage Bernal13"
+  ], 
+  [
+    "KF493879", 
+    "Mycobacterium phage Bernardo"
+  ], 
+  [
+    "AY500153", 
+    "Mycobacterium phage Bethlehem"
+  ], 
+  [
+    "JN412591", 
+    "Mycobacterium phage BigNuz"
+  ], 
+  [
+    "JN699000", 
+    "Mycobacterium phage BillKnuckles"
+  ], 
+  [
+    "KM597530", 
+    "Mycobacterium phage Bipolar"
+  ], 
+  [
+    "JN698999", 
+    "Mycobacterium phage Blue7"
+  ], 
+  [
+    "KF114874", 
+    "Mycobacterium phage Bobi"
+  ], 
+  [
+    "JN699628", 
+    "Mycobacterium phage Bongo"
+  ], 
+  [
+    "EU816590", 
+    "Mycobacterium phage Boomer"
+  ], 
+  [
+    "EU568876", 
+    "Mycobacterium phage BPs"
+  ], 
+  [
+    "KF006817", 
+    "Mycobacterium phage Breeniome"
+  ], 
+  [
+    "KC661276", 
+    "Mycobacterium phage Winky"
+  ], 
+  [
+    "HM152763", 
+    "Mycobacterium phage bron"
+  ], 
+  [
+    "KF562099", 
+    "Mycobacterium phage Bruin"
+  ], 
+  [
+    "FJ168659", 
+    "Mycobacterium phage Brujita"
+  ], 
+  [
+    "HM152765", 
+    "Mycobacterium phage island3"
+  ], 
+  [
+    "JN698998", 
+    "Mycobacterium phage Bruns"
+  ], 
+  [
+    "KC172839", 
+    "Mycobacterium phage BTCU-1"
+  ], 
+  [
+    "KC576783", 
+    "Mycobacterium phage Butters"
+  ], 
+  [
+    "FJ168660", 
+    "Mycobacterium phage Butterscotch"
+  ], 
+  [
+    "KM347889", 
+    "Mycobacterium phage BuzzLyseyear"
+  ], 
+  [
+    "AF271693", 
+    "Mycobacterium phage Bxb1"
+  ], 
+  [
+    "AY129337", 
+    "Mycobacterium phage Bxz1"
+  ], 
+  [
+    "AY129332", 
+    "Mycobacterium phage Bxz2"
+  ], 
+  [
+    "KC661272", 
+    "Mycobacterium phage Methuselah"
+  ], 
+  [
+    "EU826471", 
+    "Mycobacterium phage Cali"
+  ], 
+  [
+    "GQ303262", 
+    "Mycobacterium phage LRRHood"
+  ], 
+  [
+    "KM652553", 
+    "Mycobacterium phage CaptainTrips"
+  ], 
+  [
+    "KM588359", 
+    "Mycobacterium phage Carcharodon"
+  ], 
+  [
+    "KC701493", 
+    "Mycobacterium phage CASbig"
+  ], 
+  [
+    "KF017002", 
+    "Mycobacterium phage Catdawg"
+  ], 
+  [
+    "DQ398053", 
+    "Mycobacterium phage Catera"
+  ], 
+  [
+    "FJ174694", 
+    "Mycobacterium phage Chah"
+  ], 
+  [
+    "KP027207", 
+    "Mycobacterium phage Chandler"
+  ], 
+  [
+    "JN256079", 
+    "Mycobacterium phage Charlie"
+  ], 
+  [
+    "AY129333", 
+    "Mycobacterium phage Che9c"
+  ], 
+  [
+    "AY129336", 
+    "Mycobacterium phage Che9d"
+  ], 
+  [
+    "DQ398043", 
+    "Mycobacterium phage Che12"
+  ], 
+  [
+    "KJ944841", 
+    "Mycobacterium phage Cheetobro"
+  ], 
+  [
+    "KC787105", 
+    "Mycobacterium phage Chy4"
+  ], 
+  [
+    "KC787106", 
+    "Mycobacterium phage Chy5"
+  ], 
+  [
+    "AY129331", 
+    "Mycobacterium phage Cjw1"
+  ], 
+  [
+    "KF560332", 
+    "Mycobacterium phage CloudWang3"
+  ], 
+  [
+    "KF560330", 
+    "Mycobacterium phage Conspiracy"
+  ], 
+  [
+    "KF024732", 
+    "Mycobacterium phage Contagion"
+  ], 
+  [
+    "KF493883", 
+    "Mycobacterium phage Mosby"
+  ], 
+  [
+    "DQ398044", 
+    "Mycobacterium phage Cooper"
+  ], 
+  [
+    "AY129335", 
+    "Mycobacterium phage Corndog"
+  ], 
+  [
+    "KP027195", 
+    "Mycobacterium phage Cosmo"
+  ], 
+  [
+    "JN698997", 
+    "Mycobacterium phage Courthouse"
+  ], 
+  [
+    "HM152767", 
+    "Mycobacterium phage CrimD"
+  ], 
+  [
+    "KF024731", 
+    "Mycobacterium phage Crossroads"
+  ], 
+  [
+    "JN408459", 
+    "Mycobacterium phage Cuco"
+  ], 
+  [
+    "AF022214", 
+    "Mycobacterium phage D29"
+  ], 
+  [
+    "KF017005", 
+    "Mycobacterium phage Daenerys"
+  ], 
+  [
+    "JN412588", 
+    "Mycobacterium phage Dandelion"
+  ], 
+  [
+    "JF937092", 
+    "Mycobacterium phage DaVinci"
+  ], 
+  [
+    "EU744252", 
+    "Mycobacterium phage DD5"
+  ], 
+  [
+    "JN698996", 
+    "Mycobacterium phage DeadP"
+  ], 
+  [
+    "JF937093", 
+    "Mycobacterium phage DLane"
+  ], 
+  [
+    "KC787108", 
+    "Mycobacterium phage DNAIII"
+  ], 
+  [
+    "KF841477", 
+    "Mycobacterium phage Donovan"
+  ], 
+  [
+    "JN153085", 
+    "Mycobacterium phage Doom"
+  ], 
+  [
+    "JN698995", 
+    "Mycobacterium phage Dori"
+  ], 
+  [
+    "JX411620", 
+    "Mycobacterium phage Dorothy"
+  ], 
+  [
+    "JN859129", 
+    "Mycobacterium phage DotProduct"
+  ], 
+  [
+    "JN542517", 
+    "Mycobacterium phage Drago"
+  ], 
+  [
+    "KF306380", 
+    "Mycobacterium phage DrDrey"
+  ], 
+  [
+    "JN660814", 
+    "Mycobacterium phage Dreamboat"
+  ], 
+  [
+    "JN698994", 
+    "Mycobacterium phage DS6A"
+  ], 
+  [
+    "KF024730", 
+    "Mycobacterium phage Dylan"
+  ], 
+  [
+    "KF841475", 
+    "Mycobacterium phage BellusTerra"
+  ], 
+  [
+    "HM152766", 
+    "Mycobacterium phage Eagle"
+  ], 
+  [
+    "KF024733", 
+    "Mycobacterium phage Medusa"
+  ], 
+  [
+    "KF841476", 
+    "Mycobacterium phage Melvin"
+  ], 
+  [
+    "KF861510", 
+    "Mycobacterium phage EagleEye"
+  ], 
+  [
+    "KF981601", 
+    "Mycobacterium phage Echild"
+  ], 
+  [
+    "KP027196", 
+    "Mycobacterium phage Edtherson"
+  ], 
+  [
+    "JN391441", 
+    "Mycobacterium phage Elph10"
+  ], 
+  [
+    "KJ567045", 
+    "Mycobacterium phage Emerson"
+  ], 
+  [
+    "KJ567044", 
+    "Mycobacterium phage EmpTee"
+  ], 
+  [
+    "KJ959632", 
+    "Mycobacterium phage Equemioh13"
+  ], 
+  [
+    "KM236502", 
+    "Mycobacterium phage Eremos"
+  ], 
+  [
+    "JN049605", 
+    "Mycobacterium phage EricB"
+  ], 
+  [
+    "KM279937", 
+    "Mycobacterium phage Estave1"
+  ], 
+  [
+    "GQ303260", 
+    "Mycobacterium phage ET08"
+  ], 
+  [
+    "JN153086", 
+    "Mycobacterium phage Euphoria"
+  ], 
+  [
+    "JN412590", 
+    "Mycobacterium phage Eureka"
+  ], 
+  [
+    "JF744988", 
+    "Mycobacterium phage Faith1"
+  ], 
+  [
+    "GU247133", 
+    "Mycobacterium phage Fang"
+  ], 
+  [
+    "KM233455", 
+    "Mycobacterium phage Farber"
+  ], 
+  [
+    "JN600672", 
+    "Mycobacterium phage Fezzik"
+  ], 
+  [
+    "JN831653", 
+    "Mycobacterium phage Fionnbharth"
+  ], 
+  [
+    "JN698993", 
+    "Mycobacterium phage Firecracker"
+  ], 
+  [
+    "JX899358", 
+    "Mycobacterium phage First"
+  ], 
+  [
+    "KP027197", 
+    "Mycobacterium phage FluffyNinja"
+  ], 
+  [
+    "KF279414", 
+    "Mycobacterium phage Fredward"
+  ], 
+  [
+    "FJ174690", 
+    "Mycobacterium phage Fruitloop"
+  ], 
+  [
+    "JN698992", 
+    "Mycobacterium phage Gadjet"
+  ], 
+  [
+    "KP027198", 
+    "Mycobacterium phage Gadost"
+  ], 
+  [
+    "KJ567043", 
+    "Mycobacterium phage Gaia"
+  ], 
+  [
+    "EU203571", 
+    "Mycobacterium phage Giles"
+  ], 
+  [
+    "KJ538722", 
+    "Mycobacterium phage HH92"
+  ], 
+  [
+    "KF416343", 
+    "Mycobacterium phage Goku"
+  ], 
+  [
+    "KM923970", 
+    "Mycobacterium phage Gomashi"
+  ], 
+  [
+    "JX307704", 
+    "Mycobacterium phage Goose"
+  ], 
+  [
+    "KF560331", 
+    "Mycobacterium phage Graduation"
+  ], 
+  [
+    "FJ168661", 
+    "Mycobacterium phage Gumball"
+  ], 
+  [
+    "JN398368", 
+    "Mycobacterium phage GUmbie"
+  ], 
+  [
+    "JX649099", 
+    "Mycobacterium phage Gyarad"
+  ], 
+  [
+    "DQ398042", 
+    "Mycobacterium phage Halo"
+  ], 
+  [
+    "JF937094", 
+    "Mycobacterium phage Hammer"
+  ], 
+  [
+    "KP057620", 
+    "Mycobacterium phage HamSlice"
+  ], 
+  [
+    "KF024723", 
+    "Mycobacterium phage Hamulus"
+  ], 
+  [
+    "KF493880", 
+    "Mycobacterium phage HanShotFirst"
+  ], 
+  [
+    "JF937095", 
+    "Mycobacterium phage Harvey"
+  ], 
+  [
+    "KJ194582", 
+    "Mycobacterium phage Hawkeye"
+  ], 
+  [
+    "JN698991", 
+    "Mycobacterium phage Hedgerow"
+  ], 
+  [
+    "JF957058", 
+    "Mycobacterium phage HelDan"
+  ], 
+  [
+    "JF937096", 
+    "Mycobacterium phage Henry"
+  ], 
+  [
+    "JF937097", 
+    "Mycobacterium phage Hertubise"
+  ], 
+  [
+    "KC661275", 
+    "Mycobacterium phage HINdeR"
+  ], 
+  [
+    "KJ433974", 
+    "Mycobacterium phage Hosp"
+  ], 
+  [
+    "KF562100", 
+    "Mycobacterium phage HufflyPuff"
+  ], 
+  [
+    "JF937098", 
+    "Mycobacterium phage Ibhubesi"
+  ], 
+  [
+    "JQ896627", 
+    "Mycobacterium phage ICleared"
+  ], 
+  [
+    "JN698990", 
+    "Mycobacterium phage IsaacEli"
+  ], 
+  [
+    "KF017003", 
+    "Mycobacterium phage Jabbawokkie"
+  ], 
+  [
+    "JN698989", 
+    "Mycobacterium phage JacAttac"
+  ], 
+  [
+    "KF493881", 
+    "Mycobacterium phage JAMaL"
+  ], 
+  [
+    "EU744251", 
+    "Mycobacterium phage Jasper"
+  ], 
+  [
+    "JN185608", 
+    "Mycobacterium phage JAWS"
+  ], 
+  [
+    "JF937099", 
+    "Mycobacterium phage JC27"
+  ], 
+  [
+    "JN572061", 
+    "Mycobacterium phage Jebeks"
+  ], 
+  [
+    "JN699019", 
+    "Mycobacterium phage Jeffabunny"
+  ], 
+  [
+    "KC661280", 
+    "Mycobacterium phage Job42"
+  ], 
+  [
+    "KC661281", 
+    "Mycobacterium phage Jobu08"
+  ], 
+  [
+    "KF493882", 
+    "Mycobacterium phage Jovo"
+  ], 
+  [
+    "JN699018", 
+    "Mycobacterium phage Kamiyu"
+  ], 
+  [
+    "KJ510414", 
+    "Mycobacterium phage Kampy"
+  ], 
+  [
+    "KF024729", 
+    "Mycobacterium phage KayaCho"
+  ], 
+  [
+    "EU744248", 
+    "Mycobacterium phage KBG"
+  ], 
+  [
+    "KP027199", 
+    "Mycobacterium phage Keshu"
+  ], 
+  [
+    "JN699017", 
+    "Mycobacterium phage Kikipoo"
+  ], 
+  [
+    "KJ538723", 
+    "Mycobacterium phage KingVeveve"
+  ], 
+  [
+    "KF713485", 
+    "Mycobacterium phage Suffolk"
+  ], 
+  [
+    "FJ174691", 
+    "Mycobacterium phage Konstantine"
+  ], 
+  [
+    "EU816591", 
+    "Mycobacterium phage Kostya"
+  ], 
+  [
+    "KM923971", 
+    "Mycobacterium phage Kratio"
+  ], 
+  [
+    "JF937110", 
+    "Mycobacterium phage KSSJEB"
+  ], 
+  [
+    "JN699016", 
+    "Mycobacterium phage Kugel"
+  ], 
+  [
+    "Z18946", 
+    "Mycobacterium phage L5"
+  ], 
+  [
+    "KJ409696", 
+    "Mycobacterium phage Lamina13"
+  ], 
+  [
+    "KM677210", 
+    "Mycobacterium phage Larenn"
+  ], 
+  [
+    "JN243855", 
+    "Mycobacterium phage Larva"
+  ], 
+  [
+    "KM408320", 
+    "Mycobacterium phage Lasso"
+  ], 
+  [
+    "KC787107", 
+    "Mycobacterium phage Bo4"
+  ], 
+  [
+    "KJ725374", 
+    "Mycobacterium phage Guo1"
+  ], 
+  [
+    "KC787110", 
+    "Mycobacterium phage Leo"
+  ], 
+  [
+    "JF937100", 
+    "Mycobacterium phage Lesedi"
+  ], 
+  [
+    "JN699015", 
+    "Mycobacterium phage LHTSCC"
+  ], 
+  [
+    "JN412593", 
+    "Mycobacterium phage Liefie"
+  ], 
+  [
+    "JN382248", 
+    "Mycobacterium phage Lilac"
+  ], 
+  [
+    "JN412592", 
+    "Mycobacterium phage LinStu"
+  ], 
+  [
+    "KF017001", 
+    "Mycobacterium phage LittleCherry"
+  ], 
+  [
+    "JF937101", 
+    "Mycobacterium phage LittleE"
+  ], 
+  [
+    "KM402757", 
+    "Mycobacterium phage Llama"
+  ], 
+  [
+    "DQ398045", 
+    "Mycobacterium phage Llij"
+  ], 
+  [
+    "EU744249", 
+    "Mycobacterium phage Lockley"
+  ], 
+  [
+    "JX042579", 
+    "Mycobacterium phage macncheese"
+  ], 
+  [
+    "KP027200", 
+    "Mycobacterium phage Malithi"
+  ], 
+  [
+    "JX307705", 
+    "Mycobacterium phage Marcell"
+  ], 
+  [
+    "KM233454", 
+    "Mycobacterium phage MarQuardt"
+  ], 
+  [
+    "KM925136", 
+    "Mycobacterium phage MiaZeal"
+  ], 
+  [
+    "KF986246", 
+    "Mycobacterium phage MichelleMyBell"
+  ], 
+  [
+    "KP027206", 
+    "Mycobacterium phage Milly"
+  ], 
+  [
+    "JN699626", 
+    "Mycobacterium phage MoMoMixon"
+  ], 
+  [
+    "JN638753", 
+    "Mycobacterium phage Morgushi"
+  ], 
+  [
+    "KJ538721", 
+    "Mycobacterium phage MosMoris"
+  ], 
+  [
+    "JF937102", 
+    "Mycobacterium phage Mozy"
+  ], 
+  [
+    "JN020140", 
+    "Mycobacterium phage MrGordo"
+  ], 
+  [
+    "KF024728", 
+    "Mycobacterium phage Muddy"
+  ], 
+  [
+    "JN638752", 
+    "Mycobacterium phage Murdoc"
+  ], 
+  [
+    "KM677211", 
+    "Mycobacterium phage Murucutumbu"
+  ], 
+  [
+    "JF937103", 
+    "Mycobacterium phage Museum"
+  ], 
+  [
+    "JN020142", 
+    "Mycobacterium phage Mutaforma13"
+  ], 
+  [
+    "EU826466", 
+    "Mycobacterium phage Myrna"
+  ], 
+  [
+    "JX649098", 
+    "Mycobacterium phage Nacho"
+  ], 
+  [
+    "KF562101", 
+    "Mycobacterium phage Nala"
+  ], 
+  [
+    "JN699627", 
+    "Mycobacterium phage Nappy"
+  ], 
+  [
+    "JQ698665", 
+    "Mycobacterium phage Nepal"
+  ], 
+  [
+    "KC576784", 
+    "Mycobacterium phage ShiVal"
+  ], 
+  [
+    "EU770221", 
+    "Mycobacterium phage Nigel"
+  ], 
+  [
+    "JN699014", 
+    "Mycobacterium phage Nova"
+  ], 
+  [
+    "KF959563", 
+    "Mycobacterium phage Obama12"
+  ], 
+  [
+    "KJ194583", 
+    "Mycobacterium phage Numberten"
+  ], 
+  [
+    "KF954506", 
+    "Mycobacterium phage Nyxis"
+  ], 
+  [
+    "KF986247", 
+    "Mycobacterium phage Oaker"
+  ], 
+  [
+    "KF017927", 
+    "Mycobacterium phage Odin"
+  ], 
+  [
+    "JN192463", 
+    "Mycobacterium phage Oline"
+  ], 
+  [
+    "AY129338", 
+    "Mycobacterium phage Omega"
+  ], 
+  [
+    "KM363596", 
+    "Mycobacterium phage Omnicron"
+  ], 
+  [
+    "JF957059", 
+    "Mycobacterium phage Optimus"
+  ], 
+  [
+    "DQ398046", 
+    "Mycobacterium phage Orion"
+  ], 
+  [
+    "JN006064", 
+    "Mycobacterium phage OSmaximus"
+  ], 
+  [
+    "FJ174692", 
+    "Mycobacterium phage Pacc40"
+  ], 
+  [
+    "KF416342", 
+    "Mycobacterium phage Papyrus"
+  ], 
+  [
+    "JN412589", 
+    "Mycobacterium phage Patience"
+  ], 
+  [
+    "KC661273", 
+    "Mycobacterium phage PattyP"
+  ], 
+  [
+    "DQ398047", 
+    "Mycobacterium phage PBI1"
+  ], 
+  [
+    "KC661271", 
+    "Mycobacterium phage Dhanush"
+  ], 
+  [
+    "JQ809701", 
+    "Mycobacterium phage Flux"
+  ], 
+  [
+    "JN243856", 
+    "Mycobacterium phage MeeZee"
+  ], 
+  [
+    "GQ303263", 
+    "Mycobacterium phage Peaches"
+  ], 
+  [
+    "JX307703", 
+    "Mycobacterium phage Sabertooth"
+  ], 
+  [
+    "JN561150", 
+    "Mycobacterium phage TiroTheta9"
+  ], 
+  [
+    "JN572689", 
+    "Mycobacterium phage Perseus"
+  ], 
+  [
+    "GQ303259", 
+    "Mycobacterium phage Colbert"
+  ], 
+  [
+    "GQ303264", 
+    "Mycobacterium phage Puhltonio"
+  ], 
+  [
+    "EU816589", 
+    "Mycobacterium phage Phaedrus"
+  ], 
+  [
+    "KJ510415", 
+    "Mycobacterium phage Phantastic"
+  ], 
+  [
+    "KF562102", 
+    "Mycobacterium phage PhatBacter"
+  ], 
+  [
+    "KF416341", 
+    "Mycobacterium phage Phelemich "
+  ], 
+  [
+    "FJ641182", 
+    "Mycobacterium phage Phlyer"
+  ], 
+  [
+    "KP017310", 
+    "Mycobacterium phage Phoxy"
+  ], 
+  [
+    "KF279415", 
+    "Mycobacterium phage PhrostyMug"
+  ], 
+  [
+    "KC661277", 
+    "Mycobacterium phage Phrux"
+  ], 
+  [
+    "JX649097", 
+    "Mycobacterium phage Piglet"
+  ], 
+  [
+    "JN699013", 
+    "Mycobacterium phage Pio"
+  ], 
+  [
+    "DQ398049", 
+    "Mycobacterium phage Pipefish"
+  ], 
+  [
+    "KP027208", 
+    "Mycobacterium phage Pipsqueak"
+  ], 
+  [
+    "JF937104", 
+    "Mycobacterium phage Pixie"
+  ], 
+  [
+    "JN624850", 
+    "Mycobacterium phage Pleione"
+  ], 
+  [
+    "DQ398051", 
+    "Mycobacterium phage PLot"
+  ], 
+  [
+    "DQ398050", 
+    "Mycobacterium phage PMC"
+  ], 
+  [
+    "EU816588", 
+    "Mycobacterium phage Porky"
+  ], 
+  [
+    "KM463009", 
+    "Mycobacterium phage Power"
+  ], 
+  [
+    "EU770222", 
+    "Mycobacterium phage Predator"
+  ], 
+  [
+    "EU744250", 
+    "Mycobacterium phage Pukovnik"
+  ], 
+  [
+    "GQ303265", 
+    "Mycobacterium phage Pumpkin"
+  ], 
+  [
+    "KF279417", 
+    "Mycobacterium phage Quink"
+  ], 
+  [
+    "KM592966", 
+    "Mycobacterium phage QuinnKiro"
+  ], 
+  [
+    "DQ398048", 
+    "Mycobacterium phage Qyrzula"
+  ], 
+  [
+    "JN006062", 
+    "Mycobacterium phage Rakim"
+  ], 
+  [
+    "FJ174693", 
+    "Mycobacterium phage Ramsey"
+  ], 
+  [
+    "JX411619", 
+    "Mycobacterium phage Rebeuca"
+  ], 
+  [
+    "JN624851", 
+    "Mycobacterium phage Redi"
+  ], 
+  [
+    "KF114875", 
+    "Mycobacterium phage Redno2"
+  ], 
+  [
+    "GU339467", 
+    "Mycobacterium phage RedRock"
+  ], 
+  [
+    "KF024727", 
+    "Mycobacterium phage Reprobate"
+  ], 
+  [
+    "JF937105", 
+    "Mycobacterium phage Rey"
+  ], 
+  [
+    "JN398369", 
+    "Mycobacterium phage RidgeCB"
+  ], 
+  [
+    "EU826467", 
+    "Mycobacterium phage Rizal"
+  ], 
+  [
+    "KM591905", 
+    "Mycobacterium phage RonRayGun"
+  ], 
+  [
+    "AY129334", 
+    "Mycobacterium phage Rosebush"
+  ], 
+  [
+    "JN680858", 
+    "Mycobacterium phage Rumpelstiltskin"
+  ], 
+  [
+    "KJ025956", 
+    "Mycobacterium phage Saal"
+  ], 
+  [
+    "JN831654", 
+    "Mycobacterium phage Saintus"
+  ], 
+  [
+    "KF024726", 
+    "Mycobacterium phage Sarfire"
+  ], 
+  [
+    "KF279416", 
+    "Mycobacterium phage SargentShorty9"
+  ], 
+  [
+    "KP027201", 
+    "Mycobacterium phage Sbash"
+  ], 
+  [
+    "GU247134", 
+    "Mycobacterium phage Scoot17C"
+  ], 
+  [
+    "EU826469", 
+    "Mycobacterium phage ScottMcG"
+  ], 
+  [
+    "KC661274", 
+    "Mycobacterium phage SDcharge11"
+  ], 
+  [
+    "KJ194585", 
+    "Mycobacterium phage Seabiscuit"
+  ], 
+  [
+    "JN204348", 
+    "Mycobacterium phage Sebata"
+  ], 
+  [
+    "JN006063", 
+    "Mycobacterium phage Serendipity"
+  ], 
+  [
+    "KC661279", 
+    "Mycobacterium phage Severus"
+  ], 
+  [
+    "JN699012", 
+    "Mycobacterium phage SG4"
+  ], 
+  [
+    "JN020141", 
+    "Mycobacterium phage Shauna1"
+  ], 
+  [
+    "KP273225", 
+    "Mycobacterium phage Sheen"
+  ], 
+  [
+    "JN020143", 
+    "Mycobacterium phage ShiLan"
+  ], 
+  [
+    "KF024734", 
+    "Mycobacterium phage Shrimp"
+  ], 
+  [
+    "KP027209", 
+    "Mycobacterium phage Sigman"
+  ], 
+  [
+    "JF937106", 
+    "Mycobacterium phage SirDuracell"
+  ], 
+  [
+    "JF937107", 
+    "Mycobacterium phage SirHarley"
+  ], 
+  [
+    "KC661278", 
+    "Mycobacterium phage SiSi"
+  ], 
+  [
+    "GU247132", 
+    "Mycobacterium phage SkiPole"
+  ], 
+  [
+    "EU826470", 
+    "Mycobacterium phage Solon"
+  ], 
+  [
+    "KJ174157", 
+    "Mycobacterium phage Soto"
+  ], 
+  [
+    "KM083128", 
+    "Mycobacterium phage Sparky"
+  ], 
+  [
+    "JQ300538", 
+    "Mycobacterium phage Spartacus"
+  ], 
+  [
+    "KP017311", 
+    "Mycobacterium phage Spike509"
+  ], 
+  [
+    "EU826468", 
+    "Mycobacterium phage Spud"
+  ], 
+  [
+    "KM101124", 
+    "Mycobacterium phage Squirty"
+  ], 
+  [
+    "JN699011", 
+    "Mycobacterium phage Stinger"
+  ], 
+  [
+    "KM591906", 
+    "Mycobacterium phage SweetiePie"
+  ], 
+  [
+    "KJ194579", 
+    "Mycobacterium phage Swish"
+  ], 
+  [
+    "JF937108", 
+    "Mycobacterium phage Switzer"
+  ], 
+  [
+    "JF946695", 
+    "Mycobacterium phage SWU1"
+  ], 
+  [
+    "JX121091", 
+    "Mycobacterium phage Taj"
+  ], 
+  [
+    "JN699010", 
+    "Mycobacterium phage TallGRassMM"
+  ], 
+  [
+    "KP027202", 
+    "Mycobacterium phage Taurus"
+  ], 
+  [
+    "JN201525", 
+    "Mycobacterium phage Thibault"
+  ], 
+  [
+    "KP027204", 
+    "Mycobacterium phage Thor"
+  ], 
+  [
+    "JF957056", 
+    "Mycobacterium phage Thora"
+  ], 
+  [
+    "JN699009", 
+    "Mycobacterium phage ThreeOh3D2"
+  ], 
+  [
+    "JQ684677", 
+    "Mycobacterium phage Tiger"
+  ], 
+  [
+    "JF957060", 
+    "Mycobacterium phage Timshel"
+  ], 
+  [
+    "AF068845", 
+    "Mycobacterium phage TM4"
+  ], 
+  [
+    "JN006061", 
+    "Mycobacterium phage Toto"
+  ], 
+  [
+    "KP027203", 
+    "Mycobacterium phage Treddle"
+  ], 
+  [
+    "JN408461", 
+    "Mycobacterium phage Trixie"
+  ], 
+  [
+    "FJ168662", 
+    "Mycobacterium phage Troll4"
+  ], 
+  [
+    "KF024724", 
+    "Mycobacterium phage Trouble"
+  ], 
+  [
+    "JN408460", 
+    "Mycobacterium phage Turbido"
+  ], 
+  [
+    "EF536069", 
+    "Mycobacterium phage Tweety"
+  ], 
+  [
+    "JQ512844", 
+    "Mycobacterium phage Twister"
+  ], 
+  [
+    "AY500152", 
+    "Mycobacterium phage U2"
+  ], 
+  [
+    "GQ303266", 
+    "Mycobacterium phage UncleHowie"
+  ], 
+  [
+    "KF713486", 
+    "Mycobacterium phage Validus"
+  ], 
+  [
+    "JX901189", 
+    "Mycobacterium phage vB_MapS_FF47"
+  ], 
+  [
+    "KF017004", 
+    "Mycobacterium phage Velveteen"
+  ], 
+  [
+    "JN687951", 
+    "Mycobacterium phage Violet"
+  ], 
+  [
+    "JN699008", 
+    "Mycobacterium phage Vista"
+  ], 
+  [
+    "KM347890", 
+    "Mycobacterium phage Vivaldi"
+  ], 
+  [
+    "KM401838", 
+    "Mycobacterium phage VohminGhazi"
+  ], 
+  [
+    "JN699625", 
+    "Mycobacterium phage Wally"
+  ], 
+  [
+    "KF006818", 
+    "Mycobacterium phage Wanda"
+  ], 
+  [
+    "HQ728524", 
+    "Mycobacterium phage Wee"
+  ], 
+  [
+    "KF416340", 
+    "Mycobacterium phage Wheeler"
+  ], 
+  [
+    "KF024725", 
+    "Mycobacterium phage Whirlwind"
+  ], 
+  [
+    "DQ398052", 
+    "Mycobacterium phage Wildcat"
+  ], 
+  [
+    "JN243857", 
+    "Mycobacterium phage Wile"
+  ], 
+  [
+    "KJ595575", 
+    "Mycobacterium phage Willis"
+  ], 
+  [
+    "KC736071", 
+    "Mycobacterium phage WIVsmall"
+  ], 
+  [
+    "HM755814", 
+    "Mycobacterium phage Wonder"
+  ], 
+  [
+    "JF937109", 
+    "Mycobacterium phage Yoshand"
+  ], 
+  [
+    "KJ829260", 
+    "Mycobacterium phage YungJamal"
+  ], 
+  [
+    "KF560334", 
+    "Mycobacterium phage Zaka"
+  ], 
+  [
+    "KJ510412", 
+    "Mycobacterium phage ZoeJ"
+  ], 
+  [
+    "KM363597", 
+    "Mycobacterium phage Zonia"
+  ], 
+  [
+    "AF074945", 
+    "Mycoplasma phage MAV1"
+  ], 
+  [
+    "AF246223", 
+    "Mycoplasma phage P1"
+  ], 
+  [
+    "AY583236", 
+    "Mycoplasma phage phiMFV1"
+  ], 
+  [
+    "AF396866", 
+    "Myxococcus phage Mx8"
+  ], 
+  [
+    "AB746912", 
+    "Nitratiruptor phage NrS-1"
+  ], 
+  [
+    "KJ534580", 
+    "Nitrincola phage 1M3-16"
+  ], 
+  [
+    "FR725450", 
+    "Nitrososphaera phage Pro-Nvie1"
+  ], 
+  [
+    "JN116828", 
+    "Nocardia phage NBR1"
+  ], 
+  [
+    "KF147927", 
+    "Oenococcus phage phi9805"
+  ], 
+  [
+    "KF183314", 
+    "Oenococcus phage phiS11"
+  ], 
+  [
+    "KF183315", 
+    "Oenococcus phage phiS13"
+  ], 
+  [
+    "HQ704801", 
+    "Organic Lake virophage"
+  ], 
+  [
+    "KC595517", 
+    "Paenibacillus phage Abouo"
+  ], 
+  [
+    "KC595518", 
+    "Paenibacillus phage Davies"
+  ], 
+  [
+    "KC595516", 
+    "Paenibacillus phage Emery"
+  ], 
+  [
+    "KP202972", 
+    "Paenibacillus phage HB10c2"
+  ], 
+  [
+    "KC595515", 
+    "Paenibacillus phage Jimmer1"
+  ], 
+  [
+    "KC595514", 
+    "Paenibacillus phage Jimmer2"
+  ], 
+  [
+    "KF010834", 
+    "Paenibacillus phage phiIBB_Pl23"
+  ], 
+  [
+    "FR687252", 
+    "Pantoea phage LIMElight"
+  ], 
+  [
+    "FR751545", 
+    "Pantoea phage LIMEzero"
+  ], 
+  [
+    "KP162168", 
+    "Paracoccus phage vB_PmaS_IMEP1"
+  ], 
+  [
+    "DQ114220", 
+    "Pasteurella phage F108"
+  ], 
+  [
+    "KF835987", 
+    "Pectobacterium bacteriophage PM2"
+  ], 
+  [
+    "JX195166", 
+    "Pectobacterium phage My1"
+  ], 
+  [
+    "JQ015307", 
+    "Pectobacterium phage phiTE"
+  ], 
+  [
+    "KF534715", 
+    "Pectobacterium phage PM1"
+  ], 
+  [
+    "JQ837901", 
+    "Pectobacterium phage PP1"
+  ], 
+  [
+    "JQ177065", 
+    "Pectobacterium phage ZF40"
+  ], 
+  [
+    "JN051154", 
+    "Pediococcus phage clP1"
+  ], 
+  [
+    "KC465899", 
+    "Pelagibacter phage HTVC008M"
+  ], 
+  [
+    "KC465898", 
+    "Pelagibacter phage HTVC010P"
+  ], 
+  [
+    "KC465900", 
+    "Pelagibacter phage HTVC011P"
+  ], 
+  [
+    "KC465901", 
+    "Pelagibacter phage HTVC019P"
+  ], 
+  [
+    "JQ823123", 
+    "Persicivirga phage P12024L"
+  ], 
+  [
+    "JQ823122", 
+    "Persicivirga phage P12024S"
+  ], 
+  [
+    "AY576273", 
+    "Phage phiJL001"
+  ], 
+  [
+    "KM044272", 
+    "Phage vB_EcoP_SU10"
+  ], 
+  [
+    "KF437907", 
+    "Phormidium phage MIS-PhV1A"
+  ], 
+  [
+    "KF437908", 
+    "Phormidium phage MIS-PhV1B"
+  ], 
+  [
+    "EF537008", 
+    "Phormidium phage Pf-WMP3"
+  ], 
+  [
+    "DQ875742", 
+    "Phormidium phage Pf-WMP4"
+  ], 
+  [
+    "HQ683709", 
+    "Planktothrix phage PaV-LD"
+  ], 
+  [
+    "HQ634174", 
+    "Prochlorococcus phage MED4-213"
+  ], 
+  [
+    "GU071101", 
+    "Prochlorococcus phage P-HM1"
+  ], 
+  [
+    "GU075905", 
+    "Prochlorococcus phage P-HM2"
+  ], 
+  [
+    "GU071099", 
+    "Prochlorococcus phage P-RSM4"
+  ], 
+  [
+    "GU071092", 
+    "Prochlorococcus phage P-SSM2, strain P-SSM2"
+  ], 
+  [
+    "AY939844", 
+    "Prochlorococcus phage P-SSM2"
+  ], 
+  [
+    "AY940168", 
+    "Prochlorococcus phage P-SSM4"
+  ], 
+  [
+    "GU071103", 
+    "Prochlorococcus phage P-SSM7"
+  ], 
+  [
+    "AY939843", 
+    "Prochlorococcus phage P-SSP7"
+  ], 
+  [
+    "GU071105", 
+    "Prochlorococcus phage Syn1"
+  ], 
+  [
+    "GU071108", 
+    "Prochlorococcus phage Syn33"
+  ], 
+  [
+    "JX262225", 
+    "Propionibacterium phage ATCC29399B_C"
+  ], 
+  [
+    "JX262224", 
+    "Propionibacterium phage ATCC29399B_T"
+  ], 
+  [
+    "AF428260", 
+    "Propionibacterium phage B5"
+  ], 
+  [
+    "JX262223", 
+    "Propionibacterium phage P1.1"
+  ], 
+  [
+    "JX262215", 
+    "Propionibacterium phage P9.1"
+  ], 
+  [
+    "JX262216", 
+    "Propionibacterium phage P14.4"
+  ], 
+  [
+    "JX262220", 
+    "Propionibacterium phage P100D"
+  ], 
+  [
+    "JX262222", 
+    "Propionibacterium phage P100_1"
+  ], 
+  [
+    "JX262221", 
+    "Propionibacterium phage P100_A"
+  ], 
+  [
+    "JX262217", 
+    "Propionibacterium phage P101A"
+  ], 
+  [
+    "JX262218", 
+    "Propionibacterium phage P104A"
+  ], 
+  [
+    "JX262219", 
+    "Propionibacterium phage P105"
+  ], 
+  [
+    "DQ431235", 
+    "Propionibacterium phage PA6"
+  ], 
+  [
+    "KJ722067", 
+    "Propionibacterium phage Pacnes 2012-15"
+  ], 
+  [
+    "FJ706171", 
+    "Propionibacterium phage PAD20"
+  ], 
+  [
+    "FJ706172", 
+    "Propionibacterium phage PAS50"
+  ], 
+  [
+    "KJ578758", 
+    "Propionibacterium phage PHL009M11"
+  ], 
+  [
+    "JX570704", 
+    "Propionibacterium phage PHL010M04"
+  ], 
+  [
+    "JX570711", 
+    "Propionibacterium phage PHL066M04"
+  ], 
+  [
+    "JX570703", 
+    "Propionibacterium phage PHL073M02"
+  ], 
+  [
+    "KJ578759", 
+    "Propionibacterium phage PHL025M00"
+  ], 
+  [
+    "KJ578760", 
+    "Propionibacterium phage PHL030N00"
+  ], 
+  [
+    "JX570706", 
+    "Propionibacterium phage PHL037M02"
+  ], 
+  [
+    "JX570707", 
+    "Propionibacterium phage PHL085M01"
+  ], 
+  [
+    "JX570708", 
+    "Propionibacterium phage PHL115M02"
+  ], 
+  [
+    "KJ578761", 
+    "Propionibacterium phage PHL041M10"
+  ], 
+  [
+    "KJ578762", 
+    "Propionibacterium phage PHL055N00"
+  ], 
+  [
+    "JX570705", 
+    "Propionibacterium phage PHL060L00"
+  ], 
+  [
+    "KJ578763", 
+    "Propionibacterium phage PHL064M01"
+  ], 
+  [
+    "KJ578764", 
+    "Propionibacterium phage PHL064M02"
+  ], 
+  [
+    "KJ578765", 
+    "Propionibacterium phage PHL067M01"
+  ], 
+  [
+    "KJ578766", 
+    "Propionibacterium phage PHL067M09"
+  ], 
+  [
+    "JX570709", 
+    "Propionibacterium phage PHL067M10"
+  ], 
+  [
+    "KJ578767", 
+    "Propionibacterium phage PHL070N00"
+  ], 
+  [
+    "JX570710", 
+    "Propionibacterium phage PHL071N05"
+  ], 
+  [
+    "KJ578768", 
+    "Propionibacterium phage PHL082M00"
+  ], 
+  [
+    "KJ578769", 
+    "Propionibacterium phage PHL082M02"
+  ], 
+  [
+    "KJ578770", 
+    "Propionibacterium phage PHL082M03"
+  ], 
+  [
+    "KJ578771", 
+    "Propionibacterium phage PHL082M04"
+  ], 
+  [
+    "KJ578772", 
+    "Propionibacterium phage PHL085N00"
+  ], 
+  [
+    "KJ578773", 
+    "Propionibacterium phage PHL092M00"
+  ], 
+  [
+    "KJ578774", 
+    "Propionibacterium phage PHL095N00"
+  ], 
+  [
+    "JX570702", 
+    "Propionibacterium phage PHL111M01"
+  ], 
+  [
+    "JX570714", 
+    "Propionibacterium phage PHL112N00"
+  ], 
+  [
+    "JX570713", 
+    "Propionibacterium phage PHL113M01"
+  ], 
+  [
+    "KJ578775", 
+    "Propionibacterium phage PHL114N00"
+  ], 
+  [
+    "JX570712", 
+    "Propionibacterium phage PHL114L00"
+  ], 
+  [
+    "KJ578776", 
+    "Propionibacterium phage PHL116M00"
+  ], 
+  [
+    "KJ578777", 
+    "Propionibacterium phage PHL116M10"
+  ], 
+  [
+    "KJ578778", 
+    "Propionibacterium phage PHL117M00"
+  ], 
+  [
+    "KJ578779", 
+    "Propionibacterium phage PHL117M01"
+  ], 
+  [
+    "KJ578780", 
+    "Propionibacterium phage PHL132N00"
+  ], 
+  [
+    "KJ578781", 
+    "Propionibacterium phage PHL141N00"
+  ], 
+  [
+    "KJ578782", 
+    "Propionibacterium phage PHL150M00"
+  ], 
+  [
+    "KJ578783", 
+    "Propionibacterium phage PHL151M00"
+  ], 
+  [
+    "KJ578784", 
+    "Propionibacterium phage PHL151N00"
+  ], 
+  [
+    "KJ578785", 
+    "Propionibacterium phage PHL152M00"
+  ], 
+  [
+    "KJ578786", 
+    "Propionibacterium phage PHL163M00"
+  ], 
+  [
+    "KJ578787", 
+    "Propionibacterium phage PHL171M01"
+  ], 
+  [
+    "KJ578788", 
+    "Propionibacterium phage PHL179M00"
+  ], 
+  [
+    "KJ578789", 
+    "Propionibacterium phage PHL194M00"
+  ], 
+  [
+    "KJ578790", 
+    "Propionibacterium phage PHL199M00"
+  ], 
+  [
+    "KJ578791", 
+    "Propionibacterium phage PHL301M00"
+  ], 
+  [
+    "KJ578792", 
+    "Propionibacterium phage PHL308M00"
+  ], 
+  [
+    "KF319020", 
+    "Proteus phage PM16"
+  ], 
+  [
+    "KP063118", 
+    "Proteus phage pPM_01"
+  ], 
+  [
+    "JX296113", 
+    "Providencia phage Redjac"
+  ], 
+  [
+    "HM588722", 
+    "Pseudoalteromonas phage H105/1"
+  ], 
+  [
+    "KF302034", 
+    "UNVERIFIED: Pseudoalteromonas phage HM1"
+  ], 
+  [
+    "KF302037", 
+    "UNVERIFIED: Pseudoalteromonas phage HP1"
+  ], 
+  [
+    "KF302033", 
+    "UNVERIFIED: Pseudoalteromonas phage HS1"
+  ], 
+  [
+    "KF302036", 
+    "UNVERIFIED: Pseudoalteromonas phage HS2"
+  ], 
+  [
+    "KF302032", 
+    "UNVERIFIED: Pseudoalteromonas phage HS5"
+  ], 
+  [
+    "KF302035", 
+    "UNVERIFIED: Pseudoalteromonas phage HS6"
+  ], 
+  [
+    "AF155037", 
+    "Pseudoalteromonas phage PM2"
+  ], 
+  [
+    "KC751414", 
+    "Pseudoalteromonas phage RIO-1"
+  ], 
+  [
+    "KC542353", 
+    "Pseudoalteromonas phage TW1"
+  ], 
+  [
+    "AF493143", 
+    "Pseudomonad phage gh-1"
+  ], 
+  [
+    "FM897211", 
+    "Pseudomonas phage 14-1"
+  ], 
+  [
+    "DQ163913", 
+    "Pseudomonas phage 73"
+  ], 
+  [
+    "DQ163914", 
+    "Pseudomonas phage 119X"
+  ], 
+  [
+    "EU197055", 
+    "Pseudomonas phage 201phi2-1"
+  ], 
+  [
+    "JX676771", 
+    "Pseudomonas phage AF"
+  ], 
+  [
+    "AF232233", 
+    "Pseudomonas phage B3"
+  ], 
+  [
+    "JN991020", 
+    "Pseudomonas phage Bf7"
+  ], 
+  [
+    "KC862295", 
+    "Pseudomonas phage CHA_P1"
+  ], 
+  [
+    "AF165214", 
+    "Pseudomonas phage D3"
+  ], 
+  [
+    "JQ067085", 
+    "UNVERIFIED: Pseudomonas phage PaMx73"
+  ], 
+  [
+    "AJ697969", 
+    "Pseudomonas phage EL"
+  ], 
+  [
+    "DQ163917", 
+    "Pseudomonas phage F8"
+  ], 
+  [
+    "DQ163912", 
+    "Pseudomonas phage F10"
+  ], 
+  [
+    "AY625898", 
+    "Pseudomonas phage F116"
+  ], 
+  [
+    "JN808773", 
+    "Pseudomonas phage FHA0480"
+  ], 
+  [
+    "KC262634", 
+    "Pseudomonas phage H66"
+  ], 
+  [
+    "KM233689", 
+    "Pseudomonas phage H70"
+  ], 
+  [
+    "JX434030", 
+    "Pseudomonas phage JBD5"
+  ], 
+  [
+    "JX495041", 
+    "Pseudomonas phage JBD18"
+  ], 
+  [
+    "JX434031", 
+    "Pseudomonas phage JBD24"
+  ], 
+  [
+    "JX495042", 
+    "Pseudomonas phage JBD25"
+  ], 
+  [
+    "JN811560", 
+    "Pseudomonas phage JBD26"
+  ], 
+  [
+    "JX434033", 
+    "Pseudomonas phage JBD88a"
+  ], 
+  [
+    "KJ477077", 
+    "Pseudomonas phage JD024"
+  ], 
+  [
+    "GU988610", 
+    "Pseudomonas phage JG004"
+  ], 
+  [
+    "GU815091", 
+    "Pseudomonas phage JG024"
+  ], 
+  [
+    "AB472900", 
+    "Pseudomonas phage KPP10"
+  ], 
+  [
+    "AB560486", 
+    "Pseudomonas phage KPP12"
+  ], 
+  [
+    "FM201281", 
+    "Pseudomonas phage LBL3"
+  ], 
+  [
+    "FN422399", 
+    "Pseudomonas phage LIT1"
+  ], 
+  [
+    "AM265639", 
+    "Pseudomonas phage LKA1"
+  ], 
+  [
+    "AM265638", 
+    "Pseudomonas phage LKD16"
+  ], 
+  [
+    "FM201282", 
+    "Pseudomonas phage LMA2"
+  ], 
+  [
+    "HE584812", 
+    "Pseudomonas phage LPB1"
+  ], 
+  [
+    "JQ768459", 
+    "Pseudomonas phage Lu11"
+  ], 
+  [
+    "FN422398", 
+    "Pseudomonas phage LUZ7"
+  ], 
+  [
+    "AM910651", 
+    "Pseudomonas phage LUZ19"
+  ], 
+  [
+    "AM910650", 
+    "Pseudomonas phage LUZ24"
+  ], 
+  [
+    "DQ163916", 
+    "Pseudomonas phage M6"
+  ], 
+  [
+    "KC969441", 
+    "UNVERIFIED: Pseudomonas phage MBL"
+  ], 
+  [
+    "EU272036", 
+    "Pseudomonas phage MP29"
+  ], 
+  [
+    "EU272037", 
+    "Pseudomonas phage MP38"
+  ], 
+  [
+    "JQ762257", 
+    "Pseudomonas phage MP42"
+  ], 
+  [
+    "KF475786", 
+    "Pseudomonas phage MP48"
+  ], 
+  [
+    "JX131330", 
+    "Pseudomonas phage MP1412"
+  ], 
+  [
+    "JX997978", 
+    "Pseudomonas phage MPK6"
+  ], 
+  [
+    "JX501340", 
+    "Pseudomonas phage MPK7"
+  ], 
+  [
+    "JN254801", 
+    "Pseudomonas phage MR299-2"
+  ], 
+  [
+    "HE983844", 
+    "Pseudomonas phage vB_PaeP_C1-14_Or"
+  ], 
+  [
+    "HF543949", 
+    "Pseudomonas phage vB_PaeP_p2-10_Or1"
+  ], 
+  [
+    "JN254800", 
+    "Pseudomonas phage NH-4"
+  ], 
+  [
+    "JN627160", 
+    "Pseudomonas phage OBP"
+  ], 
+  [
+    "HM624080", 
+    "Pseudomonas phage PA1phi"
+  ], 
+  [
+    "KM411959", 
+    "Pseudomonas phage Pa2"
+  ], 
+  [
+    "DQ163915", 
+    "Pseudomonas phage PA11"
+  ], 
+  [
+    "JX194238", 
+    "Pseudomonas phage PA26"
+  ], 
+  [
+    "KF147891", 
+    "Pseudomonas phage PaBG"
+  ], 
+  [
+    "AP009624", 
+    "Pseudomonas phage PAJU2"
+  ], 
+  [
+    "KC862297", 
+    "Pseudomonas phage PAK_P1"
+  ], 
+  [
+    "KC862298", 
+    "Pseudomonas phage PAK_P2"
+  ], 
+  [
+    "KC862296", 
+    "Pseudomonas phage P3_CHA"
+  ], 
+  [
+    "KC862299", 
+    "Pseudomonas phage PAK_P3"
+  ], 
+  [
+    "KC862300", 
+    "Pseudomonas phage PAK_P4"
+  ], 
+  [
+    "KC862301", 
+    "Pseudomonas phage PAK_P5"
+  ], 
+  [
+    "JQ067084", 
+    "UNVERIFIED: Pseudomonas phage PaMx25"
+  ], 
+  [
+    "HQ832595", 
+    "Pseudomonas phage PaP1"
+  ], 
+  [
+    "AY575774", 
+    "Pseudomonas phage PaP2"
+  ], 
+  [
+    "AY078382", 
+    "Pseudomonas phage PaP3"
+  ], 
+  [
+    "JQ067083", 
+    "UNVERIFIED: Pseudomonas phage PaMx13"
+  ], 
+  [
+    "X52107", 
+    "Pseudomonas phage Pf1"
+  ], 
+  [
+    "M19377", 
+    "Pseudomonas phage Pf3 (Pseudomonas aeruginosa, New York strain)"
+  ], 
+  [
+    "KP025626", 
+    "Pseudomonas phage Pf-10"
+  ], 
+  [
+    "M17461", 
+    "Pseudomonas phage phi6 segment L"
+  ], 
+  [
+    "M17462", 
+    "Pseudomonas phage phi6 segment M"
+  ], 
+  [
+    "M12921", 
+    "Pseudomonas phage phi6 segment S"
+  ], 
+  [
+    "AF226851", 
+    "Pseudomonas phage phi8 segment L"
+  ], 
+  [
+    "AF226852", 
+    "Pseudomonas phage phi8 segment M"
+  ], 
+  [
+    "AF226853", 
+    "Pseudomonas phage phi8 segment S"
+  ], 
+  [
+    "AF408636", 
+    "Pseudomonas phage phi12 segment L"
+  ], 
+  [
+    "AY039807", 
+    "Pseudomonas phage phi12 segment M"
+  ], 
+  [
+    "AY034425", 
+    "Pseudomonas phage phi12 segment S"
+  ], 
+  [
+    "AF261668", 
+    "Pseudomonas phage phi13 segment L"
+  ], 
+  [
+    "AF261667", 
+    "Pseudomonas phage phi13 segment M"
+  ], 
+  [
+    "AF261666", 
+    "Pseudomonas phage phi13 segment S"
+  ], 
+  [
+    "FR823298", 
+    "Pseudomonas phage phi15"
+  ], 
+  [
+    "KM411960", 
+    "Pseudomonas phage phi176"
+  ], 
+  [
+    "HQ711984", 
+    "Pseudomonas phage phi297"
+  ], 
+  [
+    "FN594518", 
+    "Pseudomonas phage phi-2"
+  ], 
+  [
+    "JX173487", 
+    "Pseudomonas phage Phi-S1"
+  ], 
+  [
+    "KP233880", 
+    "Pseudomonas phage PhiCHU"
+  ], 
+  [
+    "Y13918", 
+    "Pseudomonas phage phiCTX"
+  ], 
+  [
+    "AB008550", 
+    "Pseudomonas phage phiCTX, strain phiCTX-c"
+  ], 
+  [
+    "KF856712", 
+    "Pseudomonas phage phiIBB-PAA2"
+  ], 
+  [
+    "GU583987", 
+    "Pseudomonas phage phiIBB-PF7A"
+  ], 
+  [
+    "FN263372", 
+    "Pseudomonas phage phikF77"
+  ], 
+  [
+    "AJ505558", 
+    "Pseudomonas phage phiKMV"
+  ], 
+  [
+    "AF399011", 
+    "Pseudomonas phage phiKZ"
+  ], 
+  [
+    "HQ630627", 
+    "Pseudomonas phage PhiPA3"
+  ], 
+  [
+    "JN175269", 
+    "Pseudomonas phage phiPto-bp6g"
+  ], 
+  [
+    "HQ711985", 
+    "Pseudomonas phage PMG1"
+  ], 
+  [
+    "X80191", 
+    "Pseudomonas phage PP7"
+  ], 
+  [
+    "DQ836063", 
+    "Pseudomonas phage PRR1"
+  ], 
+  [
+    "EU236438", 
+    "Pseudomonas phage PT2"
+  ], 
+  [
+    "EU056923", 
+    "Pseudomonas phage PT5"
+  ], 
+  [
+    "LN610580", 
+    "Pseudomonas phage vB_PaeP_PAO1_1-15pyo"
+  ], 
+  [
+    "KM411958", 
+    "Pseudomonas phage RWG"
+  ], 
+  [
+    "FM887021", 
+    "Pseudomonas phage SN"
+  ], 
+  [
+    "KF981875", 
+    "Pseudomonas phage SPM-1"
+  ], 
+  [
+    "HE611333", 
+    "Pseudomonas phage tf"
+  ], 
+  [
+    "HG518155", 
+    "Pseudomonas phage TL"
+  ], 
+  [
+    "JX863101", 
+    "Pseudomonas phage UFV-P2"
+  ], 
+  [
+    "JQ307387", 
+    "Pseudomonas phage vB_Pae-Kakheti25"
+  ], 
+  [
+    "JQ307386", 
+    "Pseudomonas phage vB_Pae-TbilisiM32"
+  ], 
+  [
+    "LN610589", 
+    "Pseudomonas phage vB_PaeM_C1-14_Ab28"
+  ], 
+  [
+    "HE983845", 
+    "Pseudomonas phage vB_PaeM_C2-10_Ab1"
+  ], 
+  [
+    "LN610572", 
+    "Pseudomonas phage vB_PaeM_C2-10_Ab02"
+  ], 
+  [
+    "LN610575", 
+    "Pseudomonas phage vB_PaeM_C2-10_Ab08"
+  ], 
+  [
+    "LN610586", 
+    "Pseudomonas phage vB_PaeM_C2-10_Ab10"
+  ], 
+  [
+    "LN610587", 
+    "Pseudomonas phage vB_PaeM_C2-10_Ab15"
+  ], 
+  [
+    "LN610573", 
+    "Pseudomonas phage vB_PaeM_PAO1_Ab03"
+  ], 
+  [
+    "LN610581", 
+    "Pseudomonas phage vB_PaeM_PAO1_Ab04"
+  ], 
+  [
+    "LN610582", 
+    "Pseudomonas phage vB_PaeM_PAO1_Ab06"
+  ], 
+  [
+    "LN610583", 
+    "Pseudomonas phage vB_PaeM_PAO1_Ab11"
+  ], 
+  [
+    "LN610576", 
+    "Pseudomonas phage vB_PaeM_PAO1_Ab17"
+  ], 
+  [
+    "LN610579", 
+    "Pseudomonas phage vB_PaeM_PAO1_Ab27"
+  ], 
+  [
+    "LN610588", 
+    "Pseudomonas phage vB_PaeM_PAO1_Ab29"
+  ], 
+  [
+    "HG962375", 
+    "Pseudomonas phage vB_PaeP_C2-10_Ab09"
+  ], 
+  [
+    "LN610578", 
+    "Pseudomonas phage vB_PaeP_C2-10_Ab22"
+  ], 
+  [
+    "LN610574", 
+    "Pseudomonas phage vB_PaeP_PAO1_Ab05"
+  ], 
+  [
+    "KM067278", 
+    "Pseudomonas phage vB_PaeP_PPA-ABTNL"
+  ], 
+  [
+    "LN610577", 
+    "Pseudomonas phage vB_PaeS_PAO1_Ab18"
+  ], 
+  [
+    "LN610584", 
+    "Pseudomonas phage vB_PaeS_PAO1_Ab19"
+  ], 
+  [
+    "LN610585", 
+    "Pseudomonas phage vB_PaeS_PAO1_Ab20"
+  ], 
+  [
+    "LN610590", 
+    "Pseudomonas phage vB_PaeS_PAO1_Ab30"
+  ], 
+  [
+    "HG962376", 
+    "Pseudomonas phage vB_PaeS_SCH_Ab26"
+  ], 
+  [
+    "KM974184", 
+    "Pseudomonas phage YH6"
+  ], 
+  [
+    "KP994390", 
+    "Pseudomonas phage YH30"
+  ], 
+  [
+    "JX403939", 
+    "Pseudomonas phage YMC/01/01/P52_PAE_BP"
+  ], 
+  [
+    "AM749441", 
+    "Pseudomonas phage YuA"
+  ], 
+  [
+    "JF270478", 
+    "Psychrobacter phage Psymv2"
+  ], 
+  [
+    "GU557055", 
+    "Puniceispirillum phage HMO-2011"
+  ], 
+  [
+    "HM064452", 
+    "Ralstonia phage PE226"
+  ], 
+  [
+    "AB937974", 
+    "Ralstonia phage RS603"
+  ], 
+  [
+    "AB276040", 
+    "Ralstonia phage RSA1"
+  ], 
+  [
+    "AB451219", 
+    "Ralstonia phage RSB1"
+  ], 
+  [
+    "AB597179", 
+    "Ralstonia phage RSB2"
+  ], 
+  [
+    "AB854109", 
+    "Ralstonia phage RSB3"
+  ], 
+  [
+    "AB920995", 
+    "Ralstonia phage RSJ2"
+  ], 
+  [
+    "AB863625", 
+    "Ralstonia phage RSK1"
+  ], 
+  [
+    "AB366653", 
+    "Ralstonia phage RSL1"
+  ], 
+  [
+    "AB259123", 
+    "Ralstonia phage RSM1"
+  ], 
+  [
+    "AB434711", 
+    "Ralstonia phage RSM3"
+  ], 
+  [
+    "AB981170", 
+    "Ralstonia phage RSMSuper"
+  ], 
+  [
+    "AB931172", 
+    "Ralstonia phage RS611"
+  ], 
+  [
+    "JQ408219", 
+    "Ralstonia phage RSS0"
+  ], 
+  [
+    "AB259124", 
+    "Ralstonia phage RSS1"
+  ], 
+  [
+    "AB828698", 
+    "Ralstonia phage RSS30"
+  ], 
+  [
+    "AB981169", 
+    "Ralstonia phage RSY1"
+  ], 
+  [
+    "DQ500118", 
+    "Rhizobium phage 16-3"
+  ], 
+  [
+    "JX483873", 
+    "Rhizobium phage RHEph01"
+  ], 
+  [
+    "JX483874", 
+    "Rhizobium phage RHEph02"
+  ], 
+  [
+    "JX483875", 
+    "Rhizobium phage RHEph03"
+  ], 
+  [
+    "JX483876", 
+    "Rhizobium phage RHEph04"
+  ], 
+  [
+    "JX483877", 
+    "Rhizobium phage RHEph05"
+  ], 
+  [
+    "JX483878", 
+    "Rhizobium phage RHEph06"
+  ], 
+  [
+    "JX483879", 
+    "Rhizobium phage RHEph08"
+  ], 
+  [
+    "JX483880", 
+    "Rhizobium phage RHEph09"
+  ], 
+  [
+    "JX483881", 
+    "Rhizobium phage RHEph10"
+  ], 
+  [
+    "KF977490", 
+    "Rhizobium phage vB_RglS_P106B"
+  ], 
+  [
+    "KJ746502", 
+    "Rhizobium phage vB_RleM_PPF1"
+  ], 
+  [
+    "KF614509", 
+    "Rhizobium phage vB_RleS_L338C"
+  ], 
+  [
+    "JN190960", 
+    "Rhodobacter phage RcapMu"
+  ], 
+  [
+    "JQ066768", 
+    "Rhodobacter phage RcapNL"
+  ], 
+  [
+    "HM114277", 
+    "Rhodococcus phage E3"
+  ], 
+  [
+    "JN116825", 
+    "Rhodococcus phage REQ1"
+  ], 
+  [
+    "JN116823", 
+    "Rhodococcus phage REQ2"
+  ], 
+  [
+    "JN116824", 
+    "Rhodococcus phage REQ3"
+  ], 
+  [
+    "GU580940", 
+    "Rhodococcus phage ReqiDocB7"
+  ], 
+  [
+    "GU580941", 
+    "Rhodococcus phage ReqiPepy6"
+  ], 
+  [
+    "GU580943", 
+    "Rhodococcus phage ReqiPine5"
+  ], 
+  [
+    "GU580942", 
+    "Rhodococcus phage ReqiPoco6"
+  ], 
+  [
+    "JN116827", 
+    "Rhodococcus phage RER2"
+  ], 
+  [
+    "JN116826", 
+    "Rhodococcus phage RGL3"
+  ], 
+  [
+    "JN116822", 
+    "Rhodococcus phage RRH1"
+  ], 
+  [
+    "KP792623", 
+    "Rhodoferax phage P26218"
+  ], 
+  [
+    "AX059140", 
+    "Rhodothermus phage RM378"
+  ], 
+  [
+    "HQ396194", 
+    "Riemerella phage RAP44"
+  ], 
+  [
+    "HM151342", 
+    "Roseobacter phage RDJL Phi 1"
+  ], 
+  [
+    "AF189021", 
+    "Roseobacter phage SIO1"
+  ], 
+  [
+    "KM581061", 
+    "Ruegeria phage DSS3-P1"
+  ], 
+  [
+    "JX006077", 
+    "Saccharomonospora phage PIS 136"
+  ], 
+  [
+    "JQ446452", 
+    "Salinivibrio phage CW02"
+  ], 
+  [
+    "JN880423", 
+    "Salisaeta icosahedral phage 1"
+  ], 
+  [
+    "HM997019", 
+    "Salmonella phage 7-11"
+  ], 
+  [
+    "KJ802832", 
+    "Salmonella phage 9NA"
+  ], 
+  [
+    "KM458633", 
+    "Salmonella phage Chi"
+  ], 
+  [
+    "KP797973", 
+    "Salmonella phage Det7"
+  ], 
+  [
+    "HE775250", 
+    "Salmonella phage Ent1"
+  ], 
+  [
+    "EU570103", 
+    "Salmonella phage epsilon34"
+  ], 
+  [
+    "JF461087", 
+    "Salmonella phage FO1a"
+  ], 
+  [
+    "KC139521", 
+    "Salmonella phage FSL SP-004"
+  ], 
+  [
+    "KC139518", 
+    "Salmonella phage FSL SP-031"
+  ], 
+  [
+    "KC139517", 
+    "Salmonella phage FSL SP-058"
+  ], 
+  [
+    "KC139520", 
+    "Salmonella phage FSL SP-076"
+  ], 
+  [
+    "KC139514", 
+    "Salmonella phage FSL SP-039"
+  ], 
+  [
+    "KC139519", 
+    "Salmonella phage FSLSP030"
+  ], 
+  [
+    "KC139515", 
+    "Salmonella phage FSL SP-124"
+  ], 
+  [
+    "KC139512", 
+    "Salmonella phage FSLSP088"
+  ], 
+  [
+    "FJ000341", 
+    "Salmonella phage g341c"
+  ], 
+  [
+    "AF335538", 
+    "Salmonella phage HK620"
+  ], 
+  [
+    "KC677662", 
+    "Salmonella phage iEPS5"
+  ], 
+  [
+    "KF148055", 
+    "Salmonella phage Jersey"
+  ], 
+  [
+    "KC832325", 
+    "Salmonella phage L13"
+  ], 
+  [
+    "KM272358", 
+    "Salmonella phage LSPA1"
+  ], 
+  [
+    "KF669653", 
+    "Salmonella phage Marshall"
+  ], 
+  [
+    "KF669654", 
+    "Salmonella phage Maynard"
+  ], 
+  [
+    "KP143762", 
+    "Salmonella phage Mushroom"
+  ], 
+  [
+    "EU547803", 
+    "Salmonella phage phiSG-JL2"
+  ], 
+  [
+    "JN126049", 
+    "Salmonella phage PhiSH19"
+  ], 
+  [
+    "GU070616", 
+    "Salmonella phage PVP-SE1"
+  ], 
+  [
+    "HM770079", 
+    "Salmonella phage RE-2010"
+  ], 
+  [
+    "HQ331142", 
+    "Salmonella phage S16"
+  ], 
+  [
+    "JQ007353", 
+    "Salmonella phage SE2"
+  ], 
+  [
+    "EF177456", 
+    "Salmonella phage SETP3"
+  ], 
+  [
+    "KF562865", 
+    "Salmonella phage SETP7"
+  ], 
+  [
+    "KF562864", 
+    "Salmonella phage SETP13"
+  ], 
+  [
+    "HQ259103", 
+    "Salmonella phage SFP10"
+  ], 
+  [
+    "KP143763", 
+    "Salmonella phage Shivani"
+  ], 
+  [
+    "JX181829", 
+    "Salmonella phage SKML-39"
+  ], 
+  [
+    "HQ406778", 
+    "Salmonella phage Spc35"
+  ], 
+  [
+    "KC911856", 
+    "Salmonella phage SPC32H"
+  ], 
+  [
+    "KC911857", 
+    "Salmonella phage SPC32N"
+  ], 
+  [
+    "JN391180", 
+    "Salmonella phage SPN1S"
+  ], 
+  [
+    "JQ288021", 
+    "Salmonella phage SPN3UB"
+  ], 
+  [
+    "JN641803", 
+    "Salmonella phage SPN3US"
+  ], 
+  [
+    "JF900176", 
+    "Salmonella phage SPN9CC"
+  ], 
+  [
+    "JQ691610", 
+    "Salmonella phage SPN9TCW"
+  ], 
+  [
+    "JN871591", 
+    "Salmonella phage SPN19"
+  ], 
+  [
+    "AY730274", 
+    "Salmonella phage SS3e"
+  ], 
+  [
+    "JX181824", 
+    "Salmonella phage SSE-121"
+  ], 
+  [
+    "JQ965645", 
+    "Salmonella phage SSU5"
+  ], 
+  [
+    "AY055382", 
+    "Salmonella phage ST64B"
+  ], 
+  [
+    "GU573886", 
+    "Salmonella phage ST160"
+  ], 
+  [
+    "KM236244", 
+    "Salmonella phage Stitch"
+  ], 
+  [
+    "JX181825", 
+    "Salmonella phage STML-198"
+  ], 
+  [
+    "KJ000058", 
+    "Salmonella phage STP4-a"
+  ], 
+  [
+    "KJ174317", 
+    "Salmonella phage vB_SalM_SJ2"
+  ], 
+  [
+    "KJ174318", 
+    "Salmonella phage vB_SalM_SJ3"
+  ], 
+  [
+    "JQ806763", 
+    "Salmonella phage vB_SemP_Emek"
+  ], 
+  [
+    "HG934470", 
+    "Salmonella phage vB_SenS-Ent3"
+  ], 
+  [
+    "JX297445", 
+    "Salmonella phage vB_SenS_AG11"
+  ], 
+  [
+    "JQ806764", 
+    "Salmonella phage vB_SosS_Oslo"
+  ], 
+  [
+    "FR667955", 
+    "Salmonella phage Vi06"
+  ], 
+  [
+    "AM491472", 
+    "Salmonella phage Vi II-E1"
+  ], 
+  [
+    "FQ312032", 
+    "Salmonella phage ViI"
+  ], 
+  [
+    "JX202565", 
+    "Salmonella phage wksl3"
+  ], 
+  [
+    "KC460990", 
+    "Serratia phage Eta"
+  ], 
+  [
+    "JX878496", 
+    "Serratia phage phiMAM1"
+  ], 
+  [
+    "KJ025957", 
+    "Serratia phage PS2"
+  ], 
+  [
+    "KJ002054", 
+    "Shewanella phage Spp001"
+  ], 
+  [
+    "KJ018209", 
+    "Shewanella sp. phage 1/4"
+  ], 
+  [
+    "KJ018211", 
+    "Shewanella sp. phage 1/40"
+  ], 
+  [
+    "KJ018212", 
+    "Shewanella sp. phage 1/41"
+  ], 
+  [
+    "KJ018213", 
+    "Shewanella sp. phage 1/44"
+  ], 
+  [
+    "KJ018214", 
+    "Shewanella sp. phage 3/49"
+  ], 
+  [
+    "FJ373894", 
+    "Shigella phage Ag3"
+  ], 
+  [
+    "JN984867", 
+    "Shigella phage EP23"
+  ], 
+  [
+    "KJ603229", 
+    "Shigella phage POCJ13"
+  ], 
+  [
+    "KF620435", 
+    "Shigella phage pSb-1"
+  ], 
+  [
+    "KC710998", 
+    "Shigella phage pSf-1"
+  ], 
+  [
+    "KP085586", 
+    "Shigella phage pSf-2"
+  ], 
+  [
+    "KM501444", 
+    "Shigella phage pSs-1"
+  ], 
+  [
+    "AF547987", 
+    "Shigella phage Sf6"
+  ], 
+  [
+    "KC736978", 
+    "Shigella phage SfII"
+  ], 
+  [
+    "KC814930", 
+    "Shigella phage SfIV"
+  ], 
+  [
+    "KM407600", 
+    "Shigella phage Shf125875"
+  ], 
+  [
+    "HM035024", 
+    "Shigella phage Shfl1"
+  ], 
+  [
+    "HM035025", 
+    "Shigella phage Shfl2"
+  ], 
+  [
+    "GQ981382", 
+    "Shigella phage SP18"
+  ], 
+  [
+    "KF766125", 
+    "Shigella STX1-converting phage HUN/2013"
+  ], 
+  [
+    "FJ591093", 
+    "Silicibacter phage DSS3phi2"
+  ], 
+  [
+    "AF448724", 
+    "Sinorhizobium phage PBC5"
+  ], 
+  [
+    "KJ743987", 
+    "Sinorhizobium phage phiLM21"
+  ], 
+  [
+    "KP881232", 
+    "Sinorhizobium phage phiM9"
+  ], 
+  [
+    "KF381361", 
+    "Sinorhizobium phage phiM12"
+  ], 
+  [
+    "KM896878", 
+    "Siphoviridae phage YD-2008.s"
+  ], 
+  [
+    "AP009146", 
+    "Sodalis phage phiSG1"
+  ], 
+  [
+    "GQ502199", 
+    "Sodalis phage SO1"
+  ], 
+  [
+    "JQ362498", 
+    "Sphingomonas phage PAU"
+  ], 
+  [
+    "X51344", 
+    "Spiroplasma phage 1-R8A2B"
+  ], 
+  [
+    "M17988", 
+    "Spiroplasma phage 4"
+  ], 
+  [
+    "AJ969242", 
+    "Spiroplasma phage SVGII3"
+  ], 
+  [
+    "AF133242", 
+    "Spiroplasma phage SVTS2"
+  ], 
+  [
+    "JN603369", 
+    "Sputnik virophage 2"
+  ], 
+  [
+    "JN603370", 
+    "Sputnik virophage 3"
+  ], 
+  [
+    "AY954956", 
+    "Staphylococcus phage 3A"
+  ], 
+  [
+    "KJ804259", 
+    "Staphylococcus phage 6ec"
+  ], 
+  [
+    "AF424781", 
+    "Staphylococcus phage 11"
+  ], 
+  [
+    "AF424783", 
+    "Staphylococcus phage 13"
+  ], 
+  [
+    "AY954964", 
+    "Staphylococcus phage 29"
+  ], 
+  [
+    "AY954958", 
+    "Staphylococcus phage 37"
+  ], 
+  [
+    "AY954955", 
+    "Staphylococcus phage 42E"
+  ], 
+  [
+    "AY954957", 
+    "Staphylococcus phage 47"
+  ], 
+  [
+    "AY954965", 
+    "Staphylococcus phage 52A"
+  ], 
+  [
+    "AY954952", 
+    "Staphylococcus phage 53"
+  ], 
+  [
+    "AY954963", 
+    "Staphylococcus phage 55"
+  ], 
+  [
+    "AY954949", 
+    "Staphylococcus phage 66"
+  ], 
+  [
+    "AY954951", 
+    "Staphylococcus phage 69"
+  ], 
+  [
+    "AY954962", 
+    "Staphylococcus phage 71"
+  ], 
+  [
+    "AY508486", 
+    "Staphylococcus phage 77"
+  ], 
+  [
+    "DQ908929", 
+    "Staphylococcus phage 80"
+  ], 
+  [
+    "AY954953", 
+    "Staphylococcus phage 85"
+  ], 
+  [
+    "AY954966", 
+    "Staphylococcus phage 88"
+  ], 
+  [
+    "AY954967", 
+    "Staphylococcus phage 92"
+  ], 
+  [
+    "AY954960", 
+    "Staphylococcus phage 96"
+  ], 
+  [
+    "AY954950", 
+    "Staphylococcus phage 187"
+  ], 
+  [
+    "AY954954", 
+    "Staphylococcus phage 2638A"
+  ], 
+  [
+    "KP893289", 
+    "Staphylococcus phage B166"
+  ], 
+  [
+    "KP893290", 
+    "Staphylococcus phage B236"
+  ], 
+  [
+    "DQ831957", 
+    "Staphylococcus phage CNPH82"
+  ], 
+  [
+    "KJ140076", 
+    "Staphylococcus phage DW2"
+  ], 
+  [
+    "AY954959", 
+    "Staphylococcus phage EW"
+  ], 
+  [
+    "EU418428", 
+    "Staphylococcus phage A5W"
+  ], 
+  [
+    "AY954969", 
+    "Staphylococcus phage G1"
+  ], 
+  [
+    "FR852584", 
+    "Staphylococcus phage ISP"
+  ], 
+  [
+    "JX875065", 
+    "Staphylococcus phage SA5"
+  ], 
+  [
+    "JQ686190", 
+    "Staphylococcus phage GH15"
+  ], 
+  [
+    "KJ210330", 
+    "Staphylococcus phage GRCS"
+  ], 
+  [
+    "KP687431", 
+    "Staphylococcus phage IME-SA1"
+  ], 
+  [
+    "KP687432", 
+    "Staphylococcus phage IME-SA2"
+  ], 
+  [
+    "JN192400", 
+    "Staphylococcus phage Ipla5"
+  ], 
+  [
+    "JN192401", 
+    "Staphylococcus phage Ipla7"
+  ], 
+  [
+    "EU861005", 
+    "Staphylococcus phage Ipla35"
+  ], 
+  [
+    "EU861004", 
+    "Staphylococcus phage Ipla88"
+  ], 
+  [
+    "JX878671", 
+    "Staphylococcus phage JD007"
+  ], 
+  [
+    "KC342645", 
+    "Staphylococcus phage JS01"
+  ], 
+  [
+    "KF766114", 
+    "Staphylococcus phage K"
+  ], 
+  [
+    "AY176327", 
+    "Staphylococcus phage K"
+  ], 
+  [
+    "JX174275", 
+    "Staphylococcus phage LH1"
+  ], 
+  [
+    "KJ888149", 
+    "Staphylococcus phage MCE-2014"
+  ], 
+  [
+    "GQ398772", 
+    "Staphylococcus phage P954"
+  ], 
+  [
+    "DQ834250", 
+    "Staphylococcus phage PH15"
+  ], 
+  [
+    "AF424782", 
+    "Staphylococcus phage Phi12"
+  ], 
+  [
+    "AP011955", 
+    "Staphylococcus phage phi5967PVL"
+  ], 
+  [
+    "AP011956", 
+    "Staphylococcus phage phi7247PVL"
+  ], 
+  [
+    "AP012341", 
+    "Staphylococcus phage phi7401PVL"
+  ], 
+  [
+    "KF831354", 
+    "Staphylococcus phage phiBU01"
+  ], 
+  [
+    "AP008953", 
+    "Staphylococcus phage phiETA2"
+  ], 
+  [
+    "AP008954", 
+    "Staphylococcus phage phiETA3"
+  ], 
+  [
+    "AP001553", 
+    "Staphylococcus phage phiETA"
+  ], 
+  [
+    "KF021268", 
+    "Staphylococcus phage phiIBB-SEP1"
+  ], 
+  [
+    "KP027447", 
+    "Staphylococcus phage phiIPLA-C1C"
+  ], 
+  [
+    "KP027446", 
+    "Staphylococcus phage phiIPLA-RODI"
+  ], 
+  [
+    "AB370268", 
+    "Staphylococcus phage phiMR11"
+  ], 
+  [
+    "AB370205", 
+    "Staphylococcus phage phiMR25"
+  ], 
+  [
+    "DQ530359", 
+    "Staphylococcus phage phinm1"
+  ], 
+  [
+    "DQ530360", 
+    "Staphylococcus phage phinm2"
+  ], 
+  [
+    "DQ530361", 
+    "Staphylococcus phage phiNM3"
+  ], 
+  [
+    "DQ530362", 
+    "Staphylococcus phage phinm4"
+  ], 
+  [
+    "KP209285", 
+    "UNVERIFIED: Staphylococcus phage phiNM4-gamma4"
+  ], 
+  [
+    "FJ713816", 
+    "Staphylococcus phage phiPVL-CN125"
+  ], 
+  [
+    "KF589919", 
+    "Staphylococcus phage phiRS7"
+  ], 
+  [
+    "AB903967", 
+    "Staphylococcus phage phiSA012"
+  ], 
+  [
+    "KJ596420", 
+    "Staphylococcus phage phiSa119"
+  ], 
+  [
+    "AY954948", 
+    "Staphylococcus phage PT1028"
+  ], 
+  [
+    "AB243556", 
+    "Staphylococcus phage Pvl108"
+  ], 
+  [
+    "AB009866", 
+    "Staphylococcus phage PVL"
+  ], 
+  [
+    "AY954961", 
+    "Staphylococcus phage ROSA"
+  ], 
+  [
+    "AB626963", 
+    "Staphylococcus phage S13'"
+  ], 
+  [
+    "AB626962", 
+    "Staphylococcus phage S24-1"
+  ], 
+  [
+    "GU169904", 
+    "Staphylococcus phage SA1"
+  ], 
+  [
+    "JX194239", 
+    "Staphylococcus phage SA11"
+  ], 
+  [
+    "KC677663", 
+    "Staphylococcus phage SA12"
+  ], 
+  [
+    "KJ716334", 
+    "Staphylococcus phage SA97"
+  ], 
+  [
+    "GU477322", 
+    "Staphylococcus phage Sap26"
+  ], 
+  [
+    "EU136189", 
+    "Staphylococcus phage SAP-2"
+  ], 
+  [
+    "HQ163896", 
+    "Staphylococcus phage Sb-1"
+  ], 
+  [
+    "AB045978", 
+    "Staphylococcus phage Slt"
+  ], 
+  [
+    "JQ779023", 
+    "Staphylococcus phage SMSAP5"
+  ], 
+  [
+    "JX274646", 
+    "Staphylococcus phage SP5"
+  ], 
+  [
+    "JX274647", 
+    "Staphylococcus phage SP6"
+  ], 
+  [
+    "HE614281", 
+    "Staphylococcus phage SpaA1"
+  ], 
+  [
+    "JX013863", 
+    "Staphylococcus phage StauST398-1"
+  ], 
+  [
+    "JQ957932", 
+    "Staphylococcus phage StauST398-2"
+  ], 
+  [
+    "JQ973847", 
+    "Staphylococcus phage StauST398-3"
+  ], 
+  [
+    "KC595278", 
+    "Staphylococcus phage StauST398-4"
+  ], 
+  [
+    "KC595279", 
+    "Staphylococcus phage StauST398-5"
+  ], 
+  [
+    "JN700520", 
+    "UNVERIFIED: Staphylococcus phage StB12"
+  ], 
+  [
+    "JN700521", 
+    "UNVERIFIED: Staphylococcus phage StB20"
+  ], 
+  [
+    "JN700519", 
+    "UNVERIFIED: Staphylococcus phage StB27"
+  ], 
+  [
+    "KC012913", 
+    "Staphylococcus phage Team1"
+  ], 
+  [
+    "JQ779024", 
+    "Staphylococcus phage TEM123"
+  ], 
+  [
+    "AY954970", 
+    "Staphylococcus phage Twort"
+  ], 
+  [
+    "JX846612", 
+    "Staphylococcus phage vB_SauM_Remus"
+  ], 
+  [
+    "JX846613", 
+    "Staphylococcus phage vB_SauM_Romulus"
+  ], 
+  [
+    "KF929199", 
+    "Staphylococcus phage vB_SepS_SEP9"
+  ], 
+  [
+    "AY954968", 
+    "Staphylococcus phage X2"
+  ], 
+  [
+    "KF598856", 
+    "Staphylococcus phage YMC/09/04/R1988"
+  ], 
+  [
+    "AB044554", 
+    "Staphylococcus prophage phiPV83"
+  ], 
+  [
+    "JX306041", 
+    "Stenotrophomonas phage IME13"
+  ], 
+  [
+    "JX872508", 
+    "Stenotrophomonas phage IME15"
+  ], 
+  [
+    "HG315669", 
+    "Stenotrophomonas phage phiSMA6 proviral"
+  ], 
+  [
+    "HG007973", 
+    "Stenotrophomonas phage phiSMA7 proviral"
+  ], 
+  [
+    "AM040673", 
+    "Stenotrophomonas phage phiSMA9"
+  ], 
+  [
+    "EU849489", 
+    "Stenotrophomonas phage S1"
+  ], 
+  [
+    "JQ809663", 
+    "Stenotrophomonas phage Smp131"
+  ], 
+  [
+    "EF529515", 
+    "Streptococcus phage 858"
+  ], 
+  [
+    "AY699705", 
+    "Streptococcus phage 2972"
+  ], 
+  [
+    "FJ965538", 
+    "Streptococcus phage 5093"
+  ], 
+  [
+    "AF145054", 
+    "Streptococcus phage 7201"
+  ], 
+  [
+    "FJ236310", 
+    "Streptococcus phage Abc2"
+  ], 
+  [
+    "FJ226752", 
+    "Streptococcus phage Alq132"
+  ], 
+  [
+    "Z47794", 
+    "Streptococcus phage Cp-1"
+  ], 
+  [
+    "LK392619", 
+    "Streptococcus phage CP-7"
+  ], 
+  [
+    "HQ268735", 
+    "Streptococcus phage Dp-1"
+  ], 
+  [
+    "AF085222", 
+    "Streptococcus phage DT1"
+  ], 
+  [
+    "JX409895", 
+    "Streptococcus phage JX01"
+  ], 
+  [
+    "JX409894", 
+    "Streptococcus phage LYGO9"
+  ], 
+  [
+    "DQ386162", 
+    "Streptococcus phage M102AD"
+  ], 
+  [
+    "AJ302074", 
+    "Streptococcus phage MM1"
+  ], 
+  [
+    "DQ113772", 
+    "Streptococcus phage MM1 1998"
+  ], 
+  [
+    "U88974", 
+    "Streptococcus phage O1205"
+  ], 
+  [
+    "DQ864624", 
+    "Streptococcus phage P9"
+  ], 
+  [
+    "FN391954", 
+    "Streptococcus phage PH10"
+  ], 
+  [
+    "FM163528", 
+    "Streptococcus phage PH15"
+  ], 
+  [
+    "KC348598", 
+    "Streptococcus phage phi20c"
+  ], 
+  [
+    "KC348599", 
+    "Streptococcus phage phi30c"
+  ], 
+  [
+    "EF207558", 
+    "Streptococcus phage phi3396"
+  ], 
+  [
+    "KC348600", 
+    "Streptococcus phage phi5218"
+  ], 
+  [
+    "KC348601", 
+    "Streptococcus phage phi7917"
+  ], 
+  [
+    "KC348602", 
+    "Streptococcus phage phi891591"
+  ], 
+  [
+    "HF563658", 
+    "Streptococcus phage phiBHN167"
+  ], 
+  [
+    "KC348603", 
+    "Streptococcus phage phiD12"
+  ], 
+  [
+    "JX879087", 
+    "Streptococcus phage phiNJ2"
+  ], 
+  [
+    "KC348604", 
+    "Streptococcus phage phiS10"
+  ], 
+  [
+    "KC413987", 
+    "Streptococcus phage phiSS12"
+  ], 
+  [
+    "KC413988", 
+    "Streptococcus phage phiST1"
+  ], 
+  [
+    "AF158600", 
+    "Streptococcus phage Sfi11"
+  ], 
+  [
+    "AF115102", 
+    "Streptococcus phage Sfi19"
+  ], 
+  [
+    "AF115103", 
+    "Streptococcus phage Sfi21"
+  ], 
+  [
+    "EF116926", 
+    "Streptococcus phage SMP"
+  ], 
+  [
+    "KJ617393", 
+    "Streptococcus phage SOCP"
+  ], 
+  [
+    "KJ417497", 
+    "Streptococcus phage Spn1"
+  ], 
+  [
+    "HE962497", 
+    "Streptococcus phage SPQS1"
+  ], 
+  [
+    "KM882824", 
+    "Streptococcus phage SpSL1"
+  ], 
+  [
+    "KP208803", 
+    "Streptococcus phage Str-PAP-1"
+  ], 
+  [
+    "KM289195", 
+    "Streptococcus phage T12"
+  ], 
+  [
+    "HG380752", 
+    "Streptococcus phage TP-778L"
+  ], 
+  [
+    "HE861935", 
+    "Streptococcus phage TP-J34"
+  ], 
+  [
+    "CP002889", 
+    "Streptococcus phage YMC-2011"
+  ], 
+  [
+    "JX182372", 
+    "Streptomyce phage TG1"
+  ], 
+  [
+    "KM652554", 
+    "Streptomyces phage Jay2Jay"
+  ], 
+  [
+    "AJ550940", 
+    "Streptomyces phage phiBT1"
+  ], 
+  [
+    "AJ006589", 
+    "Streptomyces phage phiC31"
+  ], 
+  [
+    "JX889246", 
+    "Streptomyces phage phiCAM"
+  ], 
+  [
+    "JX182369", 
+    "Streptomyces phage phiHau3"
+  ], 
+  [
+    "GQ379227", 
+    "Streptomyces phage phiSASD1"
+  ], 
+  [
+    "JX262376", 
+    "Streptomyces phage phiELB20"
+  ], 
+  [
+    "JX182370", 
+    "Streptomyces phage R4"
+  ], 
+  [
+    "JX182371", 
+    "Streptomyces phage SV1"
+  ], 
+  [
+    "KP876466", 
+    "Streptomyces phage TP1604"
+  ], 
+  [
+    "AY320035", 
+    "Streptomyces phage VWB"
+  ], 
+  [
+    "KP876465", 
+    "Streptomyces phage YDN12"
+  ], 
+  [
+    "AP005154", 
+    "Stx2 converting phage II"
+  ], 
+  [
+    "HM208303", 
+    "Stx2 converting phage vB_EcoP_24B"
+  ], 
+  [
+    "AB255436", 
+    "Stx2-converting phage 86"
+  ], 
+  [
+    "FJ188381", 
+    "Stx2-converting phage 1717"
+  ], 
+  [
+    "FJ591094", 
+    "Sulfitobacter phage EE36phi1"
+  ], 
+  [
+    "KM233261", 
+    "Sulfitobacter phage NYA-2014a"
+  ], 
+  [
+    "KJ019153", 
+    "Synechococcus phage ACG-2014a isolate Syn7803C26"
+  ], 
+  [
+    "KJ019157", 
+    "Synechococcus phage ACG-2014a isolate Syn7803C31"
+  ], 
+  [
+    "KJ019158", 
+    "Synechococcus phage ACG-2014a isolate Syn7803C33"
+  ], 
+  [
+    "KJ019163", 
+    "Synechococcus phage ACG-2014a isolate Syn7803C38"
+  ], 
+  [
+    "KJ019026", 
+    "Synechococcus phage ACG-2014a isolate Syn7803C42"
+  ], 
+  [
+    "KJ019030", 
+    "Synechococcus phage ACG-2014a isolate Syn7803C47"
+  ], 
+  [
+    "KJ019033", 
+    "Synechococcus phage ACG-2014a isolate Syn7803C53"
+  ], 
+  [
+    "KJ019038", 
+    "Synechococcus phage ACG-2014a isolate Syn7803C59"
+  ], 
+  [
+    "KJ019039", 
+    "Synechococcus phage ACG-2014a isolate Syn7803C60"
+  ], 
+  [
+    "KJ019055", 
+    "Synechococcus phage ACG-2014a isolate Syn7803C86"
+  ], 
+  [
+    "KJ019065", 
+    "Synechococcus phage ACG-2014a isolate Syn7803C99"
+  ], 
+  [
+    "KJ019135", 
+    "Synechococcus phage ACG-2014a isolate Syn7803C101"
+  ], 
+  [
+    "KJ019137", 
+    "Synechococcus phage ACG-2014a isolate Syn7803C104"
+  ], 
+  [
+    "KJ019138", 
+    "Synechococcus phage ACG-2014a isolate Syn7803C107"
+  ], 
+  [
+    "KJ019088", 
+    "Synechococcus phage ACG-2014a isolate Syn7803US1"
+  ], 
+  [
+    "KJ019087", 
+    "Synechococcus phage ACG-2014a isolate Syn7803US19"
+  ], 
+  [
+    "KJ019114", 
+    "Synechococcus phage ACG-2014a isolate Syn7803US60"
+  ], 
+  [
+    "KJ019116", 
+    "Synechococcus phage ACG-2014a isolate Syn7803US62"
+  ], 
+  [
+    "KJ019122", 
+    "Synechococcus phage ACG-2014a isolate Syn7803US79"
+  ], 
+  [
+    "KJ019067", 
+    "Synechococcus phage ACG-2014a isolate Syn7803US101"
+  ], 
+  [
+    "KJ019068", 
+    "Synechococcus phage ACG-2014a isolate Syn7803US102"
+  ], 
+  [
+    "KJ019076", 
+    "Synechococcus phage ACG-2014a isolate Syn7803US112"
+  ], 
+  [
+    "KJ019081", 
+    "Synechococcus phage ACG-2014a isolate Syn7803US117"
+  ], 
+  [
+    "KJ019084", 
+    "Synechococcus phage ACG-2014a isolate Syn7803US123"
+  ], 
+  [
+    "KJ019154", 
+    "Synechococcus phage ACG-2014b isolate Syn7803C28"
+  ], 
+  [
+    "KJ019161", 
+    "Synechococcus phage ACG-2014b isolate Syn7803C36"
+  ], 
+  [
+    "KJ019040", 
+    "Synechococcus phage ACG-2014b isolate Syn7803C61"
+  ], 
+  [
+    "KJ019041", 
+    "Synechococcus phage ACG-2014b isolate Syn7803C66"
+  ], 
+  [
+    "KJ019042", 
+    "Synechococcus phage ACG-2014b isolate Syn7803C67"
+  ], 
+  [
+    "KJ019043", 
+    "Synechococcus phage ACG-2014b isolate Syn7803C68"
+  ], 
+  [
+    "KJ019044", 
+    "Synechococcus phage ACG-2014b isolate Syn7803C69"
+  ], 
+  [
+    "KJ019049", 
+    "Synechococcus phage ACG-2014b isolate Syn7803C76"
+  ], 
+  [
+    "KJ019051", 
+    "Synechococcus phage ACG-2014b isolate Syn7803C78"
+  ], 
+  [
+    "KJ019060", 
+    "Synechococcus phage ACG-2014b isolate Syn7803C91"
+  ], 
+  [
+    "KJ019061", 
+    "Synechococcus phage ACG-2014b isolate Syn7803C92"
+  ], 
+  [
+    "KJ019134", 
+    "Synechococcus phage ACG-2014b isolate Syn7803C100"
+  ], 
+  [
+    "KJ019104", 
+    "Synechococcus phage ACG-2014b isolate Syn7803US49"
+  ], 
+  [
+    "KJ019108", 
+    "Synechococcus phage ACG-2014b isolate Syn7803US53"
+  ], 
+  [
+    "KJ019109", 
+    "Synechococcus phage ACG-2014b isolate Syn7803US54"
+  ], 
+  [
+    "KJ019110", 
+    "Synechococcus phage ACG-2014b isolate Syn7803US56"
+  ], 
+  [
+    "KJ019132", 
+    "Synechococcus phage ACG-2014b isolate Syn9311C1"
+  ], 
+  [
+    "KJ019133", 
+    "Synechococcus phage ACG-2014b isolate Syn9311C4"
+  ], 
+  [
+    "JN371768", 
+    "Synechococcus phage ACG-2014c"
+  ], 
+  [
+    "KJ019027", 
+    "Synechococcus phage ACG-2014c isolate Syn7803C43"
+  ], 
+  [
+    "KJ019063", 
+    "Synechococcus phage ACG-2014c isolate Syn7803C97"
+  ], 
+  [
+    "KJ019064", 
+    "Synechococcus phage ACG-2014c isolate Syn7803C98"
+  ], 
+  [
+    "KJ019128", 
+    "Synechococcus phage ACG-2014c isolate Syn7803US88"
+  ], 
+  [
+    "KF156339", 
+    "Synechococcus phage S-MbCM25"
+  ], 
+  [
+    "KJ019160", 
+    "Synechococcus phage ACG-2014d isolate Syn7803C35"
+  ], 
+  [
+    "KJ019162", 
+    "Synechococcus phage ACG-2014d isolate Syn7803C37"
+  ], 
+  [
+    "KJ019164", 
+    "Synechococcus phage ACG-2014d isolate Syn7803C39"
+  ], 
+  [
+    "KJ019165", 
+    "Synechococcus phage ACG-2014d isolate Syn7803C40"
+  ], 
+  [
+    "KJ019028", 
+    "Synechococcus phage ACG-2014d isolate Syn7803C45"
+  ], 
+  [
+    "KJ019029", 
+    "Synechococcus phage ACG-2014d isolate Syn7803C46"
+  ], 
+  [
+    "KJ019031", 
+    "Synechococcus phage ACG-2014d isolate Syn7803C48"
+  ], 
+  [
+    "KJ019032", 
+    "Synechococcus phage ACG-2014d isolate Syn7803C49"
+  ], 
+  [
+    "KJ019034", 
+    "Synechococcus phage ACG-2014d isolate Syn7803C54"
+  ], 
+  [
+    "KJ019035", 
+    "Synechococcus phage ACG-2014d isolate Syn7803C55"
+  ], 
+  [
+    "KJ019036", 
+    "Synechococcus phage ACG-2014d isolate Syn7803C57"
+  ], 
+  [
+    "KJ019046", 
+    "Synechococcus phage ACG-2014d isolate Syn7803C72"
+  ], 
+  [
+    "KJ019047", 
+    "Synechococcus phage ACG-2014d isolate Syn7803C73"
+  ], 
+  [
+    "KJ019048", 
+    "Synechococcus phage ACG-2014d isolate Syn7803C75"
+  ], 
+  [
+    "KJ019050", 
+    "Synechococcus phage ACG-2014d isolate Syn7803C77"
+  ], 
+  [
+    "KJ019057", 
+    "Synechococcus phage ACG-2014d isolate Syn7803C89"
+  ], 
+  [
+    "KJ019062", 
+    "Synechococcus phage ACG-2014d isolate Syn7803C93"
+  ], 
+  [
+    "KJ019136", 
+    "Synechococcus phage ACG-2014d isolate Syn7803C102"
+  ], 
+  [
+    "KJ019139", 
+    "Synechococcus phage ACG-2014d isolate Syn7803C108"
+  ], 
+  [
+    "KJ019140", 
+    "Synechococcus phage ACG-2014d isolate Syn7803C109"
+  ], 
+  [
+    "KJ019113", 
+    "Synechococcus phage ACG-2014d isolate Syn7803US5"
+  ], 
+  [
+    "KJ019112", 
+    "Synechococcus phage ACG-2014d isolate Syn7803US59"
+  ], 
+  [
+    "KJ019115", 
+    "Synechococcus phage ACG-2014d isolate Syn7803US61"
+  ], 
+  [
+    "KJ019117", 
+    "Synechococcus phage ACG-2014d isolate Syn7803US63"
+  ], 
+  [
+    "KJ019118", 
+    "Synechococcus phage ACG-2014d isolate Syn7803US64"
+  ], 
+  [
+    "KJ019119", 
+    "Synechococcus phage ACG-2014d isolate Syn7803US65"
+  ], 
+  [
+    "KJ019120", 
+    "Synechococcus phage ACG-2014d isolate Syn7803US71"
+  ], 
+  [
+    "KJ019121", 
+    "Synechococcus phage ACG-2014d isolate Syn7803US78"
+  ], 
+  [
+    "KJ019124", 
+    "Synechococcus phage ACG-2014d isolate Syn7803US80"
+  ], 
+  [
+    "KJ019125", 
+    "Synechococcus phage ACG-2014d isolate Syn7803US82"
+  ], 
+  [
+    "KJ019126", 
+    "Synechococcus phage ACG-2014d isolate Syn7803US83"
+  ], 
+  [
+    "KJ019127", 
+    "Synechococcus phage ACG-2014d isolate Syn7803US85"
+  ], 
+  [
+    "KJ019129", 
+    "Synechococcus phage ACG-2014d isolate Syn7803US89"
+  ], 
+  [
+    "KJ019130", 
+    "Synechococcus phage ACG-2014d isolate Syn7803US94"
+  ], 
+  [
+    "KJ019131", 
+    "Synechococcus phage ACG-2014d isolate Syn7803US95"
+  ], 
+  [
+    "KJ019070", 
+    "Synechococcus phage ACG-2014d isolate Syn7803US104"
+  ], 
+  [
+    "KJ019072", 
+    "Synechococcus phage ACG-2014d isolate Syn7803US108"
+  ], 
+  [
+    "KJ019073", 
+    "Synechococcus phage ACG-2014d isolate Syn7803US109"
+  ], 
+  [
+    "KJ019074", 
+    "Synechococcus phage ACG-2014d isolate Syn7803US110"
+  ], 
+  [
+    "KJ019075", 
+    "Synechococcus phage ACG-2014d isolate Syn7803US111"
+  ], 
+  [
+    "KJ019077", 
+    "Synechococcus phage ACG-2014d isolate Syn7803US113"
+  ], 
+  [
+    "KJ019078", 
+    "Synechococcus phage ACG-2014d isolate Syn7803US114"
+  ], 
+  [
+    "KJ019079", 
+    "Synechococcus phage ACG-2014d isolate Syn7803US115"
+  ], 
+  [
+    "KJ019080", 
+    "Synechococcus phage ACG-2014d isolate Syn7803US116"
+  ], 
+  [
+    "KJ019083", 
+    "Synechococcus phage ACG-2014d isolate Syn7803US122"
+  ], 
+  [
+    "KJ019156", 
+    "Synechococcus phage ACG-2014e isolate Syn7803C2"
+  ], 
+  [
+    "KJ019054", 
+    "Synechococcus phage ACG-2014e isolate Syn7803C85"
+  ], 
+  [
+    "KJ019094", 
+    "Synechococcus phage ACG-2014e isolate Syn7803US33"
+  ], 
+  [
+    "KJ019045", 
+    "Synechococcus phage ACG-2014f isolate Syn7803C6"
+  ], 
+  [
+    "KJ019052", 
+    "Synechococcus phage ACG-2014f isolate Syn7803C7"
+  ], 
+  [
+    "KJ019058", 
+    "Synechococcus phage ACG-2014f isolate Syn7803C8"
+  ], 
+  [
+    "KJ019066", 
+    "Synechococcus phage ACG-2014f isolate Syn7803C9"
+  ], 
+  [
+    "KJ019141", 
+    "Synechococcus phage ACG-2014f isolate Syn7803C10"
+  ], 
+  [
+    "KJ019142", 
+    "Synechococcus phage ACG-2014f isolate Syn7803C11"
+  ], 
+  [
+    "KJ019143", 
+    "Synechococcus phage ACG-2014f isolate Syn7803C12"
+  ], 
+  [
+    "KJ019144", 
+    "Synechococcus phage ACG-2014f isolate Syn7803C14"
+  ], 
+  [
+    "KJ019145", 
+    "Synechococcus phage ACG-2014f isolate Syn7803C15"
+  ], 
+  [
+    "KJ019146", 
+    "Synechococcus phage ACG-2014f isolate Syn7803C16"
+  ], 
+  [
+    "KJ019147", 
+    "Synechococcus phage ACG-2014f isolate Syn7803C17"
+  ], 
+  [
+    "KJ019148", 
+    "Synechococcus phage ACG-2014f isolate Syn7803C19"
+  ], 
+  [
+    "KJ019149", 
+    "Synechococcus phage ACG-2014f isolate Syn7803C21"
+  ], 
+  [
+    "KJ019150", 
+    "Synechococcus phage ACG-2014f isolate Syn7803C22"
+  ], 
+  [
+    "KJ019151", 
+    "Synechococcus phage ACG-2014f isolate Syn7803C24"
+  ], 
+  [
+    "KJ019152", 
+    "Synechococcus phage ACG-2014f isolate Syn7803C25"
+  ], 
+  [
+    "KJ019155", 
+    "Synechococcus phage ACG-2014f isolate Syn7803C29"
+  ], 
+  [
+    "KJ019159", 
+    "Synechococcus phage ACG-2014f isolate Syn7803C34"
+  ], 
+  [
+    "KJ019037", 
+    "Synechococcus phage ACG-2014f isolate Syn7803C58"
+  ], 
+  [
+    "KJ019053", 
+    "Synechococcus phage ACG-2014f isolate Syn7803C80"
+  ], 
+  [
+    "KJ019059", 
+    "Synechococcus phage ACG-2014f isolate Syn7803C90"
+  ], 
+  [
+    "KJ019092", 
+    "Synechococcus phage ACG-2014f isolate Syn7803US2"
+  ], 
+  [
+    "KJ019099", 
+    "Synechococcus phage ACG-2014f isolate Syn7803US3"
+  ], 
+  [
+    "KJ019105", 
+    "Synechococcus phage ACG-2014f isolate Syn7803US4"
+  ], 
+  [
+    "KJ019123", 
+    "Synechococcus phage ACG-2014f isolate Syn7803US7"
+  ], 
+  [
+    "KJ019085", 
+    "Synechococcus phage ACG-2014f isolate Syn7803US13"
+  ], 
+  [
+    "KJ019086", 
+    "Synechococcus phage ACG-2014f isolate Syn7803US17"
+  ], 
+  [
+    "KJ019090", 
+    "Synechococcus phage ACG-2014f isolate Syn7803US24"
+  ], 
+  [
+    "KJ019091", 
+    "Synechococcus phage ACG-2014f isolate Syn7803US26"
+  ], 
+  [
+    "KJ019093", 
+    "Synechococcus phage ACG-2014f isolate Syn7803US30"
+  ], 
+  [
+    "KJ019095", 
+    "Synechococcus phage ACG-2014f isolate Syn7803US34"
+  ], 
+  [
+    "KJ019096", 
+    "Synechococcus phage ACG-2014f isolate Syn7803US36"
+  ], 
+  [
+    "KJ019097", 
+    "Synechococcus phage ACG-2014f isolate Syn7803US37"
+  ], 
+  [
+    "KJ019098", 
+    "Synechococcus phage ACG-2014f isolate Syn7803US39"
+  ], 
+  [
+    "KJ019100", 
+    "Synechococcus phage ACG-2014f isolate Syn7803US40"
+  ], 
+  [
+    "KJ019101", 
+    "Synechococcus phage ACG-2014f isolate Syn7803US42"
+  ], 
+  [
+    "KJ019102", 
+    "Synechococcus phage ACG-2014f isolate Syn7803US43"
+  ], 
+  [
+    "KJ019103", 
+    "Synechococcus phage ACG-2014f isolate Syn7803US44"
+  ], 
+  [
+    "KJ019106", 
+    "Synechococcus phage ACG-2014f isolate Syn7803US50"
+  ], 
+  [
+    "KJ019107", 
+    "Synechococcus phage ACG-2014f isolate Syn7803US52"
+  ], 
+  [
+    "KJ019111", 
+    "Synechococcus phage ACG-2014f isolate Syn7803US57"
+  ], 
+  [
+    "KJ019071", 
+    "Synechococcus phage ACG-2014g isolate Syn7803US105"
+  ], 
+  [
+    "KF156338", 
+    "Synechococcus phage ACG-2014h"
+  ], 
+  [
+    "KJ019082", 
+    "Synechococcus phage ACG-2014i isolate Syn7803US120"
+  ], 
+  [
+    "KJ019089", 
+    "Synechococcus phage ACG-2014j isolate Syn7803US23"
+  ], 
+  [
+    "KJ019069", 
+    "Synechococcus phage ACG-2014j isolate Syn7803US103"
+  ], 
+  [
+    "JN371769", 
+    "Synechococcus phage metaG-MbCM1"
+  ], 
+  [
+    "HQ634178", 
+    "Synechococcus phage S-CAM8 strain S-CAM8 06008BI06"
+  ], 
+  [
+    "KC310802", 
+    "Synechococcus phage S-CBP1"
+  ], 
+  [
+    "KC310806", 
+    "Synechococcus phage S-CBP2"
+  ], 
+  [
+    "KC310803", 
+    "Synechococcus phage S-CBP3"
+  ], 
+  [
+    "KC310804", 
+    "Synechococcus phage S-CBP4"
+  ], 
+  [
+    "KC310805", 
+    "Synechococcus phage S-CBP42"
+  ], 
+  [
+    "HM480106", 
+    "Synechococcus phage S-CBS1"
+  ], 
+  [
+    "GU936714", 
+    "Synechococcus phage S-CBS2"
+  ], 
+  [
+    "GU936715", 
+    "Synechococcus phage S-CBS3"
+  ], 
+  [
+    "HQ698895", 
+    "Synechococcus phage S-CBS4"
+  ], 
+  [
+    "HQ615693", 
+    "Synechococcus phage S-CRM01"
+  ], 
+  [
+    "KJ410740", 
+    "Synechococcus phage S-EIVl"
+  ], 
+  [
+    "KF156340", 
+    "Synechococcus phage S-MbCM100"
+  ], 
+  [
+    "AJ630128", 
+    "Synechococcus phage S-PM2"
+  ], 
+  [
+    "HQ317292", 
+    "Synechococcus phage S-RIM2 R1_1999"
+  ], 
+  [
+    "HQ317291", 
+    "Synechococcus phage S-RIM2 R9_2006"
+  ], 
+  [
+    "HQ317290", 
+    "Synechococcus phage S-RIM2 R21_2007"
+  ], 
+  [
+    "JF974288", 
+    "Synechococcus phage S-RIM8 A.HR1"
+  ], 
+  [
+    "JF974289", 
+    "Synechococcus phage S-RIM8 A.HR3"
+  ], 
+  [
+    "HQ317385", 
+    "Synechococcus phage S-RIM8 A.HR5"
+  ], 
+  [
+    "FM207411", 
+    "Synechococcus phage S-RSM4"
+  ], 
+  [
+    "GU071096", 
+    "Synechococcus phage S-ShM2"
+  ], 
+  [
+    "GU071094", 
+    "Synechococcus phage S-SM1"
+  ], 
+  [
+    "GU071095", 
+    "Synechococcus phage S-SM2"
+  ], 
+  [
+    "GU071097", 
+    "Synechococcus phage S-SSM5"
+  ], 
+  [
+    "GU071098", 
+    "Synechococcus phage S-SSM7"
+  ], 
+  [
+    "EF372997", 
+    "Synechococcus phage Syn5"
+  ], 
+  [
+    "DQ149023", 
+    "Synechococcus phage syn9"
+  ], 
+  [
+    "GU071106", 
+    "Synechococcus phage Syn19"
+  ], 
+  [
+    "JX913857", 
+    "Synthetic Enterobacteria phage phiX174.1f"
+  ], 
+  [
+    "AY050245", 
+    "Temperate phage PhiNIH1.1"
+  ], 
+  [
+    "HQ225832", 
+    "Tetrasphaera phage TJE1"
+  ], 
+  [
+    "EU124666", 
+    "Thalassomonas phage BA3"
+  ], 
+  [
+    "CP003186", 
+    "Thermoanaerobacterium phage THSA-485A"
+  ], 
+  [
+    "AB063393", 
+    "Thermus phage IN93"
+  ], 
+  [
+    "GQ403789", 
+    "Thermus phage P23-77"
+  ], 
+  [
+    "EU100883", 
+    "Thermus phage P2345"
+  ], 
+  [
+    "EU100884", 
+    "Thermus phage P7426"
+  ], 
+  [
+    "AB823818", 
+    "Thermus phage phi OH2"
+  ], 
+  [
+    "AP011616", 
+    "Thermus phage phiYS40, strain YS40"
+  ], 
+  [
+    "DQ997624", 
+    "Thermus phage phiYS40"
+  ], 
+  [
+    "AP011617", 
+    "Thermus phage TMA"
+  ], 
+  [
+    "AP013547", 
+    "Uncultured Mediterranean phage uvMED DNA,  group G9, isolate: uvMED-CGR-U-MedDCM-OCT-S31-C1"
+  ], 
+  [
+    "KJ003981", 
+    "Uncultured phage WW-nAnB strain 2"
+  ], 
+  [
+    "KJ003982", 
+    "Uncultured phage WW-nAnB strain 3"
+  ], 
+  [
+    "KP792622", 
+    "Verrucomicrobia phage P8625"
+  ], 
+  [
+    "JF713456", 
+    "Vibrio phage 1"
+  ], 
+  [
+    "KF800937", 
+    "Vibrio phage AS51"
+  ], 
+  [
+    "KJ192399", 
+    "Vibrio phage CHOED"
+  ], 
+  [
+    "KM612260", 
+    "Vibrio phage CJY"
+  ], 
+  [
+    "JQ177061", 
+    "Vibrio phage CP-T1"
+  ], 
+  [
+    "KJ619459", 
+    "Vibrio phage CTX"
+  ], 
+  [
+    "AB002632", 
+    "Vibrio phage fs2"
+  ], 
+  [
+    "KM612261", 
+    "Vibrio phage H1"
+  ], 
+  [
+    "KM612262", 
+    "Vibrio phage H2"
+  ], 
+  [
+    "KM612263", 
+    "Vibrio phage H3"
+  ], 
+  [
+    "HQ316582", 
+    "Vibrio phage henriette 12B8"
+  ], 
+  [
+    "HQ641347", 
+    "Vibrio phage ICP1"
+  ], 
+  [
+    "HQ641353", 
+    "Vibrio phage ICP1_2001_A"
+  ], 
+  [
+    "HQ641354", 
+    "Vibrio phage ICP1_2004_A"
+  ], 
+  [
+    "HQ641352", 
+    "Vibrio phage ICP1_2005_A"
+  ], 
+  [
+    "HQ641351", 
+    "Vibrio phage ICP1_2006_A"
+  ], 
+  [
+    "HQ641350", 
+    "Vibrio phage ICP1_2006_B"
+  ], 
+  [
+    "HQ641349", 
+    "Vibrio phage ICP1_2006_C"
+  ], 
+  [
+    "HQ641348", 
+    "Vibrio phage ICP1_2006_D"
+  ], 
+  [
+    "HQ641345", 
+    "Vibrio phage ICP2"
+  ], 
+  [
+    "HQ641346", 
+    "Vibrio phage ICP2_2006_A"
+  ], 
+  [
+    "KM224878", 
+    "Vibrio phage ICP2_2011_A"
+  ], 
+  [
+    "KM224879", 
+    "Vibrio phage ICP2_2013_A_Haiti"
+  ], 
+  [
+    "HQ641340", 
+    "Vibrio phage ICP3"
+  ], 
+  [
+    "HQ641344", 
+    "Vibrio phage ICP3_2007_A"
+  ], 
+  [
+    "HQ641343", 
+    "Vibrio phage ICP3_2008_A"
+  ], 
+  [
+    "HQ641341", 
+    "Vibrio phage ICP3_2009_B"
+  ], 
+  [
+    "KM612264", 
+    "Vibrio phage J2"
+  ], 
+  [
+    "KM612265", 
+    "Vibrio phage J3"
+  ], 
+  [
+    "KC438282", 
+    "Vibrio phage JA-1"
+  ], 
+  [
+    "KC438283", 
+    "Vibrio phage VCO139"
+  ], 
+  [
+    "AB374228", 
+    "Vibrio phage kappa"
+  ], 
+  [
+    "AY714348", 
+    "Vibrio phage KSF-1phi"
+  ], 
+  [
+    "JN849462", 
+    "Vibriophage phi-pp2"
+  ], 
+  [
+    "FJ409640", 
+    "Vibrio phage N4"
+  ], 
+  [
+    "KP280062", 
+    "Vibrio phage phi 1"
+  ], 
+  [
+    "KJ545483", 
+    "Vibrio phage phi 2"
+  ], 
+  [
+    "KP280063", 
+    "Vibrio phage phi 3"
+  ], 
+  [
+    "KF322026", 
+    "Vibrio phage phi-A318"
+  ], 
+  [
+    "JF712866", 
+    "Vibrio phage phiVC8"
+  ], 
+  [
+    "HG803181", 
+    "Vibrio phage PV94"
+  ], 
+  [
+    "JQ340389", 
+    "Vibrio phage pVp-1"
+  ], 
+  [
+    "KM612259", 
+    "Vibrio phage QH"
+  ], 
+  [
+    "KF623293", 
+    "Vibrio phage SHOU24"
+  ], 
+  [
+    "HQ316604", 
+    "Vibrio phage SIO-2"
+  ], 
+  [
+    "JQ692107", 
+    "Vibrio phage SSP002"
+  ], 
+  [
+    "JQ177064", 
+    "Vibrio phage vB_VchM-138"
+  ], 
+  [
+    "JX556417", 
+    "Vibrio phage vB_VpaM_MAR"
+  ], 
+  [
+    "JX556418", 
+    "Vibrio phage vB_VpaS_MAR10"
+  ], 
+  [
+    "KJ502657", 
+    "Vibrio phage Vc1"
+  ], 
+  [
+    "JN848801", 
+    "Vibrio phage VCY-phi"
+  ], 
+  [
+    "AB572858", 
+    "Vibrio phage ND1-fs1"
+  ], 
+  [
+    "FJ904927", 
+    "Vibrio phage VEJphi"
+  ], 
+  [
+    "AB012574", 
+    "Vibrio phage Vf12"
+  ], 
+  [
+    "AB012573", 
+    "Vibrio phage Vf33"
+  ], 
+  [
+    "KC357596", 
+    "Vibrio phage VFJ"
+  ], 
+  [
+    "AB043678", 
+    "Vibrio phage VfO3K6"
+  ], 
+  [
+    "AB043679", 
+    "Vibrio phage VfO4K68"
+  ], 
+  [
+    "KC131129", 
+    "Vibrio phage VH7D"
+  ], 
+  [
+    "AY510084", 
+    "Vibrio phage VP5"
+  ], 
+  [
+    "FN297812", 
+    "Vibrio phage VP58.5"
+  ], 
+  [
+    "FJ896200", 
+    "Vibrio phage VP93"
+  ], 
+  [
+    "EF057797", 
+    "Vibrio phage VP882"
+  ], 
+  [
+    "KM378617", 
+    "Vibrio phage VpKK5"
+  ], 
+  [
+    "JX880072", 
+    "Vibrio phage vpms1"
+  ], 
+  [
+    "KJ936628", 
+    "Vibrio phage VPp1"
+  ], 
+  [
+    "KF361475", 
+    "Vibrio phage VPUSM 8"
+  ], 
+  [
+    "AY095314", 
+    "Vibrio phage VpV262"
+  ], 
+  [
+    "AF453500", 
+    "Vibrio phage VSK"
+  ], 
+  [
+    "AF452449", 
+    "Vibrio phage VSKK"
+  ], 
+  [
+    "JQ801337", 
+    "Vibrio phage VvAW1"
+  ], 
+  [
+    "JQ780163", 
+    "Vibrio phage VP3"
+  ], 
+  [
+    "DQ029335", 
+    "Vibriophage VP4"
+  ], 
+  [
+    "JQ341413", 
+    "Weissella phage phiYS61 phage phiYS61"
+  ], 
+  [
+    "AB720064", 
+    "Xanthomonas citri phage CP2"
+  ], 
+  [
+    "M57538", 
+    "Xanthomonas phage Cf1c"
+  ], 
+  [
+    "AB720063", 
+    "Xanthomonas phage CP1"
+  ], 
+  [
+    "AP008979", 
+    "Xanthomonas phage OP1"
+  ], 
+  [
+    "AP008986", 
+    "Xanthomonas phage OP2"
+  ], 
+  [
+    "EU717894", 
+    "Xanthomonas phage phiL7"
+  ], 
+  [
+    "JN022534", 
+    "Xanthomonas phage vB_XveM_DIBBI"
+  ], 
+  [
+    "AB910602", 
+    "Xanthomonas phage XacF1"
+  ], 
+  [
+    "DQ777876", 
+    "Xanthomonas phage Xop411"
+  ], 
+  [
+    "AY986977", 
+    "Xanthomonas phage Xp15"
+  ], 
+  [
+    "KF626666", 
+    "Xylella phage Paz"
+  ], 
+  [
+    "KF626667", 
+    "Xylella phage Prado"
+  ], 
+  [
+    "KF626668", 
+    "Xylella phage Salvo"
+  ], 
+  [
+    "KF626665", 
+    "Xylella phage Sano"
+  ], 
+  [
+    "GQ421471", 
+    "Xylella phage Xfas53"
+  ], 
+  [
+    "AM183667", 
+    "Yersinia phage Berlin"
+  ], 
+  [
+    "HE956710", 
+    "Yersinia phage phi80-18"
+  ], 
+  [
+    "JX000007", 
+    "Yersinia phage R"
+  ], 
+  [
+    "JQ957925", 
+    "Yersinia phage Y"
+  ], 
+  [
+    "HE956711", 
+    "Yersinia phage phiD1"
+  ], 
+  [
+    "HE956709", 
+    "Yersinia phage phiR1-RT"
+  ], 
+  [
+    "HE956707", 
+    "Yersinia phage phiR8-01"
+  ], 
+  [
+    "HE956708", 
+    "Yersinia phage phiR201"
+  ], 
+  [
+    "AJ251805", 
+    "Yersinia phage phiYeO3-12"
+  ], 
+  [
+    "KF208315", 
+    "Yersinia phage PST"
+  ], 
+  [
+    "KP202158", 
+    "Yersinia phage vB_YenM_TG1"
+  ], 
+  [
+    "KM253764", 
+    "Yersinia phage vB_YenP_AP5"
+  ], 
+  [
+    "HQ333270", 
+    "Yersinia phage Yep-phi"
+  ], 
+  [
+    "EU734170", 
+    "Yersinia phage Yepe2"
+  ], 
+  [
+    "HG531932", 
+    "Zamilon virophage"
+  ]
+]
