@@ -1,5 +1,6 @@
 {# Load the tag library #}
 {% load bootstrap3 %}
+{% load fontawesome %}
 <html>
 	<head>
         {# Load CSS and JavaScript #}
@@ -11,6 +12,8 @@
         <script type="text/javascript" charset="utf8" src="{{ STATIC_URL }}jquery.dataTables.js"></script>
         <link href="{{ STATIC_URL }}dataTables.bootstrap.css" />
         <script src="//cdn.datatables.net/plug-ins/be7019ee387/integration/bootstrap/3/dataTables.bootstrap.js"></script> 
+
+        {% fontawesome_stylesheet %}
 
 	</head>
 	<body>

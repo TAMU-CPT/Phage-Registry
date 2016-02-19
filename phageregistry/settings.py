@@ -39,6 +39,7 @@ INSTALLED_APPS = (
     'bootstrap3',
     'haystack',
     'raven.contrib.django.raven_compat',
+    'fontawesome',
     'registry',
 )
 

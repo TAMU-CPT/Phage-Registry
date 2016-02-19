@@ -73,7 +73,7 @@ class OrderListJson(BaseDatatableView):
         # We want to render user as a custom column
         if column == 'phagename':
             if self.request.user.is_authenticated():
-                return '<a href="/phage-registry/u/%s">%s</a> [<a href="/phage-registry/admin/registry/registryentry/%s/">Edit</a>]' % (row.phagename, row.phagename, row.pk)
+                return '<a href="/phage-registry/u/%s">%s</a> <a href="/phage-registry/admin/registry/registryentry/%s/"><i class="fa fa-pencil fa-fw"></i></a>' % (row.phagename, row.phagename, row.pk)
             else:
                 return '<a href="/phage-registry/u/%s">%s</a>' % (row.phagename, row.phagename)
         else:

@@ -8,3 +8,4 @@ psycopg2==2.6.1
 biopython==1.66
 requests==2.9.1
 beautifulsoup4==4.4.1
+django-fontawesome=0.2.6
