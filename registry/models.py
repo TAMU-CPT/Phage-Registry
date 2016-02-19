@@ -44,6 +44,7 @@ class RegistryEntry(models.Model):
 
         return True
 
+
 class RegistryEntryForm(ModelForm):
     class Meta:
         model = RegistryEntry
