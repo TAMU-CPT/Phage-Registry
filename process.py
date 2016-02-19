@@ -1,6 +1,9 @@
 from bs4 import BeautifulSoup, Comment
 import requests
 import json
+import logging
+logging.basicConfig(level=logging.INFO)
+log = logging.getLogger()
 
 def getPage(pageNum=1):
     url = '''http://www.ncbi.nlm.nih.gov/genomes/Genome2BE/genome2srv.cgi?action=GetGenomeList4Grid&mode=2&filterText=Caudovirales%5Borgn%5D&page={page}&pageSize=100'''
@@ -27,6 +30,7 @@ def getNcbi():
     i = 1
     while True:
         bs, m = getPage(i)
+        log.info("\tNCBI page %s", i)
         i += 1
         data = list(getResults(bs))
         md.extend(data)
@@ -59,9 +63,12 @@ def getEmbl():
 
 with open('ncbi.json', 'w') as handle:
     handle.write(getNcbi())
+log.info("Writing ncbi.json")
 
 with open('phagesdb.json', 'w') as handle:
     handle.write(getPhagesdb())
+log.info("Writing phagesdb.json")
 
 with open('embl.json', 'w') as handle:
     handle.write(getEmbl())
+log.info("Writing embl.json")
