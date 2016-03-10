@@ -142,7 +142,7 @@ LOGGING = {
 RAVEN_CONFIG = {}
 if 'SENTRY_DSN' in os.environ:
     RAVEN_CONFIG = {
-        'release': os.environ['GIT_REVIVISION'],
+        'release': os.environ['GIT_REVISION'],
         'dsn': os.environ['SENTRY_DSN']
     }
     LOGGING['root']['handlers'] = ['sentry']
