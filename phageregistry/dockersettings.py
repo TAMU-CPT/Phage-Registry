@@ -111,17 +111,12 @@ LOGIN_URL = '/phage-registry/login/'
 USE_X_FORWARDED_HOST = True
 
 
-RAVEN_CONFIG = {
-    'dsn': 'https://5fc6f2b594dc4705843ec9f1e501a431:eed2d64de57346d4a5d1d05cba07bc3c@biobio-monitor.tamu.edu/sentry/8',
-}
-
 
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': True,
     'root': {
         'level': 'WARNING',
-        'handlers': ['sentry'],
     },
     'formatters': {
         'verbose': {
@@ -129,10 +124,6 @@ LOGGING = {
         },
     },
     'handlers': {
-        'sentry': {
-            'level': 'WARNING',
-            'class': 'raven.contrib.django.raven_compat.handlers.SentryHandler',
-        },
         'console': {
             'level': 'DEBUG',
             'class': 'logging.StreamHandler',
@@ -145,15 +136,24 @@ LOGGING = {
             'handlers': ['console'],
             'propagate': False,
         },
-        'raven': {
-            'level': 'DEBUG',
-            'handlers': ['console'],
-            'propagate': False,
-        },
-        'sentry.errors': {
-            'level': 'DEBUG',
-            'handlers': ['console'],
-            'propagate': False,
-        },
     },
 }
+
+RAVEN_CONFIG = {}
+if 'SENTRY_DSN' in os.environ:
+    RAVEN_CONFIG['dsn'] = os.environ['SENTRY_DSN']
+    LOGGING['root']['handlers'] = ['sentry']
+    LOGGING['handlers']['sentry'] = {
+        'level': 'WARNING',
+        'class': 'raven.contrib.django.raven_compat.handlers.SentryHandler',
+    }
+    LOGGING['loggers']['raven'] = {
+        'level': 'DEBUG',
+        'handlers': ['console'],
+        'propagate': False,
+    }
+    LOGGING['loggers']['sentry.errors'] = {
+        'level': 'DEBUG',
+        'handlers': ['console'],
+        'propagate': False,
+    }
