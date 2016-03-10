@@ -141,7 +141,10 @@ LOGGING = {
 
 RAVEN_CONFIG = {}
 if 'SENTRY_DSN' in os.environ:
-    RAVEN_CONFIG['dsn'] = os.environ['SENTRY_DSN']
+    RAVEN_CONFIG = {
+        'release': raven.fetch_git_sha(os.path.dirname(__file__)),
+        'dsn': os.environ['SENTRY_DSN']
+    }
     LOGGING['root']['handlers'] = ['sentry']
     LOGGING['handlers']['sentry'] = {
         'level': 'WARNING',
