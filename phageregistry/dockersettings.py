@@ -141,9 +141,8 @@ LOGGING = {
 
 RAVEN_CONFIG = {}
 if 'SENTRY_DSN' in os.environ:
-    import raven
     RAVEN_CONFIG = {
-        'release': raven.fetch_git_sha(os.path.dirname(__file__)),
+        'release': os.environ['GIT_REVIVISION'],
         'dsn': os.environ['SENTRY_DSN']
     }
     LOGGING['root']['handlers'] = ['sentry']
