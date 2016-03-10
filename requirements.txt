@@ -4,7 +4,6 @@ Whoosh==2.7.2
 django-haystack==2.4.1
 django-datatables-view==1.13.0
 raven==5.10.2
-psycopg2==2.6.1
 biopython==1.66
 requests==2.9.1
 beautifulsoup4==4.4.1
