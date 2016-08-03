@@ -9,7 +9,6 @@
 package main
 
 import (
-	_ "expvar"
 	"flag"
 	"log"
 	"net/http"
@@ -64,12 +63,11 @@ func main() {
 
 	// add the API
 	bleveHttp.RegisterIndexName("phage", phageIndex)
-	searchHandler := bleveHttp.NewSearchHandler("phage")
+	searchHandler := NewSearchHandler("phage")
 	router.Handle("/api/search", searchHandler).Methods("POST")
 
-	// start the HTTP server
+	//start the HTTP server
 	http.Handle("/", router)
 	log.Printf("Listening on %v", *bindAddr)
 	log.Fatal(http.ListenAndServe(*bindAddr, nil))
-
 }

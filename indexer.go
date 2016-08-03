@@ -2,11 +2,11 @@ package main
 
 import (
 	"encoding/json"
-    "strings"
 	_ "expvar"
 	"io/ioutil"
 	"log"
 	"path/filepath"
+	"strings"
 	"time"
 
 	"github.com/blevesearch/bleve"
@@ -28,9 +28,9 @@ func indexphage(i bleve.Index) error {
 	batchCount := 0
 	for _, dirEntry := range dirEntries {
 		filename := dirEntry.Name()
-        if(!strings.HasSuffix(filename, ".json")){
-            continue
-        }
+		if !strings.HasSuffix(filename, ".json") {
+			continue
+		}
 		// read the bytes
 		jsonBytes, err := ioutil.ReadFile(*jsonDir + "/" + filename)
 		if err != nil {
