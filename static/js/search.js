@@ -19,13 +19,15 @@ function SearchCtrl($scope, $http, $routeParams, $log, $sce) {
 
     $scope.searchTerm = function() {
         $http.post('/api/search', {
-			"size": 20,
-			"explain": true,
-			"highlight":{},
-			"query": {
-				"term": $scope.term,
-				"field": $scope.field,
-			}
+            "size": 20,
+            "explain": true,
+            "highlight":{},
+            "query": {
+                "match": $scope.term,
+                "field": $scope.field,
+                "prefix_length": 20,
+                "fuzziness": 20,
+            }
         }).
         success(function(data) {
             $scope.queried = true;
