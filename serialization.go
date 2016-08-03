@@ -2,7 +2,6 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
 
 	"github.com/blevesearch/bleve"
 )
@@ -18,8 +17,6 @@ func getBleveDocsFromSearchResults(results *bleve.SearchResult, index bleve.Inde
 
 	for _, val := range results.Hits {
 		doc, _ := index.Document(val.ID)
-		fmt.Printf("Doc %#v\n", doc)
-
 		rv := &retVal{}
 		for _, field := range doc.Fields {
 			switch field.Name() {
