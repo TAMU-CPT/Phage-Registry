@@ -19,35 +19,19 @@ import (
 )
 
 func buildIndexMapping() (*bleve.IndexMapping, error) {
+	phageMapping := bleve.NewDocumentMapping()
 
 	// a generic reusable mapping for english text
 	englishTextFieldMapping := bleve.NewTextFieldMapping()
 	englishTextFieldMapping.Analyzer = en.AnalyzerName
+	phageMapping.AddFieldMappingsAt("id", englishTextFieldMapping)
 
-	// a generic reusable mapping for keyword text
 	keywordFieldMapping := bleve.NewTextFieldMapping()
 	keywordFieldMapping.Analyzer = keyword_analyzer.Name
-
-	beerMapping := bleve.NewDocumentMapping()
-
-	// name
-	beerMapping.AddFieldMappingsAt("name", englishTextFieldMapping)
-
-	// description
-	beerMapping.AddFieldMappingsAt("description",
-		englishTextFieldMapping)
-
-	beerMapping.AddFieldMappingsAt("type", keywordFieldMapping)
-	beerMapping.AddFieldMappingsAt("style", keywordFieldMapping)
-	beerMapping.AddFieldMappingsAt("category", keywordFieldMapping)
-
-	breweryMapping := bleve.NewDocumentMapping()
-	breweryMapping.AddFieldMappingsAt("name", englishTextFieldMapping)
-	breweryMapping.AddFieldMappingsAt("description", englishTextFieldMapping)
+	phageMapping.AddFieldMappingsAt("typ", keywordFieldMapping)
 
 	indexMapping := bleve.NewIndexMapping()
-	indexMapping.AddDocumentMapping("beer", beerMapping)
-	indexMapping.AddDocumentMapping("brewery", breweryMapping)
+	indexMapping.AddDocumentMapping("phage", phageMapping)
 
 	indexMapping.TypeField = "type"
 	indexMapping.DefaultAnalyzer = "en"
