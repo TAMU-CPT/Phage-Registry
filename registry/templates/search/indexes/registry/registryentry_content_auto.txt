@@ -1,2 +1,0 @@
-{{ object.phagename }}
-{{ object.alias_list }}
