@@ -1,0 +1,13 @@
+language: go
+
+go:
+ - 1.5
+
+script:
+  - go get github.com/mattn/goveralls
+  - go test -v
+  - go vet
+
+notifications:
+  email:
+    - marty.schoch@gmail.com

@@ -1,0 +1,11 @@
+<h1 class="page-header">Phage Name Search</h1>
+
+<form>
+<div class="input-group">
+  <input ng-model="term" id="searchTerm" type="text" placeholder="Term" class="form-control">
+  <span class="input-group-btn">
+            <button type="submit" class="btn btn-primary" ng-click="searchTerm()">Search</button>
+  </span>
+</div>
+</form>
+<div ng-show="results" ng-include src="'/static/partials/results.html'">
