@@ -25,6 +25,9 @@ qc:
 	gometalinter --cyclo-over=10 --deadline=30s  ./...
 
 
+update_date:
+	sed -i "s|<span id=\"date\">.*</span>|<span id=\"date\">$(shell date --rfc-3339=seconds)</span>|" static/partials/overview.html
+
 build_for_release:
 	$(MAKE) download_data
 	$(MAKE) update_date
