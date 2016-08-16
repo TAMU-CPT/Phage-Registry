@@ -8,7 +8,8 @@ import (
 
 type retVal struct {
 	Id  string `json:"id"`
-	Typ string `json:"typ"`
+	Phage string `json:"phage"`
+	Host string `json:"host"`
 	Url string `json:"url"`
 }
 
@@ -22,9 +23,11 @@ func getBleveDocsFromSearchResults(results *bleve.SearchResult, index bleve.Inde
 			switch field.Name() {
 			case "id":
 				rv.Id = string(field.Value())
-			case "typ":
-				rv.Typ = string(field.Value())
-			case "url":
+			case "phage":
+				rv.Phage = string(field.Value())
+			case "host":
+				rv.Host = string(field.Value())
+			case "urls":
 				rv.Url = string(field.Value())
 			}
 		}

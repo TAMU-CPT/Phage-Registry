@@ -3,7 +3,9 @@
     <li ng-repeat="hit in results">
         <div class="well">
             <b>{{hit.id}}</b><br/>
-            <a href="{{hit.url}}">{{hit.url}}</a>
+            <span ng-repeat="ext in hit.url">
+                <a href="{{ext.1}}">{{ext.0}}</a>
+            </span>
         </div>
     </li>
 </ol>

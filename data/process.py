@@ -110,49 +110,70 @@ def getEmbl():
                 'typ': 'embl',
             }
 
-idx = 0
 
-phages = {}
+def fetch():
+    phages = {}
 
-log.info("Started NCBI")
-for x in getNcbi():
-    phages[x['id']] = [
-            (x['typ'], x['url'])
-    ]
-log.info("Finished NCBI")
-
-log.info("Started EMBL")
-for x in getEmbl():
-    if x['id'] in phages:
-        phages[x['id']].append(
-            (x['typ'], x['url'])
-        )
-    else:
+    log.info("Started NCBI")
+    for x in getNcbi():
         phages[x['id']] = [
                 (x['typ'], x['url'])
         ]
-log.info("Finished EMBL")
+    log.info("Finished NCBI")
 
-log.info("Started PhagesDB")
-for x in getPhagesdb():
-    if x['id'] in phages:
-        phages[x['id']].append(
-            (x['typ'], x['url'])
-        )
-    else:
-        phages[x['id']] = [
+    log.info("Started EMBL")
+    for x in getEmbl():
+        if x['id'] in phages:
+            phages[x['id']].append(
                 (x['typ'], x['url'])
-        ]
-log.info("Finished PhagesDB")
+            )
+        else:
+            phages[x['id']] = [
+                    (x['typ'], x['url'])
+            ]
+    log.info("Finished EMBL")
 
-for (id, data) in phages.iteritems():
-    with open(os.path.join(SCRIPT_DIR, '%s.json' % idx), 'w') as handle:
-        (host, phage) = phage_name_parser(id)
-        x = {
-            'id': id,
-            'host': host,
-            'phage': phage,
-            'urls': data,
-        }
-        json.dump(x, handle)
-        idx += 1
+    log.info("Started PhagesDB")
+    for x in getPhagesdb():
+        if x['id'] in phages:
+            phages[x['id']].append(
+                (x['typ'], x['url'])
+            )
+        else:
+            phages[x['id']] = [
+                    (x['typ'], x['url'])
+            ]
+    log.info("Finished PhagesDB")
+    return phages
+
+
+def cachedFetch():
+    cachePath = os.path.join(SCRIPT_DIR, 'data.cache')
+    if os.path.exists(cachePath):
+        log.info("Using cache")
+        with open(cachePath, 'r') as handle:
+            data = json.load(handle)
+    else:
+        log.info("No cached data found")
+        data = fetch()
+        with open(cachePath, 'w') as handle:
+            json.dump(data, handle)
+    return data
+
+
+def main():
+    idx = 0
+    phages = cachedFetch()
+    for (id, data) in phages.iteritems():
+        with open(os.path.join(SCRIPT_DIR, '%s.json' % idx), 'w') as handle:
+            (host, phage) = phage_name_parser(id)
+            x = {
+                'id': id,
+                'host': host,
+                'phage': phage,
+                'urls': json.dumps(data)
+            }
+            json.dump(x, handle)
+            idx += 1
+
+main()

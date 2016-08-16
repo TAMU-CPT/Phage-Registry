@@ -32,7 +32,10 @@ function SearchCtrl($scope, $http, $routeParams, $log, $sce) {
         success(function(data) {
             $scope.queried = true;
             $scope.errorMessage = null;
-            $scope.results = data;
+            $scope.results = data.map(function (x){
+                x.url = JSON.parse(x.url)
+                return x;
+            });
         }).
         error(function(data, code) {
 
