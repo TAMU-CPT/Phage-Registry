@@ -18,7 +18,7 @@ function SearchCtrl($scope, $http, $routeParams, $log, $sce) {
     };
 
     $scope.searchTerm = function() {
-        $http.post('/api/search', {
+        $http.post('/phage-registry/api/search', {
             "size": 60,
             "explain": true,
             "highlight":{},
