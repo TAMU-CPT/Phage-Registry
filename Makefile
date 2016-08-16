@@ -23,3 +23,10 @@ qc_deps:
 
 qc:
 	gometalinter --cyclo-over=10 --deadline=30s  ./...
+
+
+build_for_release:
+	$(MAKE) download_data
+	$(MAKE) update_date
+	$(MAKE) phage_registry
+	tar cvfj release.tar.bz2 phage-registry data static
