@@ -66,7 +66,7 @@ def getResults(bs):
         yield {
             'url': 'https://www.ncbi.nlm.nih.gov/genome/' + node.get('href')[8:],
             'id': node.text,
-            'typ': 'ncbi',
+            'typ': 'NCBI',
         }
 
 
@@ -92,7 +92,7 @@ def getPhagesdb():
         yield {
             'url': 'http://phagesdb.org/phages/' + j + '/',
             'id': j,
-            'typ': 'phagesdb',
+            'typ': 'PhagesDB',
         }
 
 
@@ -107,7 +107,7 @@ def getEmbl():
             yield {
                 'url': 'http://www.ebi.ac.uk/ena/data/view/' + t[4].text,
                 'id': t[1].text,
-                'typ': 'embl',
+                'typ': 'EMBL',
             }
 
 
