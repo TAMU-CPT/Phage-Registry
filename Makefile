@@ -1,6 +1,14 @@
-run: phage-registry
+run: phage-registry kill_cache
 	./phage-registry
 
+kill_cache:
+	rm -rf phage-search.bleve
+
+download_data: kill_data
+	python data/process.py
+
+kill_data:
+	rm -f data/*.json
 
 phage-registry: http_util.go indexer.go main.go mapping.go search.go serialization.go util.go
 	go build .
