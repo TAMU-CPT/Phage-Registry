@@ -11,7 +11,7 @@ kill_data:
 	rm -f data/*.json
 
 phage-registry: http_util.go indexer.go main.go mapping.go search.go serialization.go util.go
-	go build .
+	go build -o phage-registry .
 
 gofmt:
 	goimports -w $$(find . -type f -name '*.go' -not -path "./vendor/*")
