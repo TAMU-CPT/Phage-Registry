@@ -25,6 +25,7 @@ type SearchHandler struct {
 	IndexNameLookup  varLookupFunc
 }
 
+// NewSearchHandler does other things
 func NewSearchHandler(defaultIndexName string) *SearchHandler {
 	return &SearchHandler{
 		defaultIndexName: defaultIndexName,
@@ -81,7 +82,6 @@ func (h *SearchHandler) ServeHTTP(w http.ResponseWriter, req *http.Request) {
 	}
 	BleveSearchDocs := getBleveDocsFromSearchResults(searchResponse, index)
 	//// encode the response
-    fmt.Printf("%s\n", BleveSearchDocs)
 	fmt.Fprintf(w, "%s", BleveSearchDocs)
 	//mustEncode(w, BleveSearchDocs)
 	//mustEncode(w, searchResponse)
