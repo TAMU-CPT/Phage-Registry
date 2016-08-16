@@ -1,11 +1,11 @@
 <h3>{{ results.length }} Results</h3>
-<ol>
-    <li ng-repeat="hit in results">
+<div class="row">
+    <div class="col-md-3" ng-repeat="hit in results">
         <div class="well">
             <b>{{hit.id}}</b><br/>
             <span ng-repeat="ext in hit.url">
                 <a href="{{ext.1}}">{{ext.0}}</a>
             </span>
         </div>
-    </li>
-</ol>
+    </div>
+</div>
