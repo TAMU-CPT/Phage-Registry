@@ -19,7 +19,7 @@ function SearchCtrl($scope, $http, $routeParams, $log, $sce) {
 
     $scope.searchTerm = function() {
         $http.post('/api/search', {
-            "size": 20,
+            "size": 60,
             "explain": true,
             "highlight":{},
             "query": {
