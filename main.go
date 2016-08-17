@@ -14,6 +14,7 @@ import (
 	"net/http"
 	"runtime"
 
+	"github.com/gorilla/mux"
 	"github.com/blevesearch/bleve"
 	bleveHttp "github.com/blevesearch/bleve/http"
 )
@@ -59,15 +60,22 @@ func main() {
 	}
 
 	// create a router to serve static files
-	router := staticFileRouter()
+	router := mux.NewRouter()
+	router.StrictSlash(true)
+
 
 	// add the API
 	bleveHttp.RegisterIndexName("phage", phageIndex)
 	searchHandler := NewSearchHandler("phage")
-	router.Handle("/api/search", searchHandler).Methods("POST")
+	router.Handle("/phage-registry/api/search", searchHandler).Methods("POST")
+
+	// static
+	router.PathPrefix("/phage-registry/").Handler(http.StripPrefix("/phage-registry/",
+		myFileHandler{http.FileServer(http.Dir(*staticPath))}))
+	router.Handle("/", http.RedirectHandler("/phage-registry/index.html", 302))
 
 	//start the HTTP server
-	http.Handle("/", router)
+	http.Handle("/phage-registry/", router)
 	log.Printf("Listening on %v", *bindAddr)
 	log.Fatal(http.ListenAndServe(*bindAddr, nil))
 }
