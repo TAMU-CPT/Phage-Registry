@@ -25,7 +25,7 @@ qc:
 	gometalinter --cyclo-over=10 --deadline=30s  ./...
 
 update_date: ## Update the date in the HTML file. Used mainly in deployments
-	sed -i "s|<span id=\"date\">.*</span>|<span id=\"date\">$(shell date --rfc-3339=seconds)</span>|" static/partials/overview.html
+	sed -i "s|<span id=\"date\">.*</span>|<span id=\"date\">$(shell date -Iseconds)</span>|" static/partials/overview.html
 
 build_for_release: ## Build a release of the software
 	$(MAKE) download_data
