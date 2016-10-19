@@ -14,10 +14,11 @@ package main
 
 import (
 	"github.com/blevesearch/bleve"
+	"github.com/blevesearch/bleve/mapping"
 	"github.com/blevesearch/bleve/analysis/lang/en"
 )
 
-func buildIndexMapping() (*bleve.IndexMapping, error) {
+func buildIndexMapping() (*mapping.IndexMappingImpl, error) {
 	phageMapping := bleve.NewDocumentMapping()
 
 	// a generic reusable mapping for english text

@@ -68,7 +68,7 @@ func (h *SearchHandler) ServeHTTP(w http.ResponseWriter, req *http.Request) {
 	logger.Printf("parsed request %#v", searchRequest)
 
 	// validate the query
-	err = searchRequest.Query.Validate()
+	err = searchRequest.Validate()
 	if err != nil {
 		showError(w, req, fmt.Sprintf("error validating query: %v", err), 400)
 		return
@@ -81,8 +81,6 @@ func (h *SearchHandler) ServeHTTP(w http.ResponseWriter, req *http.Request) {
 		return
 	}
 	BleveSearchDocs := getBleveDocsFromSearchResults(searchResponse, index)
-	//// encode the response
+	// encode the response
 	fmt.Fprintf(w, "%s", BleveSearchDocs)
-	//mustEncode(w, BleveSearchDocs)
-	//mustEncode(w, searchResponse)
 }
