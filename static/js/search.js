@@ -25,8 +25,8 @@ function SearchCtrl($scope, $http, $routeParams, $log, $sce) {
             "query": {
                 "match": $scope.term,
                 "field": $scope.field,
-                "prefix_length": 20,
-                "fuzziness": 20,
+                "prefix_length": 2,
+                "fuzziness": $scope.term.length,
             }
         }).
         success(function(data) {
