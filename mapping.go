@@ -14,7 +14,7 @@ package main
 
 import (
 	"github.com/blevesearch/bleve"
-	"github.com/blevesearch/bleve/analysis/language/en"
+	"github.com/blevesearch/bleve/analysis/lang/en"
 )
 
 func buildIndexMapping() (*bleve.IndexMapping, error) {
