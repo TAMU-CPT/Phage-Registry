@@ -1,6 +1,18 @@
-# Phage Name Registry
+# CPT Phage Name Registry
 
-Simple Django app to track phage names in use.
+Simple document search built upon the bleve search examples. Data is downloaded by running
+
+```console
+$ make download_data
+```
+
+And running the registry can be accomplished via
+
+```console
+$ make
+```
+
+which will launch a server listening on potr 8094
 
 ## LICENSE
 

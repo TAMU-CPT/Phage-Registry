@@ -1,11 +1,41 @@
-<h1 class="page-header">Phage Name Search</h1>
+<h1 class="page-header">CPT Phage Name Search</h1>
 
 <form>
-<div class="input-group">
-  <input ng-model="term" id="searchTerm" type="text" placeholder="Term" class="form-control">
-  <span class="input-group-btn">
+    <div class="input-group">
+        <input ng-model="term" id="searchTerm" type="text" placeholder="Term" class="form-control">
+        <span class="input-group-btn">
             <button type="submit" class="btn btn-primary" ng-click="searchTerm()">Search</button>
-  </span>
-</div>
+        </span>
+    </div>
 </form>
-<div ng-show="queried" ng-include src="'/static/partials/results.html'">
+
+<div class="row">
+    <div ng-show="queried" ng-include src="'/phage-registry/partials/results.html'" />
+</div>
+
+<hr/>
+<div class="row">
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+        <img src="https://cpt.tamu.edu/wordpress/wp-content/uploads/2011/11/cpt-logomark-1-300x119.png">
+    </div>
+    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+        <p class="text-muted">
+        Data Updated: <span id="date">2016-08-16 22:11:17+00:00</span>
+        </p>
+        <p class="text-muted">
+        The Phage Name Registry was built by the Center for Phage Technology at
+        Texas A&amp;M University to aid researchers in giving unique and intelligible
+        names to their phages
+        </p>
+        <p class="text-muted">
+        Datasets taken from <a href="http://www.ncbi.nlm.nih.gov/">NCBI</a>, <a href="http://phagesdb.org">The Mycophage Database</a>, and <a href="http://www.ebi.ac.uk/">EMBL-EBI</a>.
+        </p>
+        <p class="text-muted">
+        Site code is <a href="https://github.com/TAMU-CPT/phage-registry">available</a> under AGPLv3.
+        </p>
+        <p class="text-muted">
+        Copyright 2014, 2016<br>
+        Center for Phage Technology
+        </p>
+    </div>
+</div>

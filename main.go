@@ -1,11 +1,11 @@
-//  Copyright (c) 2014 Couchbase, Inc.
-//  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file
-//  except in compliance with the License. You may obtain a copy of the License at
-//    http://www.apache.org/licenses/LICENSE-2.0
-//  Unless required by applicable law or agreed to in writing, software distributed under the
-//  License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
-//  either express or implied. See the License for the specific language governing permissions
-//  and limitations under the License.
+// Copyright (c) 2014 Couchbase, Inc.
+// Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file
+// except in compliance with the License. You may obtain a copy of the License at
+//   http://www.apache.org/licenses/LICENSE-2.0
+// Unless required by applicable law or agreed to in writing, software distributed under the
+// License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
+// either express or implied. See the License for the specific language governing permissions
+// and limitations under the License.
 package main
 
 import (
@@ -14,6 +14,7 @@ import (
 	"net/http"
 	"runtime"
 
+	"github.com/gorilla/mux"
 	"github.com/blevesearch/bleve"
 	bleveHttp "github.com/blevesearch/bleve/http"
 )
@@ -36,13 +37,13 @@ func main() {
 	if err == bleve.ErrorIndexPathDoesNotExist {
 		log.Printf("Creating new index...")
 		// create a mapping
-		indexMapping, err := buildIndexMapping()
-		if err != nil {
-			log.Fatal(err)
+		indexMapping, err2 := buildIndexMapping()
+		if err2 != nil {
+			log.Fatal(err2)
 		}
-		phageIndex, err = bleve.New(*indexPath, indexMapping)
-		if err != nil {
-			log.Fatal(err)
+		phageIndex, err2 = bleve.New(*indexPath, indexMapping)
+		if err2 != nil {
+			log.Fatal(err2)
 		}
 
 		// index data in the background
@@ -59,15 +60,22 @@ func main() {
 	}
 
 	// create a router to serve static files
-	router := staticFileRouter()
+	router := mux.NewRouter()
+	router.StrictSlash(true)
+
 
 	// add the API
 	bleveHttp.RegisterIndexName("phage", phageIndex)
 	searchHandler := NewSearchHandler("phage")
-	router.Handle("/api/search", searchHandler).Methods("POST")
+	router.Handle("/phage-registry/api/search", searchHandler).Methods("POST")
+
+	// static
+	router.PathPrefix("/phage-registry/").Handler(http.StripPrefix("/phage-registry/",
+		myFileHandler{http.FileServer(http.Dir(*staticPath))}))
+	router.Handle("/", http.RedirectHandler("/phage-registry/index.html", 302))
 
 	//start the HTTP server
-	http.Handle("/", router)
+	http.Handle("/phage-registry/", router)
 	log.Printf("Listening on %v", *bindAddr)
 	log.Fatal(http.ListenAndServe(*bindAddr, nil))
 }

@@ -14,7 +14,6 @@ package main
 
 import (
 	"github.com/blevesearch/bleve"
-	"github.com/blevesearch/bleve/analysis/analyzers/keyword_analyzer"
 	"github.com/blevesearch/bleve/analysis/language/en"
 )
 
@@ -24,11 +23,17 @@ func buildIndexMapping() (*bleve.IndexMapping, error) {
 	// a generic reusable mapping for english text
 	englishTextFieldMapping := bleve.NewTextFieldMapping()
 	englishTextFieldMapping.Analyzer = en.AnalyzerName
-	phageMapping.AddFieldMappingsAt("id", englishTextFieldMapping)
 
-	keywordFieldMapping := bleve.NewTextFieldMapping()
-	keywordFieldMapping.Analyzer = keyword_analyzer.Name
-	phageMapping.AddFieldMappingsAt("typ", keywordFieldMapping)
+    // RO
+    storeFieldOnlyMapping := bleve.NewTextFieldMapping()
+    storeFieldOnlyMapping.Index = false
+    storeFieldOnlyMapping.IncludeTermVectors = false
+    storeFieldOnlyMapping.IncludeInAll = false
+
+	phageMapping.AddFieldMappingsAt("id", englishTextFieldMapping)
+	phageMapping.AddFieldMappingsAt("phage", englishTextFieldMapping)
+	phageMapping.AddFieldMappingsAt("host", englishTextFieldMapping)
+	phageMapping.AddFieldMappingsAt("urls", storeFieldOnlyMapping)
 
 	indexMapping := bleve.NewIndexMapping()
 	indexMapping.AddDocumentMapping("phage", phageMapping)

@@ -6,11 +6,11 @@ angular.module('myApp', [
   'ngRoute',
 ]).config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
 
-    $routeProvider.when('/overview', {
-        templateUrl: '/static/partials/overview.html',
+    $routeProvider.when('/phage-registry/', {
+        templateUrl: '/phage-registry/partials/overview.html',
         controller: 'SearchCtrl'
     });
 
-    $routeProvider.otherwise({redirectTo: '/overview'});
+    $routeProvider.otherwise({redirectTo: '/phage-registry/'});
     $locationProvider.html5Mode(true);
 }]);

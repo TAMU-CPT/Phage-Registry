@@ -7,13 +7,14 @@ import (
 )
 
 type retVal struct {
-	Id  string `json:"id"`
-	Typ string `json:"typ"`
-	Url string `json:"url"`
+	ID  string `json:"id"`
+	Phage string `json:"phage"`
+	Host string `json:"host"`
+	URL string `json:"url"`
 }
 
 func getBleveDocsFromSearchResults(results *bleve.SearchResult, index bleve.Index) []byte {
-	docs := make([]retVal, 0)
+	var docs []retVal
 
 	for _, val := range results.Hits {
 		doc, _ := index.Document(val.ID)
@@ -21,11 +22,13 @@ func getBleveDocsFromSearchResults(results *bleve.SearchResult, index bleve.Inde
 		for _, field := range doc.Fields {
 			switch field.Name() {
 			case "id":
-				rv.Id = string(field.Value())
-			case "typ":
-				rv.Typ = string(field.Value())
-			case "url":
-				rv.Url = string(field.Value())
+				rv.ID = string(field.Value())
+			case "phage":
+				rv.Phage = string(field.Value())
+			case "host":
+				rv.Host = string(field.Value())
+			case "urls":
+				rv.URL = string(field.Value())
 			}
 		}
 		docs = append(docs, *rv)

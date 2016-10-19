@@ -18,8 +18,8 @@ function SearchCtrl($scope, $http, $routeParams, $log, $sce) {
     };
 
     $scope.searchTerm = function() {
-        $http.post('/api/search', {
-            "size": 20,
+        $http.post('/phage-registry/api/search', {
+            "size": 60,
             "explain": true,
             "highlight":{},
             "query": {
@@ -32,7 +32,14 @@ function SearchCtrl($scope, $http, $routeParams, $log, $sce) {
         success(function(data) {
             $scope.queried = true;
             $scope.errorMessage = null;
-            $scope.results = data;
+            $scope.results = [];
+
+            if(data && data !== "null"){
+                $scope.results = data.map(function (x){
+                    x.url = JSON.parse(x.url)
+                    return x;
+                });
+            }
         }).
         error(function(data, code) {
 
