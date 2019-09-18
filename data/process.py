@@ -11,7 +11,7 @@ SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 PHAGE_IN_MIDDLE = re.compile('^(?P<host>.*)\s*phage (?P<phage>.*)$')
 BACTERIOPHAGE_IN_MIDDLE = re.compile('^(?P<host>.*)\s*bacteriophage (?P<phage>.*)$')
 STARTS_WITH_PHAGE = re.compile('^(bacterio|vibrio|Bacterio|Vibrio|)?[Pp]hage (?P<phage>.*)$')
-NEW_STYLE_NAMES = re.compile('(?P<phage>v[A-Z]_[A-Z][a-z]{2}_.*)')
+# NEW_STYLE_NAMES = re.compile('(?P<phage>v[A-Z]_[A-Z][a-z]{2}_.*)')
 
 
 def phage_name_parser(name):
@@ -36,6 +36,9 @@ def phage_name_parser(name):
     if m:
         phage = m.group('phage')
         return (host, phage)
+
+    regBuild = '(?P<phage>v[A-Z]_[A-Z][a-z]{' + str(len(name)) + '}_.*)' 
+    NEW_STYLE_NAMES = re.compile(regBuild) # Moved here to allow name.len (was just 2) to define the regex
 
     m = NEW_STYLE_NAMES.match(name)
     if m:
@@ -70,7 +73,7 @@ def getResults(bs):
         }
 
 
-def getNcbi():
+def getNcbi():	
     i = 1
     while True:
         bs, m = getPage(i)
